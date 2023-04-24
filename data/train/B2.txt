@@ -1,0 +1,101 @@
+APPARATUS AND METHOD FOR CLEANING AND RECOVERING PAINT IN PAINTING PLANTS	PATENT TITLE
+The present invention relates to the technical field of the apparatuses for painting pieces made of sundry materials (wood, glass, fibrocement, etc.).	TECHNICAL FIELD
+In particular, the invention relates to an extractable trolley for the cleaning of the conveying system of the pieces and for recovering paint.	TECHNICAL FIELD
+Apparatuses provided with a cleaning trolley, with different possibilities of lateral and frontal access, are known in the art.	REFERENCE
+Generally, frontal access trolleys require a production stop in order to access said trolleys.	REFERENCE
+EP1964794B1 of the same applicant describes a cleaning system of the belt conveying said pieces.	REFERENCE
+Patent application IT102016000094514, in the name of the same applicant, describes a system wherein the function of paint recovery and cleaning are independent so as to provide a plurality of independent recovery units, so that the cleaning of a cleaning or recovery unit can be performed without production stop.	REFERENCE
+Said system is preferably laterally extracted.	REFERENCE
+Nonetheless, practice showed the limits of the known art, in particular the encumbrance of the second solution, and the imperfect efficiency of paint recovery for the first solution.	REFERENCE_PROBLEM
+Aim of the present invention is providing an improved paint recovery and cleaning trolley, having the smallest encumbrance possible and the best efficiency of paint recovery and cleaning operation.	INVENTION_ADVANTAGE
+This object is achieved by an apparatus and a method having the features of the independent claims.	JURIDICAL TEMPLATE
+Advantageous embodiments and refinements are specified in claims dependent thereon.	JURIDICAL TEMPLATE
+The paint recovery and cleaning system according to the present invention comprises just one paint recovery and cleaning trolley, wherein the functions of paint recovery and cleaning of the conveying belt are integrated, providing a cleaning system provided with the best efficacy, and a minimal encumbrance.	INVENTION_ADVANTAGE
+The paint recovery and cleaning system according to the present invention provides the presence, in just one trolley, of a subunit for paint recovery, and of a subunit for the fine cleaning of the conveying belt.	EMBODIMENT
+Said subunits are very similar, providing the cooperation of a reverse roller removing paint from the return section of the conveying belt, a doctor blade removing the solvent from the conveying belt, solvent that is supplied by a nozzle, a doctor blade tangentially adhering to said roller for its whole length.	EMBODIMENT
+Said four components (reverse roller, drying doctor blade, adhering doctor blade and return section of the conveying belt) form a chamber having the shape of a triangular prism, whose rectangular faces, made of said reverse roller, doctor blades and belt generate a continuous closed surface, while the two opposed triangular bases are open.	EMBODIMENT
+Said configuration, which is open at the two opposed end in form of triangular bases placed on the sides of the apparatus for applying paint, allows a limited aeration that reduces the evaporation of the solvent.	EMBODIMENT
+It is worthwhile mentioning that said trolley can occupy different positions with respect to the apparatus for applying paint:	EMBODIMENT
+Operative position, wherein said trolley is totally inserted under said conveying belt, and the paint recovery subunit and cleaning subunits are lifted so that they are in contact with the lower return section of said conveying belt;	REPHRASED CLAIM
+Inactive inserted position, wherein said trolley is totally inserted under said conveying belt, but the paint recovery subunit and cleaning subunit are lowered so that they are not in contact with the lower return section of said conveying belt;	REPHRASED CLAIM
+Lateral extracted position, wherein said trolley is totally extracted from the apparatus for applying paint.	REPHRASED CLAIM
+It is worthwhile mentioning that the space under the conveying belt is very limited, and the construction of the trolley according to the present invention was optimized in order to make every single paint recovery and cleaning trolley as compact as possible.	INVENTION_ADVANTAGE
+In a preferred configuration, the trolley is provided in two specimens, so that one trolley placed in the working position in contact with the conveying belt can be used, while a second trolley is maintained in a resting position, not in contact with the conveying belt.	EMBODIMENT
+This solution has the advantage to allow the maintenance of one of said two trolleys while the other is used for paint recovery and cleaning, without the need to stop the paint applying apparatus.	INVENTION_ADVANTAGE
+Nonetheless, it is worthwhile specifying that the apparatus can perfectly work even if it is provided with just one paint recovery and cleaning trolley.	INVENTION_ADVANTAGE
+The method according to the present invention comprises the following steps:	JURIDICAL TEMPLATE
+Inserting a paint recovery and cleaning trolley laterally with respect to the advancing direction of the pieces to be painted;	REPHRASED CLAIM
+Bringing the respective roller and doctor blade of said trolley into contact with the conveying belt to be cleaned;	REPHRASED CLAIM
+Using the paint recovery and cleaning trolley for the desired time;	REPHRASED CLAIM
+Interrupting the contact between roller and doctor blade with the conveying belt;Laterally extracting the paint recovery and cleaning trolley;	REPHRASED CLAIM
+all the mentioned operations can be performed while the paint applying apparatus is painting.	EMBODIMENT
+A first advantage of the present invention is the possibility of preventing the production stop connected with the cleaning and maintenance of paint recovery and cleaning trolleys.	INVENTION_ADVANTAGE
+This is particularly advantageous in complex production lines comprising a plurality of apparatuses placed in series, wherein the stop of a single apparatus involves the stopping of all the apparatuses belonging to the production line.	INVENTION_ADVANTAGE
+A second advantage is providing a modular solution to the problem, preferably providing at least two paint recovery and cleaning units, one of which is working while the other can be extracted for maintenance, even when the paint applying apparatus is working.	INVENTION_ADVANTAGE
+Alternatively, the trolley which underwent maintenance, already available in an inactive inserted position, is ready to be used for a fast colour change with recovery of the paint of a different colour, without the need to clean the trolley used up to that moment.	INVENTION_ADVANTAGE
+In a particularly preferred solution, the paint applying apparatus is provided with three trolleys, two of which are inserted in the paint applying apparatus, while the third can undergo maintenance in a cleaning station remote from the paint applying apparatus.	EMBODIMENT
+A third advantage is that the complete extraction of the cleaning trolley from the apparatus is eased in order to move it to a cleaning station remote from the paint applying apparatus, thanks to the fact that the trolley is provided with a ground support and a guide system for the lateral sliding of the trolley.	INVENTION_ADVANTAGE
+Further advantages and properties of the present invention are disclosed in the following description, in which exemplary embodiments of the present invention are explained in detail based on the drawings:	JURIDICAL TEMPLATE
+Figure 1Axonometric view of an apparatus for applying paint with two paint recovery and cleaning trolleys in the extracted position;	FIGURE DESCRIPTION
+Figure 2Lateral view of said two paint recovery and cleaning trolleys, both in line with the conveying belt;	FIGURE DESCRIPTION
+Figure 3Lateral view of a detail of the rollers and doctor blades for paint recovery and cleaning;	FIGURE DESCRIPTION
+Figure 4Axonometric view of a paint recovery and cleaning trolley, in the area of channelling and collection of the recovered paint.	FIGURE DESCRIPTION
+Figure 1 shows a preferred embodiment, wherein an apparatus 1 for applying paint, comprising a conveying belt 2 of the (not shown) pieces to be painted, is provided with two paint recovery and cleaning trolleys 3, 33 according to the present invention.	FIGURE DESCRIPTION
+In Figure 1 said trolleys 3, 33 are shown in the lateral extracted position, while in order to carry out the paint recovery and cleaning they must be shifted under the conveying belt 2, up to their complete alignment with the conveying belt itself.	FIGURE DESCRIPTION
+The conveying belt 2 of the pieces to be painted is typically a closed belt, which is moved by two rollers, one of which is motorized (not shown) and an idle roller 8 (visible in Figures 2 and 3).	FIGURE DESCRIPTION
+Said solution is well known in the art, and provides an upper outward section of the belt, on which the pieces to be painted lie, and a lower return section (visible in Figures 2 and 3).	REFERENCE
+While in use, on the pieces to be painted a paint is applied, which falls undesirably on the conveying belt 2, too, which therefore must be cleaned in order not to soil the following pieces to be painted.	REFERENCE
+As a consequence, the return lower section of the belt is cleaned using the paint recovery and cleaning trolleys according to the present invention.	EMBODIMENT
+Figure 2 shows in a lateral view said two paint recovery and cleaning trolleys 3, 33 in the inserted, but not lifted, position under the conveying belt 2.	FIGURE DESCRIPTION
+It is worthwhile specifying that, in order to perform paint recovery and cleaning, each trolley 3, 33 must first be inserted completely under said conveying belt 2, and second lifted so that rollers and doctor blades come into direct contact with the conveying belt 2 to be cleaned.	FIGURE DESCRIPTION
+The position of the trolleys 3, 33 shown in Figure 2 can be defined inserted inactive position.	FIGURE DESCRIPTION
+Although the two trolleys 3, 33 are actually equal, they are shown in a different way in Figure 2: the first trolley 3 is shown without its lateral side 4, which is visible for the second trolley 33.	FIGURE DESCRIPTION
+To said side 4 a tongue 5 is fastened, which coupling with a plate 6 allows the lifting, through a pneumatic cylinder 7, of the single trolley 3, 33 in its operative position, wherein the trolley is in contact with the conveying belt 2.	FIGURE DESCRIPTION
+Each trolley 3, 33 is provided with its own independent lifting system (the cylinder of the second trolley 33 is not visible in the Figure).	FIGURE DESCRIPTION
+The lifting systems 7 are preferably integral with the frame of the conveying system, because in this way, when in operative position, the system is overall more rigid, and the relative position of the trolley with respect to the conveying belt is more reliable and constant over time.	INVENTION_ADVANTAGE
+In order to reduce the encumbrance, the pneumatic cylinder 7 and all the lifting mechanism are placed between the outward section and the lower return section of the conveying belt 2.	FIGURE DESCRIPTION
+When a paint recovery and cleaning trolley 3, 33 is in the extracted position shown in Figure 1, all the (electric, pneumatic) supplies are connected.	FIGURE DESCRIPTION
+Nonetheless, in this position the cleaning of the trolley can be performed without the need to disconnect said supplies, which allows to perform a faster maintenance and cleaning of the trolley.	INVENTION_ADVANTAGE
+When trolleys are connected to the painting apparatus, the possibility of moving the rollers of the trolley and the circulation of solvent can be exploited.	EMBODIMENT
+When connected to, and supplied by, the painting apparatus 1, the trolley can perform all operation.	EMBODIMENT
+Nonetheless, disconnecting the supplies and completely removing the trolley 3, 33 is possible, in order to bring it to a cleaning and maintenance station remote from the paint applying apparatus 1.	EMBODIMENT
+This to allow the use of further tools, like e.g. a pressure washer, for a deeper cleaning of trolleys 3, 33.	INVENTION_ADVANTAGE
+Figure 3 shows a detail of paint recovery and cleaning trolleys 3, 33 in their working position, i.e. inserted and lifted, wherein the rollers and the doctor blades are in contact with the lower return section of the belt 2 conveying the pieces to be painted.	FIGURE DESCRIPTION
+It is worthwhile specifying that trolleys 3, 33 are equal, work in the same way, and are interchangeable.	EMBODIMENT
+Moreover, it is worthwhile specifying that each trolley 3, 33 comprises two subunits 21, 22: the first subunit 21 recovers paint, while the second subunit 22 cleans the conveying belt 2.	FIGURE DESCRIPTION
+The vertical dotted line allows to better distinguish the paint recovery subunit 21 from the cleaning subunit 22.	FIGURE DESCRIPTION
+The said two subunits 21, 22 have the same components, which for the first subunit 21 are preceded by numeral 1, while for the subunit 22 are preceded by numeral 2.	FIGURE DESCRIPTION
+In the cleaning subunit 22 the components doctor blade 14, plate 15, belt 16 are missing, in that they are characteristic of paint recovery and channelling, as the paint is recovered by the subunit 21 only.	EMBODIMENT
+In a first step in the subunit 21 paint is recovered, through a reverse roller 19, a doctor blade 10, a doctor blade 11, a nozzle 13 and a hopper 12.	EMBODIMENT
+Said doctor blade 11 is tangential with respect to said reverse roller 19, said doctor blade 10 is oblique with respect to the return section of the conveying belt 2;	FIGURE DESCRIPTION
+said doctor blades 10 and 11 lay on a same plane, which is one of the rectangular sides of the prismatic chamber containing solvent.	FIGURE DESCRIPTION
+In particular, the Figure shows an idle roller 8, which is part of the moving system of the conveying belt 2.	FIGURE DESCRIPTION
+Said reverse roller 19 is motorized with a rotation such that, in the contact point between said roller and conveying belt, the reverse roller 19 is provided with a tangential motion opposed to the advancing of the belt 2.	FIGURE DESCRIPTION
+In this way, the said roller 19 can remove said paint from the belt 2.	FIGURE DESCRIPTION
+For both rollers, a black arrow shows their direction of rotation.	FIGURE DESCRIPTION
+In contact with said motorized reverse roller 19 there is provided the doctor blade 11, tangentially adhering to said reverse roller 19 for all its length.	FIGURE DESCRIPTION
+In contact with the conveying belt 2 there is provided the doctor blade 10 that dries the conveying belt 2 after paint recovery.	FIGURE DESCRIPTION
+At least a nozzle 13 supplies a solvent compatible with the paint in use.	FIGURE DESCRIPTION
+Said doctor blade 10, reverse roller 19, doctor blade 11 and conveying belt 2 form a closed chamber for all the length of the roller 19 and belt 2.	FIGURE DESCRIPTION
+Said closed chamber contains the solvent provided by the nozzle 13, which accumulates in the contact zone between said reverse roller 19 and doctor blade 11, wetting the surface of the roller 19, which in its turn wets the belt 2 with the solvent.	EMBODIMENT
+This facilitates the removal of paint, occurring through the doctor blade 10.	INVENTION_ADVANTAGE
+The solvent accumulated in the contact zone between the reverse roller 19 and the doctor blade 11 drains from the triangular lateral apertures of the chamber, so as to generate a continuous renewal of solvent, which gathers in a solvent recovery hopper 12.	EMBODIMENT
+From said hopper 12, through gravity, the solvent overflown from the closed chamber through a collector 125 and a following funnel 126 is collected in a reservoir 131 for solvent recovery.	EMBODIMENT
+The solvent collected in said reservoir 131 can be reintroduced in the closed chamber formed by the components reverse roller 19, doctor blade 10, doctor blade 11, belt 2 thanks to the action of a (not shown) circuit pump, again through the nozzle 13.	EMBODIMENT
+The paint accumulated on the conveying belt 2, when comes into contact with reverse roller 19, is mechanically removed accumulating on the roller 19 itself, from which it is removed by a doctor blade 14, which is secant to the roller 19, to convey it on a plate 15 which makes it fall on a belt 16.	EMBODIMENT
+Said belt 16 is a motorized belt conveying said paint towards another doctor blade 17 (shown in Figure 4), which makes it fall into a paint collecting reservoir 130.	FIGURE DESCRIPTION
+The components of said paint recovery subunit 21 are substantially duplicated in the cleaning subunit 22 in the trolley 3 or 33, with a further reverse roller 29, a doctor blade 210, a doctor blade 211, a hopper 212, a nozzle 213, which work exactly in the same way already described above.	EMBODIMENT
+The cleaning subunit 22 allows a fine cleaning of the conveying belt 2.	INVENTION_ADVANTAGE
+From the hopper 212 for cleaning solvent collection, the cleaning solvent through a collector 225 is collected by a funnel 226 to be collected in a solvent recovery reservoir 231.	EMBODIMENT
+In this second cleaning subunit 22, comprising the components reverse roller 29, doctor blade 210, doctor blade 211, doctor blade 212, nozzle 213, collector 225, funnel 226, solvent recovery collector 231, a solvent different from that used in the paint recovery subunit 21 can be used.	FIGURE DESCRIPTION
+Said paint recovery subunit 21 comprises the components reverse roller 19, doctor blade 10, doctor blade 11, hopper 12, nozzle 13, collector 125, funnel 126, solvent recovery reservoir 131.	FIGURE DESCRIPTION
+This is possible because the solvent is then channelled to a solvent reservoir 231 different from said solvent reservoir 131.	EMBODIMENT
+This separation of path and reservoirs has the advantage of not polluting the paint recovered with this, possibly different, second solvent.	INVENTION_ADVANTAGE
+Figure 4 shows the conveying belt 16 conveying the recovered paint, which falls from plate 15.	FIGURE DESCRIPTION
+The doctor blade 17 transfers the paint recovered from belt 16 to a container 130 for paint recovery through a mechanical action of scraping and subsequent fall into the paint recovery reservoir 130.	EMBODIMENT
+In a cheap version of the paint applying apparatus, just one paint recovery and cleaning trolley 3 can be used, working in the above-described way.	EMBODIMENT
+In a preferred embodiment, there are provided two paint recovery and cleaning trolleys 3 and 33, with alternate working: when the first trolley 3 is in the operative inserted and lifted position, the second trolley 33 can be in the inactive inserted position, or can be absent in that it is in a cleaning station remote from the paint applying apparatus.	EMBODIMENT
+Alternatively, the same apparatus 1, which provides the presence of two paint recovery and cleaning trolley 3, 33 is bought by a customer provided with just one trolley 3, and the space normally occupied by the trolley 33 is empty.	EMBODIMENT
+Alternatively, the customer can use the two paint recovery and cleaning trolley 3 and 33 at the same time, for an even deeper paint recovery and cleaning.	EMBODIMENT
+Further alternatively, the final customer buys the apparatus for applying paint provided with three paint recovery and cleaning trolleys 3, 33, so that the space available for said trolleys is always occupied by two trolleys, while the third paint recovery and cleaning trolley is an a cleaning station remote from the paint applying apparatus.	EMBODIMENT
+1Paint applying apparatus2 Conveying belt of the pieces to be painted3, 33Paint recovery and cleaning trolley4Side5Tongue6Plate7Pneumatic cylinder8Idle rollerPaint recovery subunit 21Cleaning subunit 2219reverse roller29reverse roller10doctor blade210doctor blade11doctor blade211doctor blade12hopper212hopper13nozzle213nozzle14doctor blade225collector15plate226funnel16belt231solvent recovery reservoir17doctor blade125collector126funnel130paint recovery reservoir131solvent recovery reservoir	FIGURE DESCRIPTION

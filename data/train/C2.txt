@@ -1,0 +1,681 @@
+NON-INVASIVE FETAL GENETIC SCREENING BY DIGITAL ANALYSIS	PATENT TITLE
+CROSS-REFERENCE TO RELATED APPLICATIONS	SECTION TITLE
+This application claims priority from U. S. Provisional Patent Application No. 60/764,420 filed on February 2, 2006, which is hereby incorporated by reference in its entirety.	REFERENCE
+STATEMENT OF GOVERNMENTAL SUPPORT	SECTION TITLE
+This invention was made with U. S. Government support.	JURIDICAL TEMPLATE
+The U. S. Government may have certain rights in this invention.	JURIDICAL TEMPLATE
+REFERENCE TO SEQUENCE LISTING	SECTION TITLE
+Applicants assert that the paper copy of the Sequence Listing is identical to the Sequence Listing in computer readable form found on the accompanying computer disk.	JURIDICAL TEMPLATE
+Applicants incorporate the contents of the sequence listing by reference in its entirety.	JURIDICAL TEMPLATE
+BACKGROUND OF THE INVENTION	SECTION TITLE
+Field of the Invention	SECTION TITLE
+The present invention relates to the field of fetal genetic screening and to the field of quantitative nucleic acid analysis.	TECHNICAL FIELD
+Related Art	SECTION SUBTITLE
+It is now recognized that fetal DNA sheds from the placenta and mixes with the mother's blood at fairly high levels - between 3% and 6% of DNA in the mother's blood is from the fetus.	REFERENCE
+This observation has been used in conjunction with PCR assays for a variety of fetal genetic screens - gender, Rh, and thalassemia.	REFERENCE
+However, the technique remains limited for two primary reasons: first, the PCR assays trade off sensitivity for specificity, making it difficult to identify particular mutations, and second, the most common genetic disorder, Down Syndrome, is a chromosomal trisomy and therefore cannot be detected by conventional PCR in a mixed sample.	REFERENCE_PROBLEM
+It has now been found that these problems can be solved by quantitative examination of large numbers of chromosome samples through the use of highly scalable techniques.	REFERENCE
+This approach is termed here "digital analysis," and involves the separation of the extracted genomic material into discrete units so that the detection of a target sequence (e.g., chromosome 21) may be simply quantified as binary (0, 1) or simple multiples, 2, 3, etc.	DEFINITION
+The primary example of a technique that can be used to yield such "digital" results is "digital PCR," which allows efficient amplification from single molecules, followed by subsequent quantitative analysis.	REFERENCE
+Digital PCR, as the term is used here, refers to a quantitative, limited dilution of a nucleic acid sample, such as into multiwell plates, then the amplification of a nucleic acid molecule in a well, which due to the dilution, should be either 0 or 1 molecule.	DEFINITION
+Digital PCR using multiwell plates has been used previously to detect rare mutations by either serial analysis of single molecule (i.e., clonal) amplicons (Vogelstein B, Kinzler KW. Proc Natl Acad Sci USA. 1999 Aug 3; 96 (16): 9236-41) or by enhancing the sensitivity of differential amplification (http://www.fluidigm.com/didIFC.htm).	REFERENCE
+Described below is an invention whereby digital PCR can be applied to noninvasive fetal diagnostics in order to detect fetal mutations with specificity and sensitivity beyond what is possible with conventional PCR analysis.	INVENTION_ADVANTAGE
+Furthermore, as also described in connection with the invention described below, digital PCR can be used to detect aneuploidy, such as the trisomy that causes Down Syndrome.	REFERENCE
+Since aneuploidies do not present a mutational change in sequence, and are merely a change in the number of chromosomes, it has not been possible to detect them in a fetus without resorting to invasive techniques such as amniocentesis or chorionic villi sampling (Science 309, 2 September 2005 pp. 1476-8).	REFERENCE
+Another form of digital PCR has been described as emulsion PCR, which has been used to prepare small beads with clonally amplified DNA - in essence, each bead contains one amplicon of digital PCR.	REFERENCE
+(Dressman et al, Proc Natl Acad Sci U S A. 100, 8817 (Jul 22,2003)).	REFERENCE
+Another form of Digital PCR can be carried out using microfluidics.	REFERENCE
+In this embodiment, described below, DNA is diluted and separated into small, discrete samples for forming reaction samples by a series of channels and valves.	REFERENCE
+An example of a suitable method for single molecule analysis that may be adapted to the present methods is given in Braslavsky et al., "Sequence information can be obtained from single DNA molecules, Proc. Nat. Acad. Sci. 100(7): 3960-3964 (2003), which uses sequential incorporation of labeled nucleotides onto an immobilized single stranded DNA template and monitoring by fluorescent microscopy.	REFERENCE
+Another aspect of the relevant art involves sample preparation in order to carry out the present processes.	REFERENCE
+That is, the fetal DNA may be enriched relative to maternal DNA.	REFERENCE
+Chan, et al., "Size Distribution of Maternal and Fetal DNA in Maternal Plasma," Clin. Chem. 50(1): 88-92 (2004) reports that plasma DNA molecules are mainly short DNA fragments.	REFERENCE
+The DNA fragments in the plasma of pregnant women are significantly longer than DNA fragments from non-pregnant women, and longer than fetal DNA.	REFERENCE
+Related Publications and Patents	SECTION SUBTITLE
+Vogelstein et al., "Digital Amplification," US 6,440,705, issued Aug. 27, 2002, discloses the identification of pre-defined mutations expected to be present in a minor fraction of a cell population.	REFERENCE
+Lo, "Fetal DNA in Maternal Plasma: Biology and Diagnostic Applications," Clin. Chem. 46:1903-1906 (2000) discloses the demonstration of fetal DNA in maternal plasma.	REFERENCE
+The authors found a mean fractional level of 3. 4% fetal DNA in maternal DNA in plasma during early pregnancy.	REFERENCE
+The authors report detection of the RhD gene and microsatellite polymorphisms in the plasma of pregnant women.	REFERENCE
+Li et al., "Detection of Paternally Inherited Fetal Point Mutations for β-Thalassemia Using Size Fractionated Cell-Free DNA in Maternal Plasma," J. Amer. Med. Assoc. 293:843-849 (Feb. 16, 2005) discloses that the analysis of cell-free fetal DNA in maternal plasma has proven to be remarkably reliable for the assessment of fetal loci absent from the maternal genome, such as Y-chromosome specific sequences or the RhD gene in pregnant women who are Rh-negative.	REFERENCE
+The authors report on the extraction and size fractionation of maternal plasma DNA using agarose gel electrophoresis.	REFERENCE
+Then, peptide-nucleic acids (PNA) were used to bind specifically to a maternal allele to suppress PCR amplification of the of the wild type maternal allele, thereby enriching for the presence of paternally inherited mutant sequences.	REFERENCE
+Four distinct point mutations in the β-globin gene were examined.	REFERENCE
+It was found that the PNA step was necessary for the detection of mutant alleles using allele specific PCR.	REFERENCE
+Lo et al., "Quantitative Analysis of Fetal DNA in Maternal Plasma and Serum: Implications for Noninvasive Prenatal Diagnosis," Am. J. Hum. Genet. 62:768-775 (1998) discloses a real-time quantitative PCR assay to measure the concentration of fetal DNA in maternal plasma and serum.	REFERENCE
+The authors found a mean of 25. 4 genome equivalents/ml of fetal DNA in early pregnancy.	REFERENCE
+This corresponds to about 3. 4% of total DNA in early pregnancy.	REFERENCE
+Chan et al., "Size Distribution of Maternal and Fetal DNA in Maternal Plasma," Clin. Chem. 50:89-92 (Jan. 2004) investigated the size distribution of plasma DNA in non-pregnant women and pregnant women, using a panel of quantitative PCR assays with different amplicon sizes targeting the leptin gene.	REFERENCE
+They found that the DNA fragments in the plasma of pregnant women are significantly longer than those in the plasma of non-pregnant women, and the maternal-derived DNA molecules are longer than the fetal-derived ones.	REFERENCE
+Tufan et al., "Analysis of Cell-Free Fetal DNA from Maternal Plasma and Serum Using a Conventional Multiplex PCR: Factors Influencing Success," Turk. J. Med Sci. 35: 85-92 (2005) compared the success rates of two different DNA extraction techniques, the heat based direct method and the QIAMP DNA blood mini kit method.	REFERENCE
+The crucial role of PCR optimization was also reported.	REFERENCE
+The authors used the DYS14 marker for the Y chromosome and the GAPH gene for a control.	REFERENCE
+The QIAMP mini kit was found to give the best results in sex determination analysis using multiplex PCR and ethidium bromide staining on gels.	REFERENCE
+Hromadnikova et al., "Quantitative analysis of DNA levels in maternal plasma in normal and Down Syndrome pregnancies," BMC Pregnancy and Childbirth 2(4): 1-5 (2002), investigated total DNA levels in maternal plasma and found no difference in fetal DNA levels between the patients carrying Down Syndrome fetuses and the controls.	REFERENCE
+Real time quantitative PCR analysis was performed using primers to the β-globin gene and the SRY locus.	REFERENCE
+Grundevikk and Rosen, "Molecular Diagnosis of Aneuploidies," published on line at http://www.molbiotech.chalmers.se/research/mk/mbtk/Molecular%20diagnostics%20of%20aneu ploidies%20-%20rapport.pdf, suggests that non-invasive methods for detection of aneuploidies (such as Down Syndrome, Edwards Syndrome or extra sex chromosomes) may be carried out on fetal nucleated cells isolated from maternal blood.	REFERENCE
+n their review, the authors also describe quantitative fluorescence polymerase chain reaction (QF-PCR), based on amplification of short tandem repeats specific for the chromosome to be tested.	REFERENCE
+They describe tests where DNA was amplified from amniotic or chorionic villus samples.	REFERENCE
+The authors suggest that the STR markers will give PCR products of different size, and these size differences may be studied by analyzing peak sizes in electrophoresis.	REFERENCE
+It is also proposed that quantitative real time PCR may be used to diagnose Down Syndrome by comparing the amount of a gene located on chromosome 12 to the amount of a gene located on another autosomal chromosome.	REFERENCE
+If the ratio of these two genes is 1:1, the fetus is normal, but if the ratio of these genes is 3:2, it indicates Down Syndrome.	REFERENCE
+The authors propose the use of Down Syndrome marker DSCR3.	REFERENCE
+They also suggest that the housekeeping gene GAPDH on chromosome 12 can be used as a reference.	REFERENCE
+Poon et al., "Differential DNA Methylation between Fetus and Mother as a Strategy for Detecting Fetal DNA in Maternal Plasma," Clin. Chem. 48(1): 35-41 discloses the detection of genes or mutations in a fetus where the same mutation or condition is also present in maternal DNA.	REFERENCE
+That is, the use of fetal DNA in maternal plasma is limited due to the low amount of fetal DNA compared to maternal DNA.	REFERENCE
+The authors overcame this limitation by detecting the 1GF2-H19 locus, which is maintained in a methylated DNA status in the paternal allele and is unmethylated in the maternal allele.	REFERENCE
+The authors used a bisulfite modification kit whereby unmethylated cytosine residues were converted to uracil.	REFERENCE
+The sequence difference between methylated and unmethylated DNA sequences could be distinguished with different PCR primers.	REFERENCE
+DNA extracted from buffy coat was used.	REFERENCE
+Science 309:1476 (2 Sept. 2005) News Focus "An Earlier Look at Baby's Genes" describes attempts to develop tests for Down Syndrome using maternal blood.	REFERENCE
+Early attempts to detect Down Syndrome using fetal cells from maternal blood were called "just modestly encouraging."	REFERENCE
+The report also describes work by Dennis Lo to detect the Rh gene in a fetus where it is absent in the mother.	REFERENCE
+Other mutations passed on from the father have reportedly been detected as well, such as cystic fibrosis, beta-thalassemia, a type of dwarfism and Huntington's disease.	REFERENCE
+However, these results have not always been reproducible.	REFERENCE_PROBLEM
+United States Patent Application 20040137470 to Dhallan, Ravinder S, published July 15, 2004, entitled "Methods for detection of genetic disorders," describes a method for detecting genetic disorders using PCR of known template DNA and restriction analysis.	REFERENCE
+Also described is an enrichment procedure for fetal DNA.	REFERENCE
+It also describes a method used to detect mutations, and chromosomal abnormalities including but not limited to translocation, transversion, monosomy, trisomy, and other aneuploidies, deletion, addition, amplification, fragment, translocation, and rearrangement.	REFERENCE
+Numerous abnormalities can be detected simultaneously.	REFERENCE_ADVANTAGE
+The method is said to provide a non-invasive method to determine the sequence of fetal DNA from a tissue, such as blood, drawn from a pregnant female, and a method for isolating free nucleic acid from a sample containing nucleic acid.	REFERENCE
+BRIEF SUMMARY OF THE INVENTION	SECTION TITLE
+The following brief summary is not intended to include all features and aspects of the present invention, nor does it imply that the invention must include all features and aspects discussed in this summary.	JURIDICAL TEMPLATE
+Briefly, the present invention is directed to a method of differential detection of target sequences in a mixture of maternal and fetal genetic material.	REPHRASED CLAIM
+One obtains maternal tissue containing both maternal and fetal genetic material.	REPHRASED CLAIM
+Preferably, the maternal tissue is maternal peripheral blood or blood plasma.	REPHRASED CLAIM
+The term "plasma" may include plasma or serum.	TECHNICAL TEMPLATE
+The genetic material may be genomic DNA or RNA, preferably mRNA.	TECHNICAL TEMPLATE
+In the case of mRNA, one may choose target sequences corresponding to genes that are highly expressed in the placenta for fetal genetic material.	EMBODIMENT
+The genetic material (e.g., DNA) in each reaction sample is detected with a sequence specific reactant directed to at least one of two target sequences in the genetic material to obtain a detectible reaction product if the target sequence is present in the reaction sample.	EMBODIMENT
+For example, a probe specific to chromosome 21 is bound to the reaction sample, along with a control probe specific to another chromosome.	EMBODIMENT
+In most cases, the results will be from maternal DNA, but a small number of results will be obtained from fetal DNA.	EMBODIMENT
+n order to distinguish random variation from fetal results, a large number of reactions are run, and statistical methods are applied to the results.	EMBODIMENT
+The labeling and detection in the present method is used to distinguish the presence or absence of a single target sequence, referred to as "digital analysis," although it may be performed with sensitive nucleic acid detection methods which distinguish between one and more than one target sequence in a discrete sample.	DEFINITION
+Many fluorescent techniques have this sensitivity.	REFERENCE
+The target sequences are chosen so that a maternal sequence and a fetal sequence are distinguishable, such as two copies of a maternal sequence versus two copies of a fetal sequence.	EMBODIMENT
+The genetic material thus obtained is distributed into discrete samples, where each sample will contain, on average not more than about one target sequence per sample.	EMBODIMENT
+The average of one target sequence means that, for practical reasons, the sample will contain, preferably 0. 1 to 0. 8 genome equivalents per discrete sample, ideally 0. 5 genome equivalent per sample.	EMBODIMENT
+The method may be performed with dilutions whereby more target sequences are detected in samples containing a trisomic or increased copy number of target sequence.	EMBODIMENT
+That is, if one is analyzing chromosome 21, the mixture may be diluted such that, on average, one may detect two chromosomes present in a maternal DNA, and three chromosomes in a Down Syndrome fetal DNA.	EMBODIMENT
+Alternatively, the method may be performed with dilutions whereby more reaction samples are positive in this situation.	EMBODIMENT
+The presence or absence of different target sequences in the discrete samples is detected;	EMBODIMENT
+and the results are analyzed whereby the number of results from the discrete samples will provide data sufficient to obtain results distinguishing different target sequences.	EMBODIMENT
+In one aspect, the method involves an analysis of a trisomy.	EMBODIMENT
+In this method, one of the different target sequences (e.g. chromosome 21) is diploid in maternal genetic material and aneuploid in fetal genetic material and another of the different target sequences (e.g. chromosome 12) is diploid in both maternal and fetal genetic material.	EMBODIMENT
+The discrete samples are in reaction samples where the target sequences can be analyzed.	EMBODIMENT
+The reaction samples may be, for example, wells in a microtiter plate, aqueous phases in an emulsion, areas in an array surface, or reaction chambers in a microfluidic device.	EMBODIMENT
+The reaction samples may be used for PCR analysis of the discrete samples.	EMBODIMENT
+The discrete samples are contacted with a plurality of PCR primers, including at least one (or one forward and one reverse) primer directed specifically to a maternal control sequence, expected to be the same in both mother and fetus.	EMBODIMENT
+PCR primers are also directed specifically to a fetal sequence, i.e. one which may be present in both mother and fetus, but is amplified or altered in the fetus.	EMBODIMENT
+PCR amplification will allow detection of these two different sequences, and, according to the present method, there will be a differential in the case of an abnormal fetal target sequence.	EMBODIMENT
+The PCR method may be (but is not necessarily) quantitative.	EMBODIMENT
+Quantitative real time PCR, which includes hybridizing target sequences with a nucleic acid having a fluorescent label, may be used.	EMBODIMENT
+A fluorescent probe hybridizing to the target sequence may also be used.	EMBODIMENT
+A number of "digital PCR" protocols are known for this purpose, as well as bead-based or emulsion PCR.	EMBODIMENT
+While florescent probes are readily available and may be used to provide sensitive results, e.g., in FRET combinations, other labeling techniques may be used.	EMBODIMENT
+The number of discrete samples is chosen according to the results desired.	EMBODIMENT
+In one aspect, it is preferred that a high degree of statistical significance is obtained, and the number of samples is at least about 10,000.	EMBODIMENT
+In order to improve statistical confidence, it is preferable to employ large numbers of reactions, preferably between 500 and 100,000, more preferably between 10,000 and 100,000 or more reactions, depending on the percentage of fetal DNA present in the mixture.	EMBODIMENT
+The results to be obtained should be statistically significant for purposes of the analysis conducted, e.g. initial screening, primary diagnosis, etc.	EMBODIMENT
+A commonly used measure of statistical significance when a highly significant result is desired is p< 0. 01, i.e., a 99% confidence interval based on a chi-square or t-test.	REFERENCE
+However, as shown below, results can be obtained with less, e.g. on the order of about 500 samples, placed in separate reaction samples.	EMBODIMENT
+Fewer discrete samples may be analyzed where the genetic material is present in a higher concentration in the mixture.	EMBODIMENT
+The mixture may be enriched for fetal genetic material.	EMBODIMENT
+One method to enrich plasma DNA for fetal DNA is size separation, whereby a preparation comprising only DNA fragments less than about 300 bp are used for measuring target sequences.	EMBODIMENT
+A variety of genetic abnormalities may be detected according to the present method, including known alterations in one or more of the genes: CFTR, Factor VIII (F8 gene), beta globin, hemachromatosis, G6PD, neurofibromatosis, GAPDH, beta amyloid, and pyruvate kinase.	TECHNICAL TEMPLATE
+The sequences and common mutations of these genes are known.	REFERENCE
+Other genetic abnormalities may be detected, such as those involving a sequence which is deleted in a human chromosome, is moved in a translocation or inversion, or is duplicated in a chromosome duplication, wherein said sequence is characterized in a known genetic disorder in the fetal genetic material not present in the maternal genetic material.	REPHRASED CLAIM
+For example chromosome trisomies may include partial, mosaic, ring, 18, 14, 13, 8, 6, 4 etc.	TECHNICAL TEMPLATE
+A listing of known abnormalities may be found in the OMIM Morbid map, http://www.ncbi.nlm.nih.gov/Omim/getmorbid.cgi.	REFERENCE
+In general, the term "aneuploidy" is used to refer to the occurrence of one or more extra or missing chromosomes.	DEFINITION
+In one aspect, the present method of differential detection of target sequences may involve direct sequencing of target sequences the genetic material.	EMBODIMENT
+Single molecule sequencing, as is known, is further described below.	JURIDICAL TEMPLATE
+The method may also comprise sequencing of amplified derivatives of the target sequences clones or amplicons of the genetic material.	REPHRASED CLAIM
+That is, a target sequence in a discrete sample is amplified by PCR, i.e. as an amplicon, or cloned into a vector that is grown up and thereby amplified by obtaining multiple copies of the vector insert.	EMBODIMENT
+In another aspect, the present invention comprises materials selected and combined for carrying out the present methods.	EMBODIMENT
+Thus is provided a kit for differential detection of target sequences in maternal and fetal DNA in a mixed DNA sample, comprising primers specific for a genetically abnormal sequence and a control sequence, such as two chromosomes, one of which is possibly aneuploid and one of which is presumed diploid;	EMBODIMENT
+a PCR reaction buffer for forming a PCR reaction sample with the primers in a device having separate reaction samples;	EMBODIMENT
+and a size separation medium for separating the DNA sample into a fraction having less than about 1000 bp.	REPHRASED CLAIM
+The size separation medium may be gel or centrifugation material for recovering smaller DNA fragments and thus enriching fetal DNA.	EMBODIMENT
+The kit may further comprise a pair of primers specific to chromosome 21.	REPHRASED CLAIM
+The kit may further comprise the device having separate reaction samples for discrete samples.	EMBODIMENT
+The device may be a microfluidic device or a microtiter plate having at least 1,000 discrete reaction samples.	EMBODIMENT
+BRIEF DESCRIPTION OF THE DRAWINGS	SECTION TITLE
+Figure 1 is a schematic illustration of the present analytical method, showing distribution of genetic material into compartments (1A), chromosome peaks of different height (1B), and statistical analysis of chromosomes (1C);	FIGURE DESCRIPTION
+Figure 2 is a photograph of a microfluidic chip having 12 panels (numbered 1-12) containing DNA with chromosome 21 labeled;	FIGURE DESCRIPTION
+Figure 3 is a photograph of a microfluidic chip having 12 panels (numbered 1-12) containing DNA with chromosome 12 labeled;	FIGURE DESCRIPTION
+andFigure 4 is a graph showing results from experiments done using digital analysis of mixed normal and trisomic (Down Syndrome, trisomy 21) DNA.	FIGURE DESCRIPTION
+DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT	SECTION TITLE
+Outline	SECTION SUBTITLE
+I. OverviewII. Description of StepsA. Tissue PreparationB. Distribution of DNA moleculesC. Detection and Quantification1. Digital PCR Methods2. Bead emulsion PCR3. Microfluidic Dilution with PCR4. Single molecule detection and/or sequencingD.	OTHER
+Quantitative evaluationIII.	OTHER
+Specific applicationsA. Preparation for trisomy with frequency analysis.	OTHER
+B Sample ProtocolIV.	OTHER
+Examples	OTHER
+I. Overview	SECTION SUBTITLE
+The methods and materials described below apply techniques for analyzing numerous nucleic acids contained in a tissue sample (preferably serum or, more preferably, plasma) containing a mixture of DNA from both the mother and the fetus, and allowing detection of small but statistically significant differences.	EMBODIMENT
+The present invention involves the analysis of maternal blood for a genetic condition, wherein the mixed fetal and maternal DNA in the maternal blood is analyzed to distinguish a fetal mutation or genetic abnormality from the background of the maternal DNA	EMBODIMENT
+It has been found that, using a combination of steps, a DNA sample containing DNA from both the mother and the fetus can be analyzed to distinguish a genetic condition present in a minor fraction of the DNA, which represents the fetal DNA.	EMBODIMENT
+The method employs "digital analysis," in which the DNA in the sample is isolated to a nominal single target molecule in a small reaction volume.	EMBODIMENT
+Each sample mixture has a possibility of having distributed in it less than 1 target (i.e., 0 target) or more than one target.	EMBODIMENT
+Next, the target molecules are detected in each reaction well, preferably as target sequences which are amplified, which may include a quantization of starting copy number of the target sequence, that is, 0, 1, 2, 3, etc.	EMBODIMENT
+A control sequence is used to distinguish an abnormal increase in the target sequence, e.g., a trisonomy.	EMBODIMENT
+Thus there is a differential detection of target sequences, one of which is chosen to represent a normal genotype present in both mother and offspring, and one of which is chosen for detection of an abnormal genotype in the offspring, where the target sequence in the offspring will be different from that of the mother, e.g. in trisomy.	EMBODIMENT
+Fig. 1A illustrates an embodiment where quantitative detection, e.g. quantitative real time PCR, is used.	FIGURE DESCRIPTION
+Blood 10 is processed to obtain plasma DNA 12, which is diluted and distributed into aliquots 14.	FIGURE DESCRIPTION
+These are added to reactions wells 1A through 5D.	FIGURE DESCRIPTION
+Shown in the wells are targets representing chromosomes 21 and 22.	FIGURE DESCRIPTION
+In well 2A, no target DNA is found; some wells (not shown) may have excess DNA.	FIGURE DESCRIPTION
+In well 3B, fetal DNA having trisomy 21 (Down Syndrome) is found.	FIGURE DESCRIPTION
+The remainder of the wells contains maternal DNA.	FIGURE DESCRIPTION
+The DNA is amplified and/or labeled and a quantitative readout is obtained, as shown at 16.	FIGURE DESCRIPTION
+Peak 18 representing well 3B will be 50% higher than the peaks from the other well, or the peaks from a reference sequence on chromosome 22.	FIGURE DESCRIPTION
+Well A2, lacking either 21 or 22, will have no peak.	FIGURE DESCRIPTION
+The peaks are shown at 20.	FIGURE DESCRIPTION
+A single run will have numerous random variations, such as wells that have no target sequence, or have duplication through sample variability.	FIGURE DESCRIPTION
+Also, samples with no target will clearly result in no peak at all; wells with two or more targets, will give peaks significantly higher than peak 18, i.e., 2X or 2. 5 X controls.	FIGURE DESCRIPTION
+These results are distinguished by running a multitude of reactions, followed by statistical analysis that can discriminate random variations from true results.	EMBODIMENT
+Fig. 1C illustrates an embodiment where the DNA is distributed in a more dilute fashion (less than 1, or about one half genome equivalents per well).	FIGURE DESCRIPTION
+In this case chromosome 21 labels (primers) will generate more positives than chromosome 22 (a diploid chromosome) specific labels (e.g., primers) due simply to the slightly greater abundance of chromosome 21 in a trisomy-containing sample.	FIGURE DESCRIPTION
+As shown, some wells will contain positives 20 for both chromosomes, some will contain negatives 22 for both chromosomes, but some will contain blanks 24 for the diploid chromosome and peaks for the trisomic chromosome, due to its greater abundance.	FIGURE DESCRIPTION
+The data from a higher peak 18 is not used in this mode.	EMBODIMENT
+As explained below, this slight difference can be made statistically significant by examining a large number of wells, and by the sensitivity of the present method to a single molecule.	EMBODIMENT
+Thus, the present method comprises generally the following steps:	JURIDICAL TEMPLATE
+1. Obtaining a tissue containing DNA from a pregnant subject, which DNA is known to have about 3% fetal DNA.	EMBODIMENT
+This material is preferably drawn blood, and the circulating DNA is found in the blood plasma, rather than in cells.	EMBODIMENT
+The blood or plasma may optionally be enriched for fetal DNA by known methods, such as size fractionation to select for DNA fragments less than about 300 bp.	EMBODIMENT
+Alternatively, maternal DNA, which tends to be larger than about 500 bp may be excluded.	EMBODIMENT
+Another enrichment step may be to treat the blood sample with formaldehyde, as described in Dhallan et al. "Methods to Increase the Percentage of Free Fetal DNA Recovered From the Maternal Circulation," J. Am. Med. Soc. 291(9): 1114-1119 (March 2004).	REFERENCE
+2. Distributing single DNA molecules from this sample to a number of discrete reaction samples, where the number of reaction samples is selected to give a statistically significant result for the number of copies of a target in the DNA molecules.	EMBODIMENT
+Further, the reaction sample is confined to a small volume to bring the reaction molecules into close approximation.	EMBODIMENT
+The amount of DNA molecule per reaction sample is preferably on the order of one copy of the chromosome of interest equivalent per reaction sample.	EMBODIMENT
+3. Detecting the presence of the target in the DNA in a large number of reaction samples, preferably with a sequence specific technique such as highly multiplexed short read sequencing or a PCR reaction wherein the PCR product is labeled to give a convenient quantitative read out.	EMBODIMENT
+The detection step is referred to here as "digital PCR" and may be carried out by a variety of methods, such as (a) by PCR on samples diluted into individual wells of a microtiter plate; (b) PCR on samples diluted into emulsions containing primers immobilized to beads;	EMBODIMENT
+or (c) PCR on samples trapped in a microfluidic chamber;	EMBODIMENT
+and4.Quantitative analysis of the detection of the maternal and fetal target sequences.	EMBODIMENT
+In some cases this may include targets to different regions, such as probes to a target on a chromosome suspected of being present in an abnormal copy number (trisonomy) compared to a normal diploid chromosome, which is used as a control.	EMBODIMENT
+II. Description of Steps	SECTION SUBTITLE
+A. Tissue Preparation	SECTION SUBTITLE
+The present method is directed to non-invasive testing.	EMBODIMENT
+The preferred starting material is maternal peripheral venous blood.	EMBODIMENT
+In order to obtain sufficient DNA for testing, it is preferred that 10-20 mL of blood be drawn, in order to obtain about at least 10,000 genome equivalents of total DNA.	EMBODIMENT
+This sample size is based on an estimate of fetal DNA being present as roughly 25 genome equivalents/mL of maternal plasma in early pregnancy, and a fetal DNA concentration of about 3. 4% of total plasma DNA.	EMBODIMENT
+However, less blood may be drawn for a genetic screen where less statistical significance is required, or the DNA sample is enriched for fetal DNA.	EMBODIMENT
+It should be noted that, while the present description refers throughout to DNA, fetal RNA found in maternal blood may be analyzed as well.	EMBODIMENT
+As described in Ng et al., "mRNA of placental origin is readily detectable in maternal plasma," Proc. Nat. Acad. Sci. 100(8): 4748-4753 (2003), hPL (human placental lactogen) and hCG (human chorionic gonadotropin) mRNA transcripts were detectable in maternal plasma, as analyzed using the respective real-time RT-PCR assays.	REFERENCE
+In the present method, mRNA encoding genes expressed in the placenta and present on the chromosome of interest are used.	EMBODIMENT
+For example, DSCR4 (Down syndrome critical region 4) is found on chromosome 21 and is mainly expressed in the placenta.	EMBODIMENT
+Its mRNA sequence may be found at GenBank NM_005867.	EMBODIMENT
+In this case, it is preferred to use RNase H minus (RNase H-) reverse transcriptases (RTs) to prepare cDNA for detection.	EMBODIMENT
+RNase H- RTs are available from several manufacturers, with SuperScript™ II (Invitrogen) being the most widely used.	EMBODIMENT
+Reverse transcriptase PCR may be used as described below for chromosomal DNA.	EMBODIMENT
+i. Enrichment of DNA or RNA from plasma	EMBODIMENT
+The maternal blood may be processed to enrich the fetal DNA concentration in the total DNA, as described in Li et al., supra.	REFERENCE
+Briefly, circulatory DNA is extracted from 5-to 10-mL maternal plasma using commercial column technology (Roche High Pure Template DNA Purification Kit; Roche, Basel, Switzerland) in combination with a vacuum pump.	REFERENCE
+After extraction, the DNA is separated by agarose gel (1%) electrophoresis (Invitrogen, Basel, Switzerland), and the gel fraction containing circulatory DNA with a size of approximately 300 bp is carefully excised.	REFERENCE
+The DNA is extracted from this gel slice by using an extraction kit (QIAEX II Gel Extraction Kit; Qiagen, Basel, Switzerland) and eluted into a final volume of 40-µL sterile 10-mM trishydrochloric acid, pH 8. 0 (Roche).	REFERENCE
+DNA may be concentrated by known methods, including centrifugation and various enzyme inhibitors.	REFERENCE
+The DNA is bound to a selective membrane (e.g., silica) to separate it from contaminants.	EMBODIMENT
+The DNA is preferably enriched for fragments circulating in the plasma, which are less than 1000 base pairs in length, generally less than 300 bp.	EMBODIMENT
+This size selection is done on a DNA size separation medium, such as an electrophoretic gel or chromatography material.	EMBODIMENT
+Such a material is described in Huber et al., "High-resolution liquid chromatography of DNA fragments on non-porous poly(styrene-divinylbenzene) particles," Nucleic Acids Res. 1993 March 11; 21(5): 1061-1066, gel filtration chromatography, TSK gel, as described in Kato et al., "A New Packing for Separation of DNA Restriction Fragments by High Performance Liquid Chromatography," J. Biochem, 1984, Vol. 95, No. 1 83-86.	REFERENCE
+In addition, enrichment may be accomplished by suppression of certain alleles through the use of peptide nucleic acids (PNAs), which bind to their complementary target sequences, but do not amplify.	EMBODIMENT
+Plasma RNA extraction is described in Enders et al., "The Concentration of Circulating Corticotropin-releasing Hormone mRNA in Maternal Plasma Is Increased in Preeclampsia," Clinical Chemistry 49: 727-731, 2003.	REFERENCE
+As described there, plasma harvested after centrifugation steps is mixed Trizol LS reagent (Invitrogen) and chloroform.	REFERENCE
+The mixture is centrifuged, and the aqueous layer transferred to new tubes.	REFERENCE
+Ethanol is added to the aqueous layer.	REFERENCE
+The mixture is then applied to an RNeasy mini column (Qiagen) and processed according to the manufacturer's recommendations.	REFERENCE
+ii. Blood - extraction from fetal cells	EMBODIMENT
+United States Patent Application 20040137470 to Dhallan, Ravinder S, published July 15, 2004, entitled "Methods for detection of genetic disorders," describes an enrichment procedure for fetal DNA," in which blood is collected into 9 ml EDTA Vacuette tubes (catalog number NC9897284) and 0. 225 ml of 10% neutral buffered solution containing formaldehyde (4% w/v), is added to each tube, and each tube gently is inverted.	REFERENCE
+The tubes are stored at 4°C until ready for processing.	REFERENCE
+Agents that impede cell lysis or stabilize cell membranes can be added to the tubes including but not limited to formaldehyde, and derivatives of formaldehyde, formalin, glutaraldehyde, and derivatives of glutaraldehyde, crosslinkers, primary amine reactive crosslinkers, sulfhydryl reactive crosslinkers, sulfhydryl addition or disulfide reduction, carbohydrate reactive crosslinkers, carboxyl reactive crosslinkers, photoreactive crosslinkers, cleavable crosslinkers, etc.	TECHNICAL TEMPLATE
+Any concentration of agent that stabilizes cell membranes or impedes cell lysis can be added.	EMBODIMENT
+In a preferred embodiment, the agent that stabilizes cell membranes or impedes cell lysis is added at a concentration that does not impede or hinder subsequent reactions.	EMBODIMENT
+Flow cytometry techniques can also be used to enrich fetal cells (Herzenberg et al., PNAS 76: 1453-1455 (1979); Bianchi et al., PNAS 87: 3279-3283 (1990); Bruch et al., Prenatal Diagnosis 11: 787-798 (1991)).	REFERENCE
+U. S. Pat. No. 5,432,054 also describes a technique for separation of fetal nucleated red blood cells, using a tube having a wide top and a narrow, capillary bottom made of polyethylene.	REFERENCE
+Centrifugation using a variable speed program results in a stacking of red blood cells in the capillary based on the density of the molecules.	EMBODIMENT
+The density fraction containing low-density red blood cells, including fetal red blood cells, is recovered and then differentially hemolyzed to preferentially destroy maternal red blood cells.	EMBODIMENT
+A density gradient in a hypertonic medium is used to separate red blood cells, now enriched in the fetal red blood cells from lymphocytes and ruptured maternal cells.	EMBODIMENT
+The use of a hypertonic solution shrinks the red blood cells, which increases their density, and facilitates purification from the more dense lymphocytes.	EMBODIMENT
+After the fetal cells have been isolated, fetal DNA can be purified using standard techniques in the art.	REFERENCE
+Further, an agent that stabilizes cell membranes may be added to the maternal blood to reduce maternal cell lysis including but not limited to aldehydes, urea formaldehyde, phenol formaldehyde, DMAE (dimethylaminoethanol), cholesterol, cholesterol derivatives, high concentrations of magnesium, vitamin E, and vitamin E derivatives, calcium, calcium gluconate, taurine, niacin, hydroxylamine derivatives, bimoclomol, sucrose, astaxanthin, glucose, amitriptyline, isomer A hopane tetral phenylacetate, isomer B hopane tetral phenylacetate, citicoline, inositol, vitamin B, vitamin B complex, cholesterol hemisuccinate, sorbitol, calcium, coenzyme Q, ubiquinone, vitamin K, vitamin K complex, menaquinone, zonegran, zinc, ginkgo biloba extract, diphenylhydantoin, perftoran, polyvinylpyrrolidone, phosphatidylserine, tegretol, PABA, disodium cromglycate, nedocromil sodium, phenyloin, zinc citrate, mexitil, dilantin, sodium hyaluronate, or polaxamer 188.	TECHNICAL TEMPLATE
+An example of a protocol for using this agent is as follows: The blood is stored at 4°C until processing	EMBODIMENT
+The tubes are spun at 1000 rpm for ten minutes in a centrifuge with braking power set at zero.	EMBODIMENT
+The tubes are spun a second time at 1000 rpm for ten minutes.	EMBODIMENT
+The supernatant (the plasma) of each sample is transferred to a new tube and spun at 3000 rpm for ten minutes with the brake set at zero.	EMBODIMENT
+The supernatant is transferred to a new tube and stored at -80°C.	EMBODIMENT
+Approximately two milliliters of the "buffy coat," which contains maternal cells, is placed into a separate tube and stored at -80°C.	EMBODIMENT
+iii. Plasma-free fetal DNA	EMBODIMENT
+Genomic DNA may be isolated from the plasma using the Qiagen Midi Kit for purification of DNA from blood cells, following the manufacturer's instructions (QIAmp DNA Blood Midi Kit, Catalog number 51183).	REFERENCE
+DNA is eluted in 100mu.l of distilled water.	REFERENCE
+The Qiagen Midi Kit also is used to isolate DNA from the maternal cells contained in the "buffy coat."	REFERENCE
+Finally, it is noted that, in certain embodiments, one may also use samples from tissue, saliva, urine, tear, vaginal secretion, breast fluid, breast milk, or sweat.	TECHNICAL TEMPLATE
+B. Distribution of DNA Molecules	SECTION SUBTITLE
+In the illustrated method, the genomic DNA obtained from a maternal tissue as described above is diluted into multiple reaction samples, e.g. in multiwell plates, so that there is, on average, less than one genome equivalent per well.	EMBODIMENT
+Thus, when the individual discrete samples are analyzed for the presence of the genetic abnormality to be tested, the DNA (chromosome) to be analyzed will, on average, either be present or absent, permitting so-called "digital analysis."	EMBODIMENT
+A reaction sample in general will contain a single template molecule (haplotype), two target molecules (diploid) or three target molecules (trisomy).	EMBODIMENT
+The wells provide discrete reaction samples and may be implemented in a number of devices, such as a microtiter plates, beads in an emulsion, or a microfluidic device.	EMBODIMENT
+These are described in detail below.	JURIDICAL TEMPLATE
+The device must be capable of carrying out a large number of discrete amplification reactions.	EMBODIMENT
+As described below, this number should be, at a minimum, 10,000 reactions, and preferably on the order of 100,000 reactions.	EMBODIMENT
+The reaction sample is preferably holds about 10-100 µL of a PCR reaction sample containing the genomic DNA, nucleotides (dNTPs), polymerase and appropriate PCR primers.	EMBODIMENT
+The primers are used in conjunction with a label for rapid quantitative detection of PCR products.	EMBODIMENT
+The type of labeling will depend on the amplification/detection system used, e.g., a "molecular beacon" fluorescent probe for microtiter plate based amplification.	EMBODIMENT
+This type of probe is described, for example, in Vogelstein et al, supra.	REFERENCE
+Alternatively, labeling may be done with SYBR Green, which has very low fluorescence in the absence of double stranded DNA and very high fluorescence in the presence of double stranded DNA.	EMBODIMENT
+Another form of parallel analysis useful in the present invention is single molecule analysis.	EMBODIMENT
+Again, a sample is diluted to contain less than a nominal single genome equivalent of DNA, and the presence of the target of interest (i.e., chromosome 21 trisomy) can be determined in a large number of samples.	EMBODIMENT
+By analyzing a large number of samples, the fetal DNA can be distinguished from the maternal DNA.	EMBODIMENT
+This is termed a "digital analysis," because each well will have, on average, one genome equivalent per cell, and furthermore, the dilution may be read as a binary "yes-no" result as to the presence of the chromosome or other sequence to be counted.	EMBODIMENT
+Another method for single molecule analysis involves the use of site-specific fluorescent tags that are detected as the DNA is drawn through a microfluidic device in a single molecule, elongated flow.	EMBODIMENT
+An example of this technique, described below, is termed "direct linear analysis," or DLA.	EMBODIMENT
+C. Detection and Quantification	SECTION SUBTITLE
+Having isolated the sample DNA into a nominal genome equivalent, the presence of the DNA sequence or chromosome of interest must be quantified.	EMBODIMENT
+This may be done either in single molecule mode, or with an amplified product.	EMBODIMENT
+While the preferred embodiment of the invention is described in terms of PCR, the invention is primarily directed to the use of multiple individual genetic sequence detections.	EMBODIMENT
+In some embodiments, the method of amplification maybe, for example, self-sustained sequence reaction, ligase chain reaction, rapid amplification of cDNA ends, polymerase chain reaction and ligase chain reaction, Q-beta phage amplification, strand displacement amplification, or splice overlap extension polymerase chain reaction.	TECHNICAL TEMPLATE
+Also, while detection may be conveniently be carried out by a sequence specific probe, detection may also be carried out by directly sequencing a region of interest to determine if it is the target sequence of interest.	EMBODIMENT
+1. Digital PCR Methods	SECTION SUBTITLE
+While the presently known PCR methods may be multiplexed, that is, run with multiple primers to multiple targets, it is preferred to limit the number of primer pairs in a given reaction.	EMBODIMENT
+Generally, there will be two primer pairs: one for amplifying a test sequence, and another pair for amplifying a control sequence.	EMBODIMENT
+Primers are designed according to known parameters for avoiding secondary structures and self-hybridization.	EMBODIMENT
+Further, both primer pairs should anneal and melt at about the same temperatures.	EMBODIMENT
+Primers	EMBODIMENT
+Primers can be prepared by a variety of methods including but not limited to cloning of appropriate sequences and direct chemical synthesis using methods well known in the art (Narang et al., Methods Enzymol. 68:90 (1979); Brown et al., Methods Enzymol. 68:109 (1979)).	REFERENCE
+Primers can also be obtained from commercial sources such as Operon Technologies, Amersham Pharmacia Biotech, Sigma, and Life Technologies.	REFERENCE
+The primers can have an identical melting temperature.	EMBODIMENT
+The lengths of the primers can be extended or shortened at the 5' end or the 3' end to produce primers with desired melting temperatures.	EMBODIMENT
+Also, the annealing position of each primer pair can be designed such that the sequence and, length of the primer pairs yield the desired melting temperature.	EMBODIMENT
+The simplest equation for determining the melting temperature of primers smaller than 25 base pairs is the Wallace Rule (Td=2(A+T)+4(G+C)).	EMBODIMENT
+Computer programs can also be used to design primers, including but not limited to Array Designer Software (Arrayit Inc.), Oligonucleotide Probe Sequence Design Software for Genetic Analysis (Olympus Optical Co.), NetPrimer, and DNAsis from Hitachi Software Engineering.	TECHNICAL TEMPLATE
+The TM (melting or annealing temperature) of each primer is calculated using software programs such as Oligo Design, available from Invitrogen Corp.	EMBODIMENT
+The annealing temperature of the primers can be recalculated and increased after any cycle of amplification, including but not limited to cycle 1, 2, 3, 4, 5, cycles 6-10, cycles 10-15, cycles 15-20, cycles 20-25, cycles 25-30, cycles 30-35, or cycles 35-40.	TECHNICAL TEMPLATE
+After the initial cycles of amplification, the 5' half of the primers is incorporated into the products from each loci of interest, thus the TM can be recalculated based on both the sequences of the 5' half and the 3' half of each primer.	EMBODIMENT
+Any DNA polymerase that catalyzes primer extension can be used including but not limited to E. coli DNA polymerase, Klenow fragment of E. coli DNA polymerase 1, T7 DNA polymerase, T4 DNA polymerase, Taq polymerase, Pfu DNA polymerase, Vent DNA polymerase, bacteriophage 29, REDTaq. TM.	TECHNICAL TEMPLATE
+Genomic DNA polymerase, or sequenase.	EMBODIMENT
+Preferably, a thermostable DNA polymerase is used.	EMBODIMENT
+A "hot start" PCR can also be performed wherein the reaction is heated to 95°C for two minutes prior to addition of the polymerase or the polymerase can be kept inactive until the first heating step in cycle 1.	EMBODIMENT
+Hot start PCR can be used to minimize nonspecific amplification.	EMBODIMENT
+Any number of PCR cycles can be used to amplify the DNA, including but not limited to 2, 5, 10, 15, 20, 25, 30, 35, 40, or 45 cycles.	TECHNICAL TEMPLATE
+In a most preferred embodiment, the number of PCR cycles performed is such that equimolar amounts of each loci of interest are produced.	EMBODIMENT
+A number of specific PCR primers are useful in the present process, such as those disclosed in technical literature of Qiagen.	REFERENCE
+That literature describes a protocol where DNA was purified from peripheral blood and amniocyte cultures using the QIAmp DNA Blood Mini Kit.	REFERENCE
+For amplification of the amyloid gene on chromosome 21, (NCBI gene ID 473931, accession NC_006488) primer and probe sequences were:SEQ ID NO: 1: forward primer, 5'-GGG AGC TGG TAC AGA AAT GAC TTC-3'; reverse primer, SEQ ID NO: 10: 5'-TTG CTC ATT GCG CTG ACA A-3'; and probe, SEQ ID NO: 2 5'-(FAM) AGC CAT CCT TCC CGG GCC TAG G (TAMRA)-3'.	EMBODIMENT
+For amplification of GAPDH, (GenBank locus 12p13. 31-p13. 1) primers and probe were: forward primer, SEQ ID NO: 3, 5'-CCC CAC ACA CAT GCA CTT ACC-3'; reverse primer, SEQ ID NO: 4, 5'-CCT ACT CCC AGG GCT TTG ATT-3'; and probe, SEQ ID NO: 5, 5'-(VIC) AAA GAG CTA GGA AGG ACA GGC AAC TTG GC (TAMRA)-3'.	EMBODIMENT
+PCR was performed using the TaqMan system, with 2 µl of template DNA in each 25 µl reaction and final concentrations of 300 nmol/liter of each primer and 150 nmol/liter of each dual-labeled TaqMan probe.	EMBODIMENT
+Cycling conditions were incubation at 50°C for 2 minutes, then 95°C for 10 minutes, followed by 40 cycles of 60°C, 1 minute and 95°C, 15 seconds.	EMBODIMENT
+Using the above exemplary protocol, the different ratio of the amyloid gene and the GAPDH gene in karyotypically normal and trisomy 21 samples was clearly distinguishable in the multiplex PCR assay, as reported in the Qiagen product literature.	REFERENCE
+Assays using a dilution series of the DNA template showed that the difference remained clear over a wide range of template concentrations and with starting concentrations of DNA as low as 10 mg/liter.	EMBODIMENT
+Of course, in a maternal blood sample, the concentration of fetal DNA would be much lower.	EMBODIMENT
+Fluorescent in situ amplification	EMBODIMENT
+Fluorescent probe-based technologies, which can be performed on the PCR products "in situ" (i.e., in the same wells), are particularly well suited for this application.	EMBODIMENT
+This method is described in detail in Vogelstein PNAS 96:9236, above, and Vogelstein et al. "Digital Amplification," US 6,440,705, hereby incorporated by reference for its description of this amplification procedure.	REFERENCE
+The "digi-PCR" method of Vogelstein et al. is described in the above-mentioned patent.	REFERENCE
+An exemplary protocol as set forth in that patent is as follows: PCR is performed in 7 µl volumes in 96 well polypropylene PCR plates (Marsh Biomedical Products, Rochester, N. Y.).	REFERENCE
+The composition of the reactions is: 67 mM Tris, pH 8. 8, 16;6 mM NH4 SO4, 6. 7 mM MgCl2, 10 mM β-mercaptoethanol, 1 mM dATP, 1 mM dCTP, 1 mM dGTP, 1 mM TTP, 6% DMSO, 1 µM primer F1, 1 µM primer R1, 0. 05 units/µl Platinum Taq polymerase (Life Technologies, Inc.), and "one-half genome equivalent" of DNA.	EMBODIMENT
+To determine the amount of DNA corresponding to one-half genome equivalent, DNA samples are serially diluted and tested via PCR.	EMBODIMENT
+The amount that yielded amplification products in half the wells, usually about. 1. 5 pg of total DNA, is defined as "one-half genome equivalent" and used in each well of subsequent Digital Amplification experiments.	EMBODIMENT
+Fifty µl light mineral oil (Sigma M-3516) is added to each well and reactions performed in a HybAid Thermal cycler at the following temperatures: denaturation at 94°C for one min; 60 cycles of 94°C for 15 sec, 55°C for 15 sec., 70°C for 15 seconds; 70°C for five minutes.	EMBODIMENT
+MB, or molecular beacon probes, which become fluorescent on binding to the target sequence(s),	EMBODIMENT
+as described in more detail below, may be used as follows:	EMBODIMENT
+For fluorescence analysis, 3. 5 µl of a solution with the following composition is added to each well: 67 mM Tris, pH 8. 8, 16. 6 mM NH4 SO4, 6. 7 mM MgCl2, 10 mM β-mercaptoethanol, 1 mM dATP, 1 mM dCTP, 1 mM dGTP, 1 mM TTP, 6% DMSO, 5 µM primer, 1 µM MB-GREEN, 1 µM MB-RED, 0. 1 units/µl Platinum Taq polymerase.	EMBODIMENT
+The plates are centrifuged for 20 seconds at 6000 g and fluorescence read at excitation/emission wavelengths of 485 nm/530 nm for MB-GREEN and 530 nm/590 nm for MB-RED.	EMBODIMENT
+The plates are then placed in a thermal cycler for asymmetric amplification at the following temperatures: 94°C for one minute; 10-15 cycles of 94°C tor 15 sec, 55°C for 15 sec., 70°C for 15 seconds; 94°C for one minute; and 60°C for five minutes.	EMBODIMENT
+The plates are then incubated at room temperature for ten to sixty minutes and fluorescence measured as described above.	EMBODIMENT
+MB probes are oligonucleotides with stem-loop structures that contain a fluorescent dye at the 5' end and a quenching agent (Dabcyl) at the 3' end.	EMBODIMENT
+The degree of quenching via fluorescence energy resonance transfer is inversely proportional to the 6th power of the distance between the Dabcyl group and the fluorescent dye.	EMBODIMENT
+After heating and cooling, MB probes reform a stem-loop structure, which quenches the fluorescent signal from the dye.	EMBODIMENT
+If a PCR product whose sequence is complementary to the loop sequence is present during the heating/cooling cycle, hybridization of the MB to one strand of the PCR product will increase the distance between the Dabcyl and the dye, resulting in increased fluorescence.	EMBODIMENT
+The examples below use a PCR protocol, which also relies on MB type probes, except in connection with a microfluidic device.	EMBODIMENT
+The present digital PCR methods may be used with RNA as well as DNA.	EMBODIMENT
+Isolation of plasma RNA is described below.	EMBODIMENT
+In this case, cDNA copies are made and then amplified by DNA polymerase-based PCR.	EMBODIMENT
+Different primers may be used for cDNA synthesis.	EMBODIMENT
+Specific templates, based on genetic sequences in the chromosomes of interest are preferred.	EMBODIMENT
+See, Bustina et al., "Pitfalls of Quantitative Real-Time Reverse-Transcription Polymerase Chain Reaction," Journal of Biomolecular Techniques, 15:155-166 (2004).	REFERENCE
+Use of mRNA from consitutively expressed, i.e., housekeeping genes, may be used for a control, and genes that are highly expressed in placenta (described below) are preferred.	EMBODIMENT
+Currently four different chemistries, TaqMan® (Applied Biosystems, Foster City, CA, USA), Molecular Beacons, Scotpions® and SYBR® Green (Molecular Probes), are available for real-time PCR.	REFERENCE
+All of these chemistries allow detection of PCR products via the generation of a fluorescent signal and may be adapted to reverse-transcription PCR.	EMBODIMENT
+Ambion's MessageSensor™ RT Kit includes an RNase H+ MMLV RT.	REFERENCE
+MessageSensor includes a total RNA control, a control human GAPDH primer set, RNase inhibitor, and nucleotides, as well as a buffer additive that enables detection with SYBR® Green dye.	REFERENCE
+Ambion recommends using 18S rRNA as an internal control because it shows less variance in expression across treatment conditions than β-actin and GAPDH.	EMBODIMENT
+A chromosome 21 -encoded gene (LOC90625) which shows strong expression in first trimester placenta similar to CSH1 (human placental lactogen) and was selected for plasma analysis in Oudejans et al., "Detection of Chromosome 21-encoded mRNA of Placental Origin in Maternal Plasma," Clinical Chemistry 49: 1445-1449, 2003.	REFERENCE
+Specific primers for use with this gene are given in this paper.	REFERENCE
+Uniquely expressed chromosome 21 transcripts are described at Gardiner et al., "Analysis of human chromosome 21: correlation of physical and cytogenetic maps; gene and CpG island distributions," E. M. B. O. J. 9(1):25-34 (1990), namely cDNA of identified products ETS2, MX1, MX2, CBS, COL6A1 and BCEI, which can be partially sequenced or mapped according to eh present methods.	REFERENCE
+2. Bead Emulsion PCR	SECTION SUBTITLE
+Emulsion PCR has been used to prepare small beads with clonally amplified DNA - in essence, each bead contains one type of amplicon of digital PCR. (Dressman et al, Proc. Natl. Acad. Sci. U S A. 100, 8817 (Jul 22, 2003)).	REFERENCE
+By using specific primers for regions of chromosomes A and B while performing emulsion PCR, one will create beads with digital amplicons from only these two chromosomes, and it is only necessary to count the number of positive beads of each type.	EMBODIMENT
+There are many ways to do this; we will point out two of them.	JURIDICAL TEMPLATE
+First, use two different species of beads (either in size or fluorescent labeling) to anchor the two amplicons respectively.	EMBODIMENT
+Alternatively, one could label the non-anchored primers with different fluorophores and use a single bead type.	EMBODIMENT
+After amplification, the positive beads (amplicons) of each type can be counted with methods such as flow cytometry or simply by counting them in a suitably equipped microscope.	EMBODIMENT
+This technique is further described in Dressman et al (supra) and Dressman et al. PCT publication WO2005010145, "METHOD AND COMPOSITIONS FOR DETECTION AND ENUMERATION OF GENETIC VARIATIONS," published 2005-02-03, and hereby incorporated by reference for its description of a bead-based process.	REFERENCE
+Briefly, in Step 1, Magnetic beads covalently coated with streptavidin are bound to biotinylated oligonucleotides ("oligos").	EMBODIMENT
+In Step 2, an aqueous mix containing all the necessary components for PCR plus primer-bound beads and template DNA are stirred together with an oil/detergent mix to create microemulsions.	EMBODIMENT
+The aqueous compartments (which may be illustrated as small droplets in an oil layer) contain an average of < 1 template molecule and < 1 bead.	EMBODIMENT
+Different templates (control and test) may be pictured in one or less droplets to represent two template molecules whose sequences differ by one or many nucleotides.	EMBODIMENT
+In Step 3, the microemulsions are temperature cycled as in a conventional PCR.	EMBODIMENT
+If a DNA template and a bead are present together in a single aqueous compartment, the bead bound oligonucleotides act as primers for amplification.	EMBODIMENT
+Then, one may picture straight lines corresponding to PCR products attached to the corresponding templates connected to the beads to represent extension products from the two different kinds of templates.	EMBODIMENT
+In Step 4, the emulsions are broken and the beads are purified with a magnet.	EMBODIMENT
+In Step 5, after denaturation, the beads are incubated with oligonucleotides that can distinguish between the sequences of the different kinds of templates.	EMBODIMENT
+Fluorescently labeled antibodies are then used to label the bound hybridization probes.	EMBODIMENT
+This renders the beads containing PCR product as different colors (e.g., red or green) upon appropriate laser excitation.	EMBODIMENT
+In Step 6, flow cytometry is used to count the red and green beads.	EMBODIMENT
+Preferably each bead is bound to at least 10, 50, 100, 500, or 1000 molecules of the same nucleic acid sequence.	EMBODIMENT
+For purposes of detailed description, the following example is taken from the above-quoted PCT publication:	JURIDICAL TEMPLATE
+Detailed exemplary protocol using bead emulsions	EMBODIMENT
+Step 1-Coupling oligonucleotides to beads.	REFERENCE
+Superparamagnetic beads of 1. 05 ± 0. 1 um in diameter, covalently bound to streptavidin, are purchased from Dynal Biotech, Inc. (650. 01, Lake Success, NY).	REFERENCE
+Beads are washed once with 1x PCR buffer (53286, Invitrogen, Carlsbad, CA) then suspended in Bind and Wash Buffer (BWB) (5 mMTris-HCI, 0. 5 mM EDTA, 1. 0 MNaCl, pH 7. 5).	REFERENCE
+Beads are incubated in BWB for 30 min at room temperature in the presence of 10 µM oligonucleotides.	REFERENCE
+These oligonucleotides are modified with a dual biotin group at the 5'end with the biotin groups separated by a six-carbon linker (IDT, Coralville, IA).	REFERENCE
+After binding, the beads are washed 3 times with lx PCR buffer to thoroughly remove unbound oligonucleotides.	REFERENCE
+Step 2-Preparing microemulsions.	REFERENCE
+Microemulsions for PCR are prepared in an oil phase that is composed of 4. 5% Span 80 (S6760, Sigma, St. Louis, MO), 0. 40 % Tween 80 (Sigma S-8074), and 0. 05% Triton X-100 (Sigma T-9284) in mineral oil (Sigma M-3516).	REFERENCE
+The aqueous phase consists of 67 mMTris-HCI (pH 8. 8), 16. 6 mMNH4S04, 6. 7 mMMgC12, 10 mM(3-mercaptoethanol,1 mMdATP,1 mMdCTP,1 mMdGTP,1 mMdTTP, 0.	REFERENCE
+05 µM forward primer, 25 µM reverse primer, 45 units Platinum Taq(Invitrogen 10966-034), various amounts of template DNA, and ∼108 oligonucleotide-coupled beads in a total volume of 300 µl.	REFERENCE
+The forward primer is an oligonucleotide whose sequence is identical to the 3'20-22 nt of that described in step 1 and is not modified with biotin.	REFERENCE
+Water-in-oil microemulsions are prepared by drop wise addition of 200 microliters of the aqueous phase to 400 microliters of the oil phase previously placed in a 2 ml round bottom cryogenic vial (430661, Coming, Coming, NY).	REFERENCE
+The drop wise addition is performed over-one minute while the mixture is being stirred at 1400 RPM with a magnetic microstir bar (58948-353, VWR, Plainfield, NJ) on a VWR model 565 Magnetic Stirrer.	REFERENCE
+After the addition of the aqueous phase, the mixture continued to be stirred for a total time of 30 minutes.	REFERENCE
+Two emulsions are made at once by placing two tubes in a rack placed at the center of the magnetic stirrer.	REFERENCE
+Step 3-PCR cycling.	REFERENCE
+The emulsions are aliquotted into five wells of a 96 well PCR plate, each containing 100 µl.	REFERENCE
+PCR is carried out under the following cycling conditions: 94°C for 2 minutes; 40 cycles of 94°C for 15 seconds, 57°C for 30 seconds, 70°C for 30 seconds.	REFERENCE
+The PCR products analyzed in this study ranged from 189 to 239 bp.	REFERENCE
+Step 4-Magnetic capture of beads.	REFERENCE
+After PCR cycling, the microemulsion from five wells of a PCR plate are pooled and broken by the addition800 microliters of NX buffer (100 mMNaCl containing 1% Triton X-100, 10 mMTris-HCl, pH 7. 5, 1 mM EDTA) in a 1. 5 ml tube (Corning 430909).	REFERENCE
+After vortexing for-20 sec.	REFERENCE
+the beads are pelleted by centrifugation in a microcentrifuge at 8000 rpm (5000 g) for 90 seconds.	REFERENCE
+The top oil phase, and all but-300 microliters of the aqueous phase, is removed from the tube and 600 microliters of NX buffer is added.	REFERENCE
+These steps are repeated.	REFERENCE
+The tube is then placed on a magnet (Dynal MPC-S) and the rest of the supernatant is carefully pipetted off.	REFERENCE
+The beads are washed an additional 3 times with 1x PCR buffer using magnetic separation rather than centrifugation and finally re-suspended in 100 microliters of Ix PCR buffer.	REFERENCE
+Step 5-Sequence differentiation.	REFERENCE
+Two oligonucleotide probes are used for each reaction.	REFERENCE
+One is 5'-labeled with 6-carboxyfluorescein (6-FAM) and is specific for one allele while the second is 5'-labeled with biotin and is specific for the other allele.	REFERENCE
+Probes are synthesized by IDT.	REFERENCE
+The 30 microliters hybridization reactions contained 10 µM of each probe and 5-25 million beads inl x PCR buffer.	REFERENCE
+Reactions are performed in PCR plates on a thermal cycler by heating to94°C for 30 seconds then cooling to75°C at a rate of 0. 5°C per second, cooling to 45°C at 0. 2°C per second, and finally cooled to 30°C at 1°C per second.	REFERENCE
+All subsequent steps are performed at room temperature.	REFERENCE
+The reactions are transferred to a 96 well Costar plate (Corning 3797) and placed on a 96 well magnet.	REFERENCE
+Beads are collected magnetically by exposing them to the magnet for 2 minutes.	REFERENCE
+The supernatant is removed and the beads washed 3 times with 1x PCR buffer by pipetting them and collecting for two minutes.	REFERENCE
+They are finally resuspended in 100 microliters B-PCR buffer (Img/mL BSA in 1x PCR buffer).	REFERENCE
+The beads are then incubated for 10 minutes in a total volume of 100 microliters B-PCR buffer containing 3 µg ofAlexa-488 rabbit anti-fluorescein antibody (Molecular ProbesA-11090, Eugene, OR) and 3 µg of Nutravidin labeled with R-phycoerytbrin (Molecular Probes A-2660) in B-PCR buffer.	REFERENCE
+The beads are washed three times and resuspended in B-PCR buffer as described above.	REFERENCE
+They are then incubated for ten minutes in a total volume of 100 microliters B-PCR buffer containing 6 µg of Alexa 488-conjugated chicken anti-rabbit antibody (Molecular Probes A-21441) and 3 µg of biotinylated goat anti-avidin antibody (BA-0300, Vector Laboratories, Burlingame, CA).	REFERENCE
+The beads are washed three times and resuspended in B-PCR buffer as described above.	REFERENCE
+They are then incubated for ten minutes in a total volume of 100 microliters B-PCR buffer containing 3 µg of an Alexa 488-conjugated goat anti-chicken antibody (Molecular Probes A-11039) and 3 micrograms of R-phycoerytbrin-labeled streptavidin (Molecular Probes S-866).	REFERENCE
+This solution is then washed an additional 3 times with 1x PCR buffer and resuspended in 20 microliters of 1 X PCR buffer.	REFERENCE
+Step 6-Flow Cytometry.	REFERENCE
+The bead suspension is diluted to a concentration of- 106-107 beads per ml in 10 mMTris-HCI, 1 mMEDTA (351-010-131, Quality Biological, Inc., Gaithersburg, MD) and analyzed using a LSR instrument (BD Biosciences, Franklin Lakes, NJ).	REFERENCE
+The instrument is set up for standard two- color analysis using an argon laser and optical filters that distinguished between the two fluorescent dyes.	REFERENCE
+No spectral deconvolution is required as the major bead populations are well separated.	REFERENCE
+In some cases, scanning is performed with FACScan or FACSCalibur instruments (BD Biosciences).	REFERENCE
+3. Microfluidic Dilution with PCR	SECTION SUBTITLE
+Another approach to digital PCR involves the use of microfluidics to achieve the digital PCR conditions used in the present method.	EMBODIMENT
+Generally, a DNA sample obtained as described above is diluted into an appropriate concentration, mixed with PCR reagents, primers, dNTPs, etc. and flowed through a number of channels which may be closed off in multiple segments, resulting in a number of discrete reaction samples, or chambers.	EMBODIMENT
+The chambers may be subjected to PCR thermal cycling and the products quantitatively detected by florescence, as described above.	EMBODIMENT
+A suitable microfluidic device is produced by Fluidigm Corporation, termed the Digital Isolation and Detection IFC (integrated fluid circuit).	REFERENCE
+A suitable device is also described in United States Patent 6,960,437 to Enzelberger, et al., issued November 1, 2005 entitled "Nucleic acid amplification utilizing microfluidic devices," hereby incorporated by reference for purposes of describing a microfluidic device capable of supporting multiple parallel nucleic acid amplifications and detections.	REFERENCE
+As described in this patent, one exemplary microfluidic device for conducting thermal cycling reactions includes in the layer with the flow channels a plurality of sample inputs, a mixing T-junction, a central circulation loop (i.e., the substantially circular flow channel), and an output channel.	EMBODIMENT
+The intersection of a control channel with a flow channel can form a microvalve.	EMBODIMENT
+This is so because the control and flow channels are separated by a thin elastomeric membrane that can be deflected into the flow channel or retracted therefrom.	EMBODIMENT
+Deflection or retraction of the elastomeric membrane is achieved by generating a force that causes the deflection or retraction to occur.	EMBODIMENT
+In certain systems, this is accomplished by increasing or decreasing pressure in the control channel as compared to the flow channel with which the control channel intersects.	EMBODIMENT
+However, a wide variety of other approaches can be utilized to actuate the valves including various electrostatic, magnetic, electrolytic and electrokinetic approaches.	EMBODIMENT
+Another microfluidic device, adapted to perform PCR reactions, and useful in the present methods, is described in US 2005/0252773 by McBride, et al., published November 17, 2005, entitled "Thermal reaction device and method for using the same."	REFERENCE
+The substantially circular central loop and the control channels that intersect with it form the central part of the rotary pump.	EMBODIMENT
+The pump(s) that cause solution to be flowed through the substantially circular flow channel consist of a set of at least three control channels that are adjacent to one another and which intersect the substantially circular branch flow channel (i.e., the central loop).	EMBODIMENT
+When a series of on/off actuation sequences are applied to the control channels, the fluid in the central loop can be peristaltically pumped in a chosen direction, either clockwise or counterclockwise.	EMBODIMENT
+The peristaltic pumping action results from the sequential deflection of the membranes separating the control channels and flow channel into or out of the flow channel.	EMBODIMENT
+In general, the higher the actuation frequency, the faster the fluid rotates through the central loop.	EMBODIMENT
+However, a point of saturation is eventually reached at which increased frequency does not result in faster fluid flow.	EMBODIMENT
+This is primarily due to limitations in the rate at which the membrane can return to an unactuated position.	EMBODIMENT
+One system exemplified has two sets of pumps and (i.e., two sets of three control channels that overlay the substantially circular flow channel) a single pump can be utilized (i.e., a single set of three control channels overlaying the substantially circular flow channel).	EMBODIMENT
+Furthermore, while each pump is shown as including three control channels, more control channels can be utilized.	EMBODIMENT
+It should also be understood that the three control channels can be different segments of a single control channel that overlay the flow channel.	EMBODIMENT
+The detailed description of multiple sample analysis being carried out in wells does not mean that the target sequences need to be physically separated into wells, as the sequences may be in samples which are isolated simply by being on different beads (as described above) or by adherence to different areas of a substrate (as described below).	EMBODIMENT
+4. Single Molecule Detection/Sequencing Methods	SECTION SUBTITLE
+It should be appreciated that methods involving PCR or other amplification are not the only way to detect or enumerate the molecules in a given discrete reaction sample.	EMBODIMENT
+It is possible to use single molecule flow cytometry to count single molecules that have been labeled with a sequence-specific fluorescent probe.	EMBODIMENT
+It is also possible to sequence the target sequence in the reaction sample directly, either after amplification or at the single molecule level.	EMBODIMENT
+Fluorescent nucleotide incorporation by DNA polymerase	EMBODIMENT
+As described in the above-referenced PNAS publication by Braslavsky et al., DNA polymerase may be employed to image sequence information in a single DNA template as its complementary strand is synthesized.	REFERENCE
+The nucleotides are inserted sequentially;	EMBODIMENT
+only the time resolution to discriminate successive incorporations is required.	EMBODIMENT
+After each successful incorporation event, a fluorescent signal is measured and then nulled by photobleaching.	EMBODIMENT
+This method lends itself to massive parallelism.	EMBODIMENT
+Briefly, this technique permits observations of single molecule fluorescence by a conventional microscope equipped with total internal reflection illumination, which reduces background fluorescence.	INVENTION_ADVANTAGE
+The surface of a quartz slide is chemically treated to specifically anchor DNA templates while preventing nonspecific binding of free nucleotides, and a plastic flow cell is attached to the surface to exchange solutions.	EMBODIMENT
+DNA template oligonucleotides are hybridized to a fluorescently labeled primer and bound to the surface via streptavidin and biotin with a surface density low enough to resolve single molecules.	EMBODIMENT
+The primed templates are detected through their fluorescent tags, their locations are recorded for future reference, and the tags are photobleached.	EMBODIMENT
+Labeled nucleotide triphosphates and DNA polymerase enzyme are then washed in and out of the flow cell while the known locations of the DNA templates are monitored for the appearance of fluorescence.	EMBODIMENT
+The technique uses a combination of evanescent wave microscopy and single-pair fluorescence resonance energy transfer (spFRET) to reject unwanted noise.	INVENTION_ADVANTAGE
+The donor fluorophore excites acceptors only within the Forster radius, thus effectively creating an extremely high-resolution near-field source.	INVENTION_ADVANTAGE
+Because the Forster radius of this fluorophore pair is 5 nm, the spatial resolution of this method exceeds the diffraction limit by a factor of 50 and conventional near-field microscopy by an order of magnitude.	EMBODIMENT
+The genomic DNA from the tissue taken from the mother, i.e. the mixture of fetal and maternal genetic material, may be distributed into discrete samples which are anchored to a surface and sequenced or monitored by labeled probes to detect a target specific sequence, e.g., a unique region of chromosome 21, e.g., AML1.	EMBODIMENT
+Further guidance for the preparation of chromosome 21-unique sequences may be found, for example, in Fuscoe et al., "An Efficient Method for Selecting Unique-Sequence Clones from DNA Libraries and Its Application To Fluorescent Staining of Human Chromosome 21 Using in Situ Hybridization," Genomics, vol. 5, 1989, pp. 100-109.	REFERENCE
+A methodology useful in the present invention platform is based on massively parallel sequencing of millions of fragments using attachment of randomly fragmented genomic DNA to a planar, optically transparent surface and solid phase amplification to create a high density sequencing flow cell with millions of clusters, each containing ∼1,000 copies of template per sq. cm.	EMBODIMENT
+These templates are sequenced using four-color DNA sequencing-by-synthesis technology.	EMBODIMENT
+See, products offered by Illumina, Inc., San Diego California.	REFERENCE
+Also, see US 2003/0022207 to Balasubramanian, et al., published January 30, 2003, entitled "Arrayed polynucleotides and their use in genome analysis."	REFERENCE
+Sequencing may be combined with amplification-based methods in a microfluidic chip having reaction chambers for both PCR and microscopic template-based sequencing.	EMBODIMENT
+Only about 30 bp of random sequence information are needed to identify a sequence as belonging to a specific human chromosome.	EMBODIMENT
+Longer sequences can uniquely identify more particular targets.	EMBODIMENT
+An algorithm for designing unique sequences is described in Yamada, et al. "PrimerStation: a highly specific multiplex genomic PCR primer design server for the human genome," Nucleic Acids Res., July 1, 2006; 34(Web Server issue): W665 - W669, illustrative of software methods that can be used to identify a sequence in comparison to the known genome sequence.	REFERENCE
+See, also Zhu et al., "Single molecule profiling of alternative pre-mRNA splicing," Science. 2003 Aug 8; 301(5634):836-838, describing a single-molecule-based technology for studying mRNA.	REFERENCE
+Direct Linear Analysis (DLA)	REFERENCE
+Another method of determining the identity of genomic DNA from the present samples is termed direct linear analysis, and is described in Chan et al. "DNA Mapping Using Microfluidic Stretching and Single-Molecule Detection of Fluorescent Site-Specific Tags," Genome Research 14:1137-1146 (2004).	REFERENCE
+In this method, a microfluidic device is used for stretching DNA molecules in elongational flow that is coupled to a multicolor detection system capable of single-fluorophore sensitivity.	REFERENCE
+Double-stranded DNA molecules are tagged at sequence-specific motif sites with fluorescent bisPNA (Peptide Nucleic Acid) tags.	REFERENCE
+The DNA molecules are then stretched in the microfluidic device and driven in a flow stream past confocal fluorescence detectors.	REFERENCE
+DLA can provide the spatial locations of multiple specific sequence motifs along individual DNA molecules, and thousands of individual molecules can be analyzed per minute.	REFERENCE
+A microchip configuration and operating conditions may be prepared according to this publication that are adequate for stretching 50-kb long DNA.	REFERENCE
+The chip includes a post field, a funnel with a 10:1 taper reduction ratio, a taper shape providing W(x)1/x2 profile (W is the channel width, and x is the coordinate along the flow direction), and a 5 µm-wide interrogation channel.	EMBODIMENT
+The interrogation channel has uniform cross-section to ensure constant solution velocity, which was 10-15 µm/msec.	EMBODIMENT
+Once inside the channel, stretched and tagged DNA molecules travel through spots of focused laser light that excites fluorescence.	EMBODIMENT
+Epi-illumination of the sample and confocal detection are arranged within a fluorescence microscope.	EMBODIMENT
+The excitation laser beams are directed into the microscope objective with a dichroic mirror that reflects the light with 532 nm (beam ExI) and 633 nm (beams ExII and ExIII) wavelengths, but is transparent to the fluorescence emission excited by these beams.	EMBODIMENT
+The emission is further split by another dichroic mirror and bandpass filters.	EMBODIMENT
+Fluorescence excited by the green laser is delivered by optical fiber to the photon-counting avalanche photodiode (APD) for signal detection in data channel 1.	EMBODIMENT
+Fluorescence excited by red beams ExII and ExIII is directed to the APDs of data channels 2 and 3, respectively.	EMBODIMENT
+The above-described device may be configured with larger path lengths in order to accommodate larger DNA strands, presumably up to entire chromosome lengths.	EMBODIMENT
+The genomic sample is probed with a chromosome 21 specific probe threaded through the interrogation channel, and the presence of one or more chromosomes is detected.	EMBODIMENT
+D. Quantitative Evaluation	SECTION SUBTITLE
+Digital PCR allows the detection of aneuploidy merely by counting transcripts, as illustrated by the following calculation.	EMBODIMENT
+Suppose that fetal DNA is present in maternal blood at a fraction level of ε, and that we are trying to discover an aneuploidy of order α relative to euploidy e (in the example relating to detection of Down Syndrome in humans, e=2 is euploidy and the Down Syndrome trisomy α=3).	EMBODIMENT
+If chromosome A is euploid and represents an internal control, and chromosome B is aneuploid and is the target to be measured, then one can amplify representative segments from both chromosomes via digital PCR.	EMBODIMENT
+In comparing the amplicons of each type, one expects to find that for every e amplicons from chromosome A there are e(1-ε)+αε amplicons from chromosome B.	EMBODIMENT
+In the case of a trisomy and ε =3%, then for every 2 amplicons from chromosome A one expects 2. 03 amplicons from chromosome B.	EMBODIMENT
+While this difference is small, it can be measured.	EMBODIMENT
+For example, if one amplifies a sample from 1,000 cell equivalents, then one expects 2,000 amplicons from chromosome A and 2,030 from chromosome B.	EMBODIMENT
+The difference of 30 amplicons is in principle detectable.	EMBODIMENT
+The requisite statistical confidence to resolve the difference in proportions can be estimated as follows.	EMBODIMENT
+There is a random statistical variation associated with the initial sample size, which goes roughly as the square root of the number of samples taken.	EMBODIMENT
+It is in fact often difficult to precisely start with a fixed number of cell equivalents, and in the previous example we expect statistical error of order 32 amplicons (32∼square root(1,000)) for most sample preparation techniques.	EMBODIMENT
+This is the same size as the signal we are trying to detect and thus in practice one requires more than 1,000 cell equivalents for robust detection.	EMBODIMENT
+Precisely how many one requires depends on the statistical certainty that is required.	EMBODIMENT
+If one would like a result that is significant to k standard deviations, then k√N=Ne1−ε+αε−e=Nεα−e or N=k/εα−e2	EMBODIMENT
+Using the values of the previous example, if we require k = 3 standard deviations, then the number of amplicons N must be at least 10,000 for Down Syndrome detection.	EMBODIMENT
+However, as discussed above, the number of target sequences needed for statistical sequences may be reduced by using controls sequences, and, in addition, the sample may be enriched for fetal DNA.	EMBODIMENT
+III. Specific Applications	SECTION SUBTITLE
+The present invention is particularly adapted to detecting genetic abnormalities that involve quantitative differences between maternal and fetal genetic sequences.	EMBODIMENT
+These genetic abnormalities include mutations that may be heterozygous and homozygous between maternal and fetal DNA, and to aneuploidies.	REFERENCE
+For example, a missing copy of chromosome X (monosomy X) results in Turner's Syndrome, while an additional copy of chromosome 21 results in Down Syndrome.	REFERENCE
+Other diseases such as Edward's Syndrome and Patau Syndrome are caused by an additional copy of chromosome 18, and chromosome 13, respectively.	REFERENCE
+The present method may be used for detection of a translocation, addition, amplification, transversion, inversion, aneuploidy, polyploidy, monosomy, trisomy, trisomy 21, trisomy 13, trisomy 14, trisomy 15, trisomy 16, trisomy 18, trisomy 22, triploidy, tetraploidy, and sex chromosome abnormalities including but not limited to XO, XXY, XYY, and XXX.	TECHNICAL TEMPLATE
+Other chromosome specific primers are disclosed in United States Patent Application 20050164241 to Hahn, Sinuhe, et al., published July 28, 2005, entitled "Non-invasive detection of fetal genetic traits," hereby incorporated by reference in its entirety for describing methods of sample preparation and certain PCR primers, described as follows:The primers for the genes are prepared on the basis of nucleotide sequences obtained from databases such as GenBank, EMBL and the like.	REFERENCE
+The names of the polymorphic primers and the sequences of the primers for the genes will be shown for the respective chromosomes in the following examples (#2, Example 1; #4, Example 6, #14, Example 9; #22, Example 2).	EMBODIMENT
+The following genetic markers and polymorphic makers (Polymorphic STS Primer Pairs: D2S207, D2S177, D2S156 and D2S159, BIOS Laboratories, Inc.) are used to identify chromosome #2.	EMBODIMENT
+There are more than 1,000 chromosome 21 specific PCR primer sets listed at the NIH UniSTS web site, which can be located at http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=unists and found with the search phrase "human[organism] AND 21 [chr]".	REFERENCE
+UniSTS is a comprehensive database of sequence tagged sites (STSs) derived from STS-based maps and other experiments.	REFERENCE
+STSs are defined by PCR primer pairs and are associated with additional information such as genomic position, genes, and sequences.	REFERENCE
+Similarly, primer sequences for other human chromosomes can be found by appropriately modifying the search query.	REFERENCE
+Examples of diseases where the target sequence may exist in one copy in the maternal DNA (heterozygous) but cause disease in a fetus (homozygous), include sickle cell anemia, cystic fibrosis, hemophilia, and Tay Sachs disease.	REFERENCE
+Accordingly, using the methods described here, one may distinguish genomes with one mutation from genomes with two mutations.	REFERENCE_ADVANTAGE
+Sickle-cell anemia is an autosomal recessive disease.	DEFINITION
+Nine-percent of US blacks are heterozygous, while 0. 2% are homozygous recessive.	REFERENCE
+The recessive allele causes a single amino acid substitution in the beta chains of hemoglobin.	REFERENCE
+Tay-Sachs Disease is an autosomal recessive resulting in degeneration of the nervous system.	DEFINITION
+Symptoms manifest after birth.	DEFINITION
+Children homozygous recessive for this allele rarely survive past five years of age.	REFERENCE
+Sufferers lack the ability to make the enzyme N-acetyl-hexosaminidase, which breaks down the GM2 ganglioside lipid.	REFERENCE
+Another example is phenylketonuria (PKU), a recessively inherited disorder whose sufferers lack the ability to synthesize an enzyme to convert the amino acid phenylalanine into tyrosine Individuals homozygous recessive for this allele have a buildup of phenylalanine and abnormal breakdown products in the urine and blood.	DEFINITION
+Hemophilia is a group of diseases in which blood does not clot normally.	DEFINITION
+Factors in blood are involved in clotting.	DEFINITION
+Hemophiliacs lacking the normal Factor VIII are said to have Hemophilia A, and those who lack Factor IX have hemophilia B.	REFERENCE
+These genes are carried on the X chromosome, so primers and probes may be used in the present method to detect whether or not a fetus inherited the mother's defective X chromosome, or the father's normal allele.	REFERENCE
+A listing of gene mutations for which the present method may be adapted is found at http://www:gdb.org/gdb, The GDB Human Genome Database, The Official World-Wide Database for the Annotation of the Human Genome Hosted by RTI International, North Carolina USA.	REFERENCE
+A. Preparation for trisomy with frequency analysis	SECTION SUBTITLE
+In this protocol, the number of positive reaction samples is used, disregarding increased intensity from three versus two chromosomes in a reaction sample.	EMBODIMENT
+That is, as described above, trisomy can be detected either by looking for an increased signal from a single well having multiple chromosomal DNA copies, or by diluting a sample and counting the frequency of responses of the trisomic marker versus a control diploid marker.	EMBODIMENT
+Fetal DNA circulating in maternal plasma is here used to provide sufficient material for chromosomal analysis.	EMBODIMENT
+DNA is extracted from a blood sample and aliquotted to different reaction chambers on the basis of genome equivalents, i.e., the entire genomic content of a single normal cell (46 chromosomes).	EMBODIMENT
+This weighs about 6. 6 pg.	EMBODIMENT
+The term "nominal genome equivalent" is used to refer to the calculated distribution of sample DNA based on a calculated genome size and DNA weight.	DEFINITION
+In practice, there will be some experimental variation in DNA sample size, and, due to random fragment distribution, a given genome equivalent will not contain exactly the DNA fragments corresponding only to a single complete diploid genome, but a large number, on average, will.	EMBODIMENT
+For each panel on the Digital Array chip, 10ul of reaction mix is required.	EMBODIMENT
+To achieve -1/3 panel filled, the required final concentration of template in reaction mix should be approximately 48 copies/µl (every 0. 33 template per 7nl chamber).	EMBODIMENT
+Thus for a 10 µl reaction volume (1 panel), 480 copies (∼240 genome equivalents, "GE") of total free-floating DNA is required.	EMBODIMENT
+These calculations are based on Chiu et al., "Effects of Blood-Processing Protocols on Fetal and Total DNA Quantification in Maternal Plasma," Clinical Chemistry, 47:9. 1607-1613. 2001, where real time quantitative PCR was used to estimate plasma DNA isolated under different protocols, and Li Y, Zimmermann et al., "Size Separation of Circulatory DNA in Maternal Plasma Permits Ready Detection of Fetal DNA Polymorphisms," Clinical Chemistry, 50:6. 1002-1011. 2004.	REFERENCE
+Assuming 55% blood volume is plasma, one may obtain 80% recovery from gel extraction with a DNA preparation such as with a QIAEX II kit.	EMBODIMENT
+If there is 20 ml of blood collected, the volume of plasma = 20 ml blood * 0. 55 = 11 ml.	EMBODIMENT
+The total free-floating DNA = 11 ml * 1000 GE/ml = 11000 GE.	EMBODIMENT
+Therefore, one may calculate the amount of DNA < 300 bp, in that 11000 GE * 0. 27 = 2970 GE.	EMBODIMENT
+The amount of DNA <300 bp after recovery = 2970 GE * 0. 8 = 2376 GE = 4752 copies.	EMBODIMENT
+Thus, a 20 ml blood draw should contain enough total DNA less than 300 bp (which is about 85% fetal DNA) for about 10 panels, enough, as shown below, to achieve statistical significance.	EMBODIMENT
+B. Sample Protocol	SECTION SUBTITLE
+The following sample protocol provides a procedure for use in preparing a sample from maternal plasma and increasing the signal from chromosome 21.	EMBODIMENT
+Plasma Collection: collect 20 ml peripheral blood from the pregnant subject.	EMBODIMENT
+This is collected in 2 tubes with EDTA as anticoagulant.	EMBODIMENT
+Process blood within 2 hours of sample collection.	EMBODIMENT
+The blood is processed first by centrifugation at 1600g for 10 min.	EMBODIMENT
+One aliquots plasma to polypropylene tubes (1ml each), with care not to disturb buffy coat layer.	EMBODIMENT
+Next, the supernatant is microcentrifuged at 16000g (full speed) for 10 min to remove residual maternal cells.	EMBODIMENT
+Then, one extracts DNA from plasma with QIAamp Blood Mini Kit ("body fluid protocol").	EMBODIMENT
+800 µl of plasma is applied per column and eluted in 40 µl buffer.	EMBODIMENT
+Depending on actual DNA concentration in plasma, one may need to process all plasma in a single column (with Midi or Maxi kit) to achieve a higher final concentration of DNA.	EMBODIMENT
+Then, the DNA is subjected to gel electrophoresis (Li et al Clin. Chem. 50:6 1002-1011 2004) to separate smaller sized DNA fragments.	REFERENCE
+A UV gel tray is prepared with 1% agarose gel with 0. 5 mg/L ethidium bromide.	EMBODIMENT
+100 bp ladder and HindIII digested Lambda phage DNA is used as markers.	EMBODIMENT
+The extracted DNA is loaded on a gel;	EMBODIMENT
+the gel is run at 80V for 1 hour.	EMBODIMENT
+The DNA is extracted from the gel by first excising DNA <300 bp with clean razor blade.	EMBODIMENT
+This band is recovered with QIAEX II Gel Extraction Kit (Qiagen) and eluted 40ul in elution buffer.	EMBODIMENT
+Total DNA quantitation with real time PCR:	EMBODIMENT
+The amount of total free-floating DNA can be quantified using primers and Taqman probe designed for GAPDH gene (Chromosome 12).	EMBODIMENT
+Real time PCR is run with GAPDH and Amyloid (Chromosome 21) primers and probes before running with Digital Array to confirm that the amplification regions are intact.	EMBODIMENT
+To increase the signal from Chromosome 21, an additional set of primers and probes can be used.	EMBODIMENT
+One possible candidate is the following (See Blood 104(1):149-158 (2004):	EMBODIMENT
+DSCR1 (Downs Syndrome Critical Region 1) Chr 21SEQ ID NO: 6: 5' (probe) -AGG TTG TGA AAA CAG CAG CAA TGC AAT GT- (quencher) P3'Forward: (SEQ ID NO: 7) 5'CCA CAG GAA GCC GCC TAG T 3'Reverse: (SEQ ID NO: 8): 5' TGA GGG AAG AAA GGA AAC GCT 3'Amplification region (with primers underlined) SEQ ID NO: 9):CCACAGGAAGCCGCCTAGTGCAGAGAGGTTGTGAAAACAGCAGCAATGCAATGTGG AAATTGTAGCGTTTCCTTTCTTCCCTCA.	EMBODIMENT
+An additional set of primers and probes can be designed to increase signal from the control (these primers can be for chromosome 12 or any other chromosomes except Chromosome 21).	EMBODIMENT
+If an automated microfluidic device is used, appropriate channels and valves are provided for introduction of PCR reactants and, if used, a probe.	EMBODIMENT
+In the Examples below, a Fluidigm prototype DID chip was used.	EMBODIMENT
+The Digital Isolation and Detection (DID) chip works by partitioning a sample/assay (TaqMan® assays) mixture into hundreds to tens of thousands of reaction chambers, where real-time QPCR reactions are continuously monitored by a dynamic array reader.	EMBODIMENT
+The DID chip described here contains inputs for 12 sample/assay mixtures, and its architecture partitions 7. 5 µL of fluid for each input into 1,200 reaction chambers.	EMBODIMENT
+These are shown as 12 panels in Figures 2 and 3.	FIGURE DESCRIPTION
+Instrumentation is used to drive the sample/assay mixtures from the wells in the carrier into the appropriate reaction chambers.	EMBODIMENT
+As shown in Figures 2 and 3, white spots indicate the location of reaction chambers positive for the indicated primer and dye.	FIGURE DESCRIPTION
+The sum of the positive wells in each section will be consistent with the gene/chromosome copies that were measured in the sample.	FIGURE DESCRIPTION
+The number of light spots shown represents the number of positive reaction chambers; no quantification was used in these experiments, and the results do not depend on quantization of a signal from an individual (discrete) sample mixture.	FIGURE DESCRIPTION
+Such quantization can be used, but can also be a source of error in methods that depend on this.	EMBODIMENT
+This chip is further described in Ottesen et al., "Microfluidic Digital PCR Enables Multigene Analysis of Individual Environmental Bacteria," Science 314:1464-1467 (December 1 2006).	REFERENCE
+As discussed there, the DNA sample is suspended in a PCR reaction buffer and loaded into the microfluidic device.	REFERENCE
+The present work was done a more recent version of that microfluidic device.	EMBODIMENT
+This device is further described below.	JURIDICAL TEMPLATE
+As an alternative to the above protocol, one may use a kit with pre-optimized reagents, such as the Qiagen QuantiTect Multiplex PCR Kit, which contains QuantiTect Multiplex PCR Buffer, having synthetic factor MP and an optimized combination of KC1 and (NH4)2SO4, which promote specific and stable annealing of primers to templates.	INVENTION_ADVANTAGE
+This kit also contains HotStarTaq DNA Polymerase: Since this polymerase requires incubation at 95°C for activation, misprimed products and primer-dimers, which can compete for reactants, are not formed during reaction setup.	EMBODIMENT
+One also uses the following anti-contamination procedures:	EMBODIMENT
+1. Use aerosol resistant pipette tips2.	EMBODIMENT
+Preamplification treatment by use of uracil N-glycosylase, which destroyed uracil-containing PCR products/RNA3.	EMBODIMENT
+Negative water blank4.	EMBODIMENT
+Negative blank gel slices5.	EMBODIMENT
+Negative control panel on Digital Array	EMBODIMENT
+Alter extraction from blood and purification, the preferred concentration of DNA sample should be ∼140-240 copies/µl, i.e., ∼70-120 GE/µl.	EMBODIMENT
+This corresponds to ∼3. 4 to 2 µl of required template volume in a digital PCR reaction volume of 10 µl.	EMBODIMENT
+In this protocol and the following examples, the mixture of maternal and fetal genetic material obtained from the mother is diluted to achieve a high likelihood that only one target sequence will be present in a given sample to be analyzed.	EMBODIMENT
+As shown in Fig. 1A, it is also possible to carry out this process with less dilution and less empty sample sites if quantitation is used to distinguish a number of target sequences in a sample.	FIGURE DESCRIPTION
+IV. Examples	SECTION SUBTITLE
+Presented below are data obtained from genomic DNA extracted from a normal human cell line and from a Down Syndrome cell line (trisomy 21).	EMBODIMENT
+These cell lines were purchased from ATCC.	EMBODIMENT
+Taqman PCR primers specific for chromosome 21 and chromosome 12 were adapted from a reference: Zimmermann B et al, "Novel Real-Time Quantitative PCR Test for Trisomy 21". Clinical Chemistry. 48 (no. 2). 2002. 362-363.	REFERENCE
+HEX (hexachloro-6-carboxyfluorescein) and FAM (6-carboxy-fluorescein) are well known fluorescent dyes; BHQ® quencher is black hole quencher dye (BHQ, Biosearch Technologies, Novato, CA).	REFERENCE
+Amyloid Forward: 5' GGG AGC TGG TAC AGA AAT GAC TTC 3' (SEQ ID NO: 11)Amyloid Reverse: 5' TTG CTC ATT GCG CTG ACA A 3' (SEQ ID NO: 12)Amyloid Probe: 5' (FAM) AGC CAT CCT TCC CGG GCC TAG G (BHQ)3' (SEQ ID NO: 13)GAPDH Forward: 5' CCC CAC ACA CAT GCA CTT ACC 3'(SEQ ID NO: 14)GAPDH Reverse: 5' CCT AGT CCC AGG GCT TTG ATT 3' (SEQ ID NO: 15)GAPDH Probe: 5' (HEX)AAA GAG CTA GGA AGG ACA GGC AAC TTG GC (BHQ)3' (SEQ ID NO: 16)	EMBODIMENT
+primers and probes were synthesized by IDT (Integrated DNA Technologies)).	EMBODIMENT
+DNA samples were analyzed by digital PCR using microfluidic Digital PCR on a Fluidigm® microfluidic chip having 12 panels with 765 (wells) partitions each.	EMBODIMENT
+Various mixtures of normal and Downs DNA (representing a mixture of fetal and maternal cells in a blood sample) were analyzed.	EMBODIMENT
+Small amounts of each template were pipetted directly into each PCR mix;	EMBODIMENT
+alternatively, a mixture of templates could be prepared first, then pipetted into the PCR mix, which should yield more accurate results.	EMBODIMENT
+The alternate method was used in these experiments.	EMBODIMENT
+In these examples, trisomy is detected based on the number of wells showing the triplicate chromosomal marker, i.e., the analysis illustrated in Fig. 1C.	FIGURE DESCRIPTION
+Intensity data of the triplicate chromosome are not used, except as a ratio to a normal chromosome marker.	FIGURE DESCRIPTION
+Because the sample is dilute many of the wells will have no chromosome of interest (or marker fragment), as can be seen in Figs. 2 and 3, which show photographs of chips from Example 2.	FIGURE DESCRIPTION
+Protocol: combine Primers 300 nM; Probes 150 nM; iTaq supermix with ROX or iQ supermix.	EMBODIMENT
+Tween20 (0. 1%); DNA template (2 µl, premixed with the desired percentage of Downs DNA); Water (make up to total reaction volume of 10 µl).	EMBODIMENT
+Each panel was loaded with reaction mix of 10 µl, and PCR was performed on a thermal cycler similar to the commercially available BIOMARK System from Fluidigm according to manufacturer's instructions.	EMBODIMENT
+Cycling conditions were: 98°C 30s, 97°C 30s, 95°C 2min, [56°C 30s, 58°C 30s, 60°C 30s, 98°C 15s] x 40 cycles, 60°C for 10 min.	EMBODIMENT
+A MATLAB program was written to subtract the image of the chip taken before cycling from that taken at cycle 40 for each fluorescent channel.	EMBODIMENT
+The number of positive wells in each fluorescent channel was counted.	EMBODIMENT
+Experiments were done with samples that contained 100% Downs, 60% Downs, 50% Downs, 40% Downs, 30% Downs, and 0% Downs (i.e., 100% Normal) DNA.	EMBODIMENT
+The results from these experiments are shown in Fig. 4, where each bar and data point represents a different concentration of Down's DNA.	FIGURE DESCRIPTION
+The data from the Data were analyzed as follows:	EMBODIMENT
+X*=number of HEX counts (Chromosome 12)Y*=number of FAM counts (Chromosome 21)	EMBODIMENT
+There is a characteristic response for digital PCR.	EMBODIMENT
+At low copy number, as described further in Warren L, Bryder D, Weissman IR, Quake SR.	REFERENCE
+Transcription factor profiling in individual hematopoietic progenitors by digital RT-PCR. See, PNAS 2006. 103: 17807-17812.).	REFERENCE
+X=actual input copy number of Chromosome 12Y=actual input copy number of Chromosome 21 X=log1−X*/N/log1−1/N Y=log1−Y*/N/log1−1/NN=total number of partition per panel = 765 Confidence interval k=Y−X/sqrtY	EMBODIMENT
+In Fig. 4, the confidence level obtained for a single chip was plotted against percent downs DNA and compared to the predicted confidence interval (line).	FIGURE DESCRIPTION
+The observed confidence interval at, for example 30% DNA, was less than predicted, but none the less showed a confidence interval of>1 for only one panel.	FIGURE DESCRIPTION
+This calculation was done as follows:	EMBODIMENT
+For 1 genomic equivalence,Copy number of Chromosome12=21−ε+2ε=2 Copy number of Chromosome21=21−ε+3ε=2+εDifference between copy numbers of Chr21 and Chr12 = εWhere ε = fetal DNA/total free floating DNA * 100%For m genomic equivalenceY=copy number of Chromosome 21X=copy number of Chromosome 12Difference between copy numbers of Chr21 and Chr12 = D = Y-X = mεD=kσy = k*sqrt(Y), assuming that the distribution of Y follows that of Poisson (mean = standard deviation = Y) k=mε/sqrtY m=Y/2+ε k=sqrtY*ε/2+εIf 1/3 of the panel is used (i.e., 1 positive compartment in every 3 compartments)N=number of compartments Y*=N/3 Y=log1−Y*/3/log1−1/N=log2/3/log1/1/Nk varies with N as shown in the graph.	FIGURE DESCRIPTION
+The confidence interval k corresponds to the standard deviation, where a higher standard deviation indicates a greater difference between the normal and the Down's DNA.	EMBODIMENT
+Even at the lowest concentration used (30%) and with only 10 panels analyzed, statistical analysis showed the feasibility of the present method.	EMBODIMENT
+Figs. 2 and 3 show results from 100% Downs samples, for easy of visual analysis.	FIGURE DESCRIPTION
+In each panel, the number of white spots indicates the positive wells for the markers tested.	FIGURE DESCRIPTION
+Chromosome 21 can be seen to have more spots by simple visual observation, distinguishing the trisomic from the normal chromosome.	FIGURE DESCRIPTION
+In a 30% mixture (representing an enriched maternal blood sample), the results were analyzed statistically.	EMBODIMENT
+Table 1 below shows the results for each panel (numbered as in Figs. 2 and 3) in a single experiment using 30% Down's DNA.	EMBODIMENT
+Table 1PanelSampleFAMHEXRatio1Normal2212131.	EMBODIMENT
+042Normal2542640. 963Normal2712521. 084Normal2462570.	EMBODIMENT
+965Normal2412381. 01830% Downs2702221. 22930% Downs2191941. 131030% Downs2492341. 061130% Downs2302231. 031230% Downs2161891. 14	EMBODIMENT
+The "FAM" column shows the compartments (wells) positive for chromosome 21, and the "HEX" column shows the compartments positive for chromosome 12.	EMBODIMENT
+The significance of the higher ratios in the Downs cases is shown in Fig. 4, and was also analyzed in a Student's T-test, with a value of 0. 036599344.	FIGURE DESCRIPTION
+The above analysis shows that the statistical reliability of the present method can be dramatically improved simply by increasing the number of wells tested.	INVENTION_ADVANTAGE
+Since about 240 genome equivalents is required per panel, and about 4,700 genome equivalents are found in a 20 ml sample, it is possible, given the present description, to simply run additional analyses to increase statistical significance.	INVENTION_ADVANTAGE
+CONCLUSION	SECTION SUBTITLE
+The present examples, methods, procedures, specific compounds and molecules are meant to exemplify and illustrate the invention and should in no way be seen as limiting the scope of the invention, which is defined by the literal and equivalent scope of the appended claims.	JURIDICAL TEMPLATE
+Any patents or publications mentioned in this specification are indicative of levels of those skilled in the art to which the patent pertains and are intended to convey details of the invention which may not be explicitly set out but would be understood by workers in the field.	JURIDICAL TEMPLATE
+Such patents or publications are hereby incorporated by reference to the same extent as if each was specifically and individually incorporated by reference and for the purpose of describing and enabling the method or material referred to.	JURIDICAL TEMPLATE
+The exemplary protocols given are for the convenience of the reader and are not to be construed as necessary to one of ordinary skill in the art, given the teachings of the present specification regarding the various methods and materials to be used.	JURIDICAL TEMPLATE
+EMBODIMENTS OF THE INVENTION	SECTION TITLE
+1. A method of differential detection of target sequences in a mixture of maternal and fetal genetic material, comprising the steps of:a) obtaining maternal tissue containing both maternal and fetal genetic material;b) distributing the genetic material into discrete samples, each sample containing on average not more than about one target sequence per sample;c) measuring the presence of different target sequences in the discrete samples;	REPHRASED CLAIM
+andd) analyzing a number of the discrete samples sufficient to obtain results distinguishing different target sequences.	REPHRASED CLAIM
+2. The method of embodiment 1 wherein one of the different target sequences is diploid in maternal genetic material and aneuploid in fetal genetic material and another of the different target sequences is diploid in both maternal and fetal genetic material.	REPHRASED CLAIM
+3. The method of embodiment 1 wherein the maternal tissue is maternal peripheral blood or blood plasma.	REPHRASED CLAIM
+4. The method of embodiment 1 wherein the discrete samples are in reaction samples selected from the group consisting of: wells in a microtiter plate, aqueous phases in an emulsion, and reaction chambers in a microfluidic device.	REPHRASED CLAIM
+5. The method of embodiment 1 wherein the discrete samples are contacted with a plurality of PCR primers, including at least one primer directed specifically to a maternal sequence and at least one primer directed specifically to a fetal sequence, and further including the step of amplifying the maternal sequence and the fetal sequence.	REPHRASED CLAIM
+6. The method of embodiment 5 wherein said measuring the presence of a target sequence further includes hybridizing it with a nucleic acid having a fluorescent label.	REPHRASED CLAIM
+7. The method of embodiment 6 wherein said nucleic acid is in a sample for binding to a target sequence and generating a resulting change in fluorescence.	REPHRASED CLAIM
+8. The method of embodiment 1 wherein the number of samples is at least about 10,000.	REPHRASED CLAIM
+9. The method of embodiment 1 wherein said measuring the presence of different target sequences comprises the use of nucleic acids specific for human chromosome 21 and specific for another human chromosome.	REPHRASED CLAIM
+10. The method of embodiment 1 wherein said measuring the presence of different target sequences comprises hybridization with nucleic acids which hybridize to a sequence selected from the group consisting of one or more of the genes: CFTR, Factor VIII (F8 gene), beta globin, hemachromatosis, G6PD, neurofibromatosis, GAPDH, beta amyloid, and pyruvate kinase.	REPHRASED CLAIM
+11. The method of embodiment 1 wherein said measuring the presence of different target sequences detects a sequence deleted in a human chromosome deletion, is moved in a translocation or inversion, or is duplicated in a chromosome duplication, wherein said sequence is characterized in a known genetic disorder in the fetal genetic material not present in the maternal genetic material.	REPHRASED CLAIM
+12. The method of embodiment 1 wherein said measuring the presence of different target sequences detects a sequence of a mutated form of a human gene listed in the OMIM Morbid map, http://www.ncbi.nlm.nih.gov/Omim/getmorbid.cgi.	REPHRASED CLAIM
+13. The method of embodiment 1 further comprising the step of enriching the mixture for fetal genetic material by size separation, whereby a preparation comprising only DNA fragments less than about 300 bp are used for measuring in step (c).	REPHRASED CLAIM
+14.The method of embodiment 1 in which the measuring comprises direct sequencing of the genetic material.	REPHRASED CLAIM
+15. The method of embodiment 1 in which the measuring comprises sequencing of amplified derivatives of the target sequences clones or amplicons of the genetic material.	REPHRASED CLAIM
+16. The method of embodiment 16 where the amplified derivative is selected from the group consisting of an amplicon and a clone.	REPHRASED CLAIM
+17. The method of embodiment 1 in which the genetic material is cDNA derived from RNA in the tissue.	REPHRASED CLAIM
+18. A method of differential detection of target sequences in a mixture of maternal and fetal genetic material, comprising the steps of:a) obtaining from maternal plasma a mixture containing maternal and fetal genetic material;	REPHRASED CLAIM
+b) distributing the mixture into at least five hundred separate reaction samples, each reaction sample containing less than about one target sequence;	REPHRASED CLAIM
+c) hybridizing DNA in each separate reaction sample with nucleic acids hybridizing to one of two different target sequences, one of which is used as a control sequence to detect targets equally present on both maternal and fetal DNA and the other is used to detect a fetal genetic abnormality;	REPHRASED CLAIM
+andd) analyzing results of said labeling to obtain results distinguishing a difference in target sequences in fetal DNA and maternal DNA.	REPHRASED CLAIM
+19. The method of embodiment 18 wherein the distributing is into at least 10,000 separate reaction samples.	REPHRASED CLAIM
+20. The method of embodiment 18 wherein said difference in target sequences is a fetal aneuploidy.	REPHRASED CLAIM
+21. The method of embodiment 18 wherein said probes comprise a probe specific for human chromosome 21.	REPHRASED CLAIM
+22. A kit for differential detection of target sequences in maternal and fetal DNA in a mixed DNA sample, comprising:(a) primers specific for two chromosomes, one of which is possibly aneuploid and one of which is presumed diploid;	REPHRASED CLAIM
+(b) a PCR reaction buffer for forming a PCR reaction sample with the primers;	REPHRASED CLAIM
+and(c) a size separation medium for separating the DNA sample into a fraction having less than about 1000 bp.	REPHRASED CLAIM
+23. The kit of embodiment 22 where the primers comprise a pair of primers specific to chromosome 21.	REPHRASED CLAIM
+24. The kit of embodiment 22 further comprising a reaction chamber having at least 1,000 discrete reaction samples.	REPHRASED CLAIM

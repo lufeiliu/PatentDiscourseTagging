@@ -1,0 +1,349 @@
+ENZYMATIC PROCESS FOR THE PREPARATION OF DROXIDOPA	PATENT TITLE
+Technical Field	SECTION TITLE
+The present invention relates to a process for the preparation of Droxidopa by means of enzymatic reduction.	TECHNICAL FIELD
+Background Art	SECTION TITLE
+Droxidopa is chemically known as (2S,3R)-2-amino-3-(3,4-dihydroxyphenyl)-3-hydroxypropanoie acid and it is structurally represented by the following formula (I-a).	REFERENCE
+It is also known as L-threo-dihydroxyphenylserine, L-threo-DOPS, L-DOPS.	REFERENCE
+Droxidopa is available in the market as Northera® as capsules with dosages of 100 mg, 200 mg and 300 mg for oral administration.	REFERENCE
+Droxidopa is an orally active, synthetic norepinephrine precursor that was originally launched in 1989 in Japan for the oral treatment of frozen gait or dizziness associated with Parkinson's disease and for the treatment of orthostatic hypotension, syncope or dizziness associated with Shy-Drager syndrome and familial amyloidotic polyneuropathy.	DEFINITION
+In 2011, the product was filed for approval in the U.S.A. and in 2014 Northera® was approved for the treatment of orthostatic dizziness, light headedness, or the "feeling that you are about to black out" in adult patients with symptomatic neurogenic orthostatic hypotension caused by primary autonomic failure, dopamine beta-hydroxylase deficiency, and non-diabetic autonomic neuropathy.	REFERENCE
+Droxidopa replenishes depleted norepinephrine, allowing for reuptake of norepinephrine into peripheral nervous system neurons.	REFERENCE_ADVANTAGE
+This reuptake, in turn, stimulates receptors far vasoconstriction, providing physiological improvement in symptomatic neurogenic orthostatic hypotension patients.	REFERENCE_ADVANTAGE
+It has also shown efficacy in other diseases, such as depression.	REFERENCE_ADVANTAGE
+Droxidopa is a synthetic amino acid analog that is directly metabolized to norepinephrine by dopadecarboxylase, which is extensively distributed throughout the body.	DEFINITION
+Its chemical preparation generally involves a multi-step synthesis.	DEFINITION
+Droxidopa is disclosed in US Patent No. 3,920,728 (hereinafter referred to as US'728 patent).	REFERENCE
+The US'728 patent also provides a process for the preparation of droxidopa comprising the steps of (i) reaction of 3,4-dibenzyloxybenzaldehyde with glycine, followed by treatment with sodium acetate trihydrate and diethylamine to obtain racemic- threo/erythro-3-(3,4-dibenzyloxyphenyl)-serine;	REFERENCE
+(ii) treatment of the compound obtained in step (i) with carbobenzoxy chloride to obtain racemic-threo/erythro-3-(3,4-dibenzyloxyphenyl)-N-carbobenzoxyserine;	REFERENCE
+(iii) treatment of the compound obtained in step (ii) with dicyclohexylamine to obtain racemic-threo-3-(3,4-dibenzyloxyphenyl)-N-carbobenzoxyserine dicyclohexylamine salt, which by treatment with HCl gas in the presence of ethyl acetate yields racemic-threo-3-(3,4-dibenzyloxyphenyl)-N-carbobenzoxyserine;	REFERENCE
+(iv) treatment of the compound obtained in step (iii) with (+)-ephedrine to yield (+)-ephedrine salt of L-threo-3-(3,4-dibenzyloxyphenyl)-N-carbobenzoxyserine;	REFERENCE
+(v) hydrolysis of the compound obtained in step (iv) to yield L-threo-3-(3,4-dibenzyloxyphenyl)-N-carbobenzoxyserine and (vi) reduction of the compound obtained in step (v) over Pd/C to yield L-threo-3-(3,4-dibenzyloxyphenyl)-serine.	REFERENCE
+The process disclosed in US'728 patent is an elaborate and tedious process for commercial manufacturing.	REFERENCE_PROBLEM
+Also, the chiral resolution to obtain threo/erythro isomer results into 50% loss of the undesired isomer, which affects the overall yield of the process.	REFERENCE_PROBLEM
+Typically, one or more of the necessary steps in the synthesis require that reactive sites, other than the site targeted for the reaction, are temporarily protected.	REFERENCE
+Thus, the synthesis of Droxidopa typically comprises at least one protecting and associated deprotecting step.	REFERENCE
+For example, the catechol moiety, the amine moiety, and/or the carboxyl moiety may require protection and subsequent deprotection, depending upon the synthetic route and the reagents used in the preparation of Droxidopa.	REFERENCE
+Several synthetic and enzymatic approaches to Droxidopa have been described in the literature.	REFERENCE
+Most of them entail the coupling between a conveniently protected 3,4-dihydroxy benzaldehyde with glycine to yield a diastereomerically enriched mixture of threo-DOPS.	REFERENCE
+This approach has been described in patent application JP 2007190009(A) and entails the coupling of glycine or a salt thereof with 3,4-dihydroxybenzaldehyde in the presence of a threonine aldolase to form the corresponding enantiomerically enriched amino acid derivative.	REFERENCE
+An alternative has been described by Microbiochemical Research Foundation in patent application EP0112606 A1, is not stereoselective and relies on fractional crystallizations to separate a threo/erythro mixture.	REFERENCE
+The diastereomerically enriched mixture of the protected threo-DOPS can be converted into the optically active D- and L-threo-DOPS by optically resolving a racemic mixture of threo-2-(3,4-methylenedioxyphenyl)-N-carbobenzyloxyserine or threo-2-(3,4-dibenzyloxy-phenyl)-N-carbobenzyloxyserine, as detailed in patents US 4319040 and US 4480109, respectively.	REFERENCE
+Following optical resolution of these racemic mixtures to give the desired L-enantiomer, the methylenedioxy or benzyl groups must be removed from the catechol moiety and the carbobenzyloxy (Cbz) group must be removed from the amine group to give Droxidopa.	REFERENCE
+The US patent 4562263 discloses a process for preparation of droxidopa comprising optical resolution of N-phthaloyl-3-(3,4-methylenedioxyphenyl)serine using optically active amine selected from the group consisting of strychinine, cinconidine, L-norephedrine, S-2-amino-1,1-diphenyl-l-propanol and L-3-hydroxy-3-(4-nitrophenyl)-2-amino-l-propanol to yield L-N-phthaloyl-3-(3,4-methylenedioxyphenyl)serine, reacting the resulting compound with a Lewis acid to form N-phthaloyl-3-(3,4-dihydroxyphenyl)-serine; which is then deprotected by removal of phthaloyl group with hydrazine to yield L-threo-3-(3,4-dihydroxyphenyl)-serine.	REFERENCE
+The process involves use of complex agents for isomer separation, which also results in < 50% of desired isomer.	REFERENCE
+Also, the hydrazine used for the deprotection of phthaloyl group is known to be genotoxic and thus it is required to remove traces of hydrazine from the final product.	REFERENCE
+According to an alternative approach described in patent application EP 201039 A1, a racemic mixture of threo-2-(3,4-dibenzyloxy-phenyl)-N-acetylserine can be converted into L-threo-2-(3,4-dibenzyloxy-phenyl)-serine by treatment with a L-amino acylase.	REFERENCE
+A disadvantage associated with all the synthetic pathways cited above is that in converting a racemic starting material using an enantioselective enzyme or an optically active amine, a maximum yield of 50% of the enantiomerically pure end product can be reached.	REFERENCE_PROBLEM
+The use of resolving agent renders the process costly.	REFERENCE_PROBLEM
+Partial recycling of the resolving agent is feasible but such recycling is costly as it requires additional processing and is also associated with waste generation.	REFERENCE_PROBLEM
+The undesired enantiomer cannot be recycled and is discarded.	REFERENCE_PROBLEM
+This yield may be further reduced due to the need for high chiral purity (> 95% enantiomeric excess).	REFERENCE_PROBLEM
+An alternative procedure for the stereoselective preparation of Droxidopa has been described in patent application EP375554 A1.	REFERENCE
+According to the latter, the two stereocenters are introduced simultaneously with a Noyori-type asymmetric hydrogenation with dynamic kinetic resolution (AH-DKR).	REFERENCE
+The process is particularly interesting because it is catalyzed by the cheapest of the transition metals (ruthenium) and of the chiral phosphines (Binap) employed in asymmetric hydrogenations.	REFERENCE
+However the proposed conditions are not conveniently suitable for an industrial production of Droxidopa, because: 100 bar of hydrogen pressure is out of reach in normal industrial vessels;	REFERENCE_PROBLEM
+the reported reaction time is unpractical (almost 1 week);	REFERENCE_PROBLEM
+the best solvent is dichlorometane (which should be avoided for environmental concerns);	REFERENCE_PROBLEM
+and the deprotection of the methylenedioxy moiety requires large excesses of AlCl3 or AlBr3.	REFERENCE_PROBLEM
+The said prior art processes are therefore disadvantageous for commercial manufacturing due to non-feasibility of the reaction process owing to use of genotoxic reagents, and due to the elaborate and tedious nature of the process, providing low yield of the desired isomer.	REFERENCE_PROBLEM
+Thus, there is a clear need to develop an better rout of synthesis which would provide the desired L-threo isomer in an efficient and more specific manner.	INVENTION_ADVANTAGE
+Thus, there is a need to develop a process for preparation of droxidopa, which avoids the synthetic process involving chiral resolution to obtain desired L-threo isomer, thereby making the process of the present invention simple, efficient, cost-effective and industrially feasible process.	INVENTION_ADVANTAGE
+The disclaimed compounds are specifically described in the:	REFERENCE
+Journal of the Chemical Society (1947), 658-62;	REFERENCE
+Japan application JP 5504601 (A);Chinese application CN 107137338(A);	REFERENCE
+which discloses an completely different process of synthesis and use of these compounds.	REFERENCE
+Summary of invention	SECTION TITLE
+The problem addressed by the present invention is therefore that of providing an better process for the preparation of the L-threo isomer of Droxidopa, the compound represented by formula (I-a), which is an enantioselective process.	INVENTION_ADVANTAGE
+This problem is solved by a process for the preparation of Droxidopa as outlined in the annexed claims, whose definitions are integral part of the present description.	JURIDICAL TEMPLATE
+Particularly, the present invention provides a process for producing the active ingredient Droxidopa by means of enzymatic reduction of compound of formula (II):wherein R1, R2 is independently hydrogen, acetyl, R3 is hydrogen, a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group.	REPHRASED CLAIM
+Preferably, said enzymatic reduction is carried out by the ketoreductase KRED® 130.	REPHRASED CLAIM
+In a further aspect, the present invention provides the use of a ketoreductase for the enzymatic reduction of compound of formula (II).	REPHRASED CLAIM
+Aim of this invention is to provide a chemoenzymatic method to prepare Droxidopa or intermediates useful in the synthesis thereof, characterized by high yields and levels of stereocontrol avoiding the use of dangerous reagents and providing the desired compounds with a purity appropriate for the use in pharmaceuticals.	INVENTION_ADVANTAGE
+Description of embodiments	SECTION TITLE
+The object of present invention is a process for the preparation of Droxidopa of formula (I) or salt thereof:comprising the following steps:	REPHRASED CLAIM
+A) enzymatic reduction of a compound of formula (II):wherein R1, R2 are independently hydrogen or acetyl, R3 is hydrogen or a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group;	REPHRASED CLAIM
+to give the compound of formula (III):wherein R1, R2, R3, R4 have the same meaning of above;	REPHRASED CLAIM
+by means of a ketoreducyase enzyme;	REPHRASED CLAIM
+B) conversion of the compound of formula (III) obtained in the step a) to Droxidopa of formula (I).	REPHRASED CLAIM
+According to the invention, the process provide the L-threo-3,4-Dihydroxyphenylserine of formula (I):	EMBODIMENT
+The compound of formula (I) having the configuration, on the two stereogenic carbons, i.e. C bonded to hydroxyl group and C bonded to amino group, respectively R and S.	EMBODIMENT
+Accordingly to the name (2S,3R)-3-(3,4-Dihydroxyphenyl)-2-amino-3-hydroxypropanoic acid.	EMBODIMENT
+In an alternative embodiments in the compounds of formula (II) and (III), R1 and R2 could be independent methyl, benzyl, or a C1-C4 alkyl groups jointed to form a cycle.	EMBODIMENT
+According the preferred embodiment, in the compounds of formula (II) and (III) the R3 is ethyl or methyl.	REPHRASED CLAIM
+More preferred R3 is ethyl.	EMBODIMENT
+The definition of linear or branched C1-C4 alkyl thus also includes methyl, ethyl, n-propyl, isopropyl, n-butyl, isobutyl, sec-butyl, tert-butyl.	TECHNICAL TEMPLATE
+R4 could be hydrogen or an amine protecting group which can be selected in the group comprising benzyl, formyl, acetyl, benzoyl, phenylsulfonyl, tolylsulfonyl, methylsulfonyl, (CO)OR5 or (CO)R5 where R5 is C1-C5 linear or branched alkyl or R5 is aryl-C0-4 alkyl or C0-4 alkyl-(unsubstituted or substituted aryl).	TECHNICAL TEMPLATE
+The linear or branched C1-5 alkyl group of R5 can also be, unsubstituted or substituted with one, two or three substituents chosen in the group of hydroxyl and C1-5 alkoxy.	EMBODIMENT
+The definition of linear or branched C1-C5 alkyl thus also includes methyl, ethyl, n-propyl, isopropyl, n-butyl, isobutyl, sec-butyl, tert-butyl, n-pentyl, neopentyl, 1-methylbutyl, 2-methylbutyl, 3-methylbutyl, 1,1-dimethylpropyl, 1,2-dimethylpropyl, 2,2-dimethylpropyl, 1-ethylpropyl.	TECHNICAL TEMPLATE
+Preferred R4 groups are pivaloyl, t-butyloxycabonyl (synonymous: tert-butyloxycarbonyl, Boc, terbutylcarbamate), methylcarbamate, ethylcarbamate or benzyloxycabonyl (Z or Cbz).	TECHNICAL TEMPLATE
+More preferred R4 groups are terbutylcarbamate, methylcarbamate, ethylcarbamate or benzyloxycabonyl (Z or Cbz).	TECHNICAL TEMPLATE
+According to the preferred embodiment, in the compounds of formula (II) and (III) the R3 is ethyl and R4 is terbutylcarbamate.	REPHRASED CLAIM
+It has indeed surprisingly found that it is possible to carry out the enzymatic reduction of the keto group and the simultaneously generation a stereocenter on the side carbon, by an ketoreductase enzymes (abbreviate KRED).	EMBODIMENT
+The enzyme further to the enantioselective reduction, indeed, and surprisingly, induce the enantioselection on the adjacent carbon bonding the amino group.	EMBODIMENT
+In one embodiment. of the invention, the compound of formula (II) is preferably reduced to a compound of formula (III) using a chiral reducing agent, such as a reducing enzyme, preferably a ketoreductase (KRED) or a carbonyl reductase.	EMBODIMENT
+Preferably, the chiral reducing agent is a KRED.	EMBODIMENT
+KRED enzymes belonging to class EC 1.1.1.184 are useful for the synthesis of optically active alcohols from the corresponding pro-stereoisomerism ketone substrates and by stereospecific reduction of corresponding racemic ketone substrates.	EMBODIMENT
+KRED enzymes typically convert a ketone substrate to the corresponding alcohol product, but may also catalyse the reverse reaction, oxidation of an alcohol substrate to the corresponding ketone product.	EMBODIMENT
+The reduction of ketones and the oxidation of alcohols by enzymes such as KRED typically require a cofactor.	EMBODIMENT
+Typically, the reduction step is carried out by reacting compound of formula (II) with ketoreductase enzyme in the presence of cofactor for the ketoreduction and optionally a cofactor regenerating system.	EMBODIMENT
+Ketoreductase enzymes are commercially available, for example, from Codexis, Inc (USA).	EMBODIMENT
+The KRED can be found in a wide range of bacteria and yeast, for reviews: Kraus and Waldman, Enzyme' catalysis in organic synthesis, Vols. 1 and 2.VCH Weinheim 1995; Faber, K., Biotransformations in organic chemistry, 4th Ed. Springer, Berlin	REFERENCE
+Heidelberg New York. 2000; Hummel and Kuia, 1989, Eur. J. Biochem. 184: 1-13. Several KRED gene and enzyme sequences have been reported, e.g., Candida magnoliae (Genbank Ace. No. JC7338; GL 1 1360538) Candida parapsilosis (Genbank Ace. No. BAA24528. I; GI:2815409), Sporobolomyces salmonicolor (Genbank Ace. No. AF160799;GL653973.	REFERENCE
+The KRED can be a wild type or a variant enzyme.	REFERENCE
+Sequences of wild type and variant KRED enzymes are provided in WO2005/017135, incorporated herein by reference.	REFERENCE
+KRED enzymes are commercially available.	REFERENCE
+Examples of these include but are not limited to KRED-101, KRED-119, KRED-130, KRED-NADH-101, KRED.NAbff:.110, KRED-PI-A04, KRED-PI-B02, KRED-PI-BOS, KRED-PI-B05, KRED-PI-B10, KRED-PI-B12, KRED-PI-COI, KRED-PI-H08, KRED-PI-HIO, KRED-P2-B02, KRED-P2-C02, KRED-P2-Cl 1, KRED-P2-D03, KRED-P2-DI 1, KRED-P2-D12, KRED-P2-G03, KRED-P2-H07, KRED-P3-B03, KRED-P3-G09, KRED-P3-H12 and combinations thereof. Most preferably the enzyme is KRED 130.	TECHNICAL TEMPLATE
+In the one preferred embodiment the KRED is KRED®130.	REPHRASED CLAIM
+According to the preferred embodiment, the enzymatic reduction of the present invention can be carried out by the ketoreductase KRED® 130 and in the compound of formula (II) R3 is ethyl and R4 is terbutilcarbamate.	REPHRASED CLAIM
+Preferably, the ketoreductase is isolated.	EMBODIMENT
+The ketoreductase can be separated from any host, such as mammals, filamentous fungi, yeasts, and bacteria.	EMBODIMENT
+The isolation, purification, and characterization of a NADH-dependent ketoreductase is described in, for example, in Kosjek et al., Purification and Characterization of a Chemotolerant Alcohol Dehydrogenase Applicable to Coupled Redox Reactions,. Biotechnology and Bioengineering, 86:55-62 (2004).	REFERENCE
+Preferably, the ketoreductase is synthesized.	EMBODIMENT
+The ketoreductase can be synthesized chemically or using recombinant means.	EMBODIMENT
+The chemical and recombinant production of ketoreductases is described in, for example, in EP0918090(A2).	REFERENCE
+Preferably, the ketoreductase is synthesized using recombinant means in Escherichia coli.	EMBODIMENT
+Preferably, the ketoreductase is purified, preferably with a purity of about 90% or more, more preferably with a purity of about 95% or more.	EMBODIMENT
+Preferably, the ketoreductase is substantially cell-free.	EMBODIMENT
+As used herein, the term "cofactor" refers to a non-protein compound that operates in combination with a ketoredutase enzyme.	DEFINITION
+Cofactors suitable for use with ketoreductase enzymes include, but are not limited to nicotinamide adenine dinucleotide phosphate (NADP+), reduced nicotinamide adenine dinucleotide phosphate (NADPH), nicotinamide adenine dinucleotide (NAD+) and reduced nicotinamide adenine dinucleotide (NADH).	TECHNICAL TEMPLATE
+Generally the reduced form of the cofactor is added to the reaction mixture.	EMBODIMENT
+KRED enzymes often can use either the phosphorylated or the non-phosphorylated cofactor.	EMBODIMENT
+KRED enzymes can be used in place of chemical procedures for the conversion of different keto compounds to chiral alcohol products.	EMBODIMENT
+These biocatalytic conversions can employ whole cells expressing the ketoreductase for biocatalytic ketone reductions, or purified enzymes, particularly in those instances where presence of multiple ketoreductases in whole cells would adversely affect the enantiomeric purity and yield of the desired product.	EMBODIMENT
+For in vitro applications, a cofactor (NADH or NADPH) regenerating enzyme such as glucose dehydrogenase (GDH) and formate dehydrogenase typically is used in conjunction with the ketoreductase.	EMBODIMENT
+Examples illustrating the use of naturally occurring or engineered KRED enzymes in biocatalytic processes to generate useful chemical compounds include asymmetric reduction of 4-chloroacetoacetate esters (Zhou, J. Am. Chem. Soc. 1983 105:5925-5926; Santaniello, J. Chem. Res. (S) 1984:132-133; U.S. Patent No. 5,559,030; U.S. Patent No. 5,700,670 and U.S. Patent No. 5,891,685), reduction of dioxocarboxylic acids (e.g., U.S. Patent No. 6,399,339), reduction of tert-butyl (S)-chloro-5-hydroxy-3-oxohexanoate (e.g., U.S. Patent No. 6,645,746 and WO 01/40450), reduction pyrrolotriazine-based compounds (e.g., U.S. application No. 2006/0286646);	REFERENCE
+reduction of substituted acetophenones (e.g., U.S. Patent No. 6,800,477);	REFERENCE
+and reduction of ketothiolanes (WO 2005/054491).	REFERENCE
+Several KRED gene and enzyme sequences have been reported, including: Candida magnoliae (Genbank Ace. No. JC7338; GI: 11360538);	REFERENCE
+Candida parapsilosis (Genbank Ace. No. BAA24528.1; GI:2815409), Sporobolomyces salmonicolor (Genbank Ace. No. AF160799; GI:6539734);	REFERENCE
+Lactobacillus kefir (Genbank Ace. No. AAP94029.1; GI: 33112056);	REFERENCE
+Lactobacillus brevis (Genbank Ace. No. 1NXQ_A; GI: 30749782);	REFERENCE
+Exiguobacterium acetylicum (Genbank Ace. No. BAD32703.1) and Thermoanaerobium brockii (Genbank Ace. No. P14941; GI: 1771790).	REFERENCE
+The KRED catalyzed reduction of compound (II) to compound (III) requires that an electron donor is present in the solution.	EMBODIMENT
+Generally, a cofactor is used as the electron donor in the KRED reduction reaction.	EMBODIMENT
+The cofactor operates in combination with the KRED and/or glucose dehydrogenase (abbreviate GDH) in the process.	EMBODIMENT
+Suitable cofactors include, but are not limited to, NADP+ (nicotinamide adenine dinucleotide phosphate), NADPH (the reduced form of NADP+), NAD+ (nicotinamide adenine dinucleotide) and NADH (the reduced form of NAD+).	TECHNICAL TEMPLATE
+Generally, the reduced form of the cofactor is added to the reaction mixture.	EMBODIMENT
+Accordingly, the methods of the present disclosure are carried out wherein an electron donor is present selected from NADPH cofactor or NADH cofactor.	EMBODIMENT
+In certain embodiments, the method can be carried out wherein the reaction conditions comprise an NADH or NADPH cofactor concentration of about 0.03-0.5 g/L, about 0.05-0.3 g/L, about 0.1-0.2 g/L, about 0.5 g/L, about 0.1 g/L, or about 0.2 g/L.	EMBODIMENT
+In some embodiments of the process, a cofactor recycling system is used to regenerate cofactor NADPH/NADH form NADP+/NAD+ produced in the reaction.	EMBODIMENT
+A cofactor recycling system refers to a set of reactants that reduce the oxidized form of the cofactor (e.g., NADP+ to NADPH) thereby allowing the KRED catalysis to continue.	DEFINITION
+The cofactor recycling system may further comprise a secondary substrate and catalyst, for example, the substrate glucose, and the enzyme GDH, that catalyses the reduction of the oxidized form of the cofactor by the reductant.	EMBODIMENT
+Cofactor recycling systems to regenerate NADH or NADPH from NAD+ or NADP+, respectively, are known in the art and may be used in the methods described herein.	EMBODIMENT
+Suitable exemplary cofactor recycling systems that may be employed include, but are not limited to, glucose and glucose dehydrogenase (GDH), formate and formate dehydrogenase (FDH), glucose-6-phosphate and glucose-6-phosphate dehydrogenase, a secondary alcohol and secondaralcohol dehydrogenase, phosphite and phosphite dehydrogenase, molecular hydrogen and hydrogenase, and the like.	TECHNICAL TEMPLATE
+Suitable secondary alcohols include lower secondary alcohols and aryl-alkyl carbinols.	EMBODIMENT
+Examples of lower secondary alcohols include isopropanol, 2-butanol, 3-methyl-2- butanol, 2-pentanol, 3-pentanol, 3,3-dimethyl-2-butanol, and the like.	TECHNICAL TEMPLATE
+In a particularly preferred embodiment the secondary alcohol is isopropyl alcohol (IPA).	EMBODIMENT
+Suitable aryl-akyl carbinols include unsubstituted and substituted 1-arylethanols.	TECHNICAL TEMPLATE
+These systems may be used in combination with either NADP+/NADPH or NAD+/NADH as the cofactor.	EMBODIMENT
+Electrochemical regeneration using hydrogenase may also be used as a cofactor regeneration system.	EMBODIMENT
+See, e.g., U.S. Pat. Nos. 5,538,867 and 6,495,023, both of which are incorporated herein by reference.	REFERENCE
+Chemical cofactor regeneration systems comprising a metal catalyst and a reducing agent (for example, molecular hydrogen or formate), may also be used in combination with either NADP+ /NADPH or NAD+ / NADH as the cofactor.	EMBODIMENT
+See, e.g., PCT publication WO 2000/053731, which is incorporated herein by reference.	REFERENCE
+In some embodiments of the present disclosure, the cofactor recycling system can comprise glucose dehydrogenase (GDH), which is an NAD+ or NADP+-dependent enzyme that catalyses the conversion of D-glucose (dextrose) and NAD+ or NADP+ to gluconic acid and NADH or NADPH, respectively.	EMBODIMENT
+GDH enzymes suitable for use in the practice of the processes described herein include both naturally occurring GDHs, as well as non-naturally occurring GDHs.	EMBODIMENT
+Naturally occurring glucose dehydrogenase encoding genes have been reported in the literature, e.g., the Bacillus subtilis 61297 GDH gene, B. cereus ATCC 14579 and B. megaterium.	REFERENCE
+Non-naturally occurring GDHs generated using, for example, mutagenesis, directed evolution, and the like and are provided in PCT publication WO 2005/018579, and US publication Nos. 2005/0095619 and 2005/0153417.	REFERENCE
+In some embodiments, the cofactor recycling system can comprise a formate dehydrogenase (FDH), which is an NAD+ or NADP+-dependent enzyme that catalyses the conversion of formate and NAD+ or NADP+ to carbon dioxide and NADH or NADPH, respectively.	EMBODIMENT
+As used herein, the term "formate" refers to formate anion (HCOO-), formic acid (HCOOH) and mixtures thereof.	DEFINITION
+FDHs suitable for use as cofactor regenerating systems in the KRED catalysed reaction described herein include naturally occurring and non-naturally occurring formate dehydrogenases.	EMBODIMENT
+Suitable formate dehydrogenases are described in PCT publication WO 2005/018579.	REFERENCE
+Formate may be provided in the form of a salt, typically an alkali or ammonium salt (for example, HCO2Na, KHCO2, NH4HCO2, and the like), in the form of formic acid, typically aqueous formic acid, or mixtures thereof.	EMBODIMENT
+A base or buffer may be used to provide the desired pH.	EMBODIMENT
+In some embodiments, the cofactor regenerating system can comprise the same KRED enzyme that catalyses the reduction of compound (II) to compound (III).	EMBODIMENT
+In such an embodiment, the same KRED catalysing the reduction of compound (II) to compound (III) also catalyses the oxidation of a secondary alcohol (e.g., isopropanol to acetone oxidation) and thereby simultaneously reduces the NAD+ or NADP+ to NADH or NADPH.	EMBODIMENT
+Accordingly, in some embodiments, the KRED catalysed conversion of compound (II) to compound (III) can be carried out in the presence of a secondary alcohol (e.g., IPA) and without any coenzyme (e.g., GDH) present in the solution for the recycling of the NADPH or NADH cofactor.	EMBODIMENT
+In such embodiments, the suitable reaction conditions can comprise an IPA concentration is about 55-75% (v/v), an NADPH or NADH cofactor loading of about 0.03-0.5 g/L, and wherein no cofactor recycling enzyme is present other than the KRED itself.	EMBODIMENT
+In one embodiment, a KRED enzyme coupled with a cofactor recycling system and an NADPH cofactor is used to reduce (II) to obtain compound (III).	EMBODIMENT
+Suitable reaction conditions for the KRED-catalyzed reduction of (II) to compound (III) are provided below and in the examples.	EMBODIMENT
+The enzymatic reduction step is carried out in a aqueous solvent.	EMBODIMENT
+The enzymatic reduction step is preferably carried out in a aqueous solvent and a co-solvent.	EMBODIMENT
+The co-solvent assists in enhancing solubility of compounds having poor water solubility, thereby increasing overall rate of the reaction.	INVENTION_ADVANTAGE
+Suitable cosolvents include organic solvents, for example methanol, IPA, 1-octanol, ethyl acetate, methyl acetate, butyl acetate, heptane, octane, methyl t-butyl ether (MTBE), dimethyl sulfoxide (DMSO), tetrahydrofuran (THF), 2-methyltertahydrofuran (Me-THF), toluene and the like (including mixtures thereof), and ionic liquids, for example 1-ethyl-4-methylimidazolium tetra fluoroborate, 1-butyl-3-methylimidazolium tetrafluoroborate, 1-butyl-3-methylimidazolium hexafluorophosphate, and the like.	TECHNICAL TEMPLATE
+In some embodiments, aqueous solvents, including water and aqueous co-solvent systems, may be used.	EMBODIMENT
+The ratio of water to organic solvent in the co-solvent system is typically in the range of from about 90:10 to about 95:05 (v/v) water to organic solvent.	EMBODIMENT
+Preferably the solvent does not exceed 5% of the total volume of the reaction solution.	EMBODIMENT
+The aqueous solvent (water or aqueous co-solvent system) may be pH-buffered or unbuffered.	EMBODIMENT
+Generally, the reduction can be carried out at a pH of about 10 or below, usually in the range of from about 5 to about 10.	EMBODIMENT
+In some embodiments, the reduction is carried out at a pH of about 9 or below, usually in the range of from about 5 to about 9.	EMBODIMENT
+In some embodiments, the reduction is carried out at a pH of about 8 or below, often in the range of from about 5 to about 8, and usually in the range of from about 6 to about 8.	EMBODIMENT
+The reduction may also be carried out at a pH of about 7.8 or below or 7.5 or below.	EMBODIMENT
+In a preferred embodiment, the reduction is carried out at neutral pH, i.e. about 7.	EMBODIMENT
+During the course of the reduction reactions, the pH of the reaction mixture may change.	EMBODIMENT
+The pH of the reaction mixture may be maintained at a desired pH or within a desired pH range by the addition of an acid or a base during the course of the reaction.	EMBODIMENT
+Alternatively, the pH may be controlled by using an aqueous solvent that comprises a buffer.	EMBODIMENT
+Suitable buffers to maintain desired pH ranges are known in the art and include, for example, phosphate buffer, triethanolamine buffer, and the like.	EMBODIMENT
+Combinations of buffering and acid or base addition may also be used.	EMBODIMENT
+According to a preferred embodiment, the process of the present invention, can be carried out in presence of phosphate buffer at pH 7.	EMBODIMENT
+Other buffer solution that could be used to carry out the above mentioned reaction, such as is, for instance, Tris(hydroxymethyl)aminomethane hydrochloride buffer.	EMBODIMENT
+Suitable bases for neutralization are organic bases, for example amines, alkoxides and the like, and inorganic bases;	TECHNICAL TEMPLATE
+for example, hydroxide salts (e.g., NaOH), bicarbonate salts (e.g. NaHCO3), carbonate salts (e.g. K2CO3), basic phosphate salts (e.g. K2HPO4, Na3PO4), and the like.	TECHNICAL TEMPLATE
+Suitable acids to add during the course of the reaction to maintain the pH include organic acids, for example carboxylic acids, sulfonic acids, phosphoric acids, and the like, mineral acids, for example hydrohalic acids (such as hydrochloric acid), sulphuric acid, phosphoric acid, and the like, acidic salts, for example dihydrogen phosphate salts (e.g., KH2PO4), bisulphate salts (e.g., NaHSO4) and the like.	TECHNICAL TEMPLATE
+Some embodiments utilize formic acid, whereby both the formate concentration and the pH of the solution are maintained.	EMBODIMENT
+The reduction step is typically carried out at a temperature in the range of from about 0°C to about 75°C.	EMBODIMENT
+Preferably, the reduction step is carried out at a temperature in the range of from about 10°C to about 55°C.	EMBODIMENT
+In still other embodiments, it is carried out at a temperature in the range of from about 20°C to about 45°C.	EMBODIMENT
+In a particularly preferred embodiment the reaction is carried out under ambient conditions.	EMBODIMENT
+The step B) of the process according to the invention can be comprising a step b-1) of conversion of R1 and/or R2 from acetyl to hydrogen.	REPHRASED CLAIM
+In an alternative embodiments, the step B) of the process according to the invention can be comprising the step b-1) of conversion of R1 and R2 from methyl or benzyl or a C1-C4 alkyl groups joined to form a cycle in to hydrogen.	EMBODIMENT
+The step B) of the process according to the invention can be comprising the step b-1a) of conversion of R1 from acetyl, methyl, benzyl, a C1-C4 alkyl groups joined to form a cycle to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (IV):	EMBODIMENT
+The step B) of the process according to the invention can be comprising the step b-1b) of conversion of R2 from acetyl, methyl, benzyl, a C1-C4 alkyl groups joined to form a cycle to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (V):	EMBODIMENT
+The step B) of the process according to the invention can be comprising the step b-1) of simultaneous conversion of R1 and R2 from acetyl, methyl, benzyl, a C1-C4 alkyl groups joined to form a cycle to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (VI):	EMBODIMENT
+The step b-1) of the process according to the invention can be a step of hydrolysis of the esteric group when R1 and R2 are acetyl.	EMBODIMENT
+The step b-1) of the process according to the invention can be a step of conversion of R1 and R2 to hydrogen, depending on the nature of the R1 and R2, can be carried out differently, using the common general knowledge of the skilled person, evidence of the which can be found in the book of Theodora W Greene with title "Protective Groups in Organic Synthesis" or in the book of Anthony J. Pearson with title "Handbook of Reagents for Organic Synthesis - Activating Agents and Protecting Groups".	REFERENCE
+The step B) of the process according to the invention can be comprising a step b-2) of conversion of R3 from a C1-C4 linear or branched alkyl group to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (VII):	EMBODIMENT
+The step b-2) of the process according to the invention can be a step of conversion of R3 to hydrogen (i.e. hydrolysis of the esteric group), depending on the nature of the R3, can be carried out differently, using the common general knowledge of the skilled person, evidence of the which can be found in the book of Theodora W Greene with title "Protective Groups in Organic Synthesis" or in the book of Anthony J. Pearson with title "Handbook of Reagents for Organic Synthesis - Activating Agents and Protecting Groups".	REFERENCE
+Suitable process for removal (i.e. conversion of R3 to hydrogen) R3, when is a C1-C4 linear or branched alkyl group, is an hydrolysis.	EMBODIMENT
+This process requires a treatment of the compound of formula (III) with a solution of base (e.g. NaOH, KOH, LiOH) in water or an alcoholic solvent or a mixture thereof.	EMBODIMENT
+The step B) of the process according to the invention can be comprising a step b-3) of conversion of R4 from amine protecting group to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (VIII):	EMBODIMENT
+The step b-3) of the process according to the invention can be a step of cleavage of amine protecting group.	EMBODIMENT
+The step b-3) of the process according to the invention can be comprising the step of conversion of R4 to hydrogen (i.e. cleavage of amine protecting group), depending on the nature of the R4, can be carried out differently, using the common general knowledge of the skilled person, evidence of the which can be found in the book of Theodora W Greene with title "Protective Groups in Organic Synthesis" or in the book of Anthony J. Pearson with title "Handbook of Reagents for Organic Synthesis - Activating Agents and Protecting Groups".	REFERENCE
+According to a preferred embodiment, the step b-1), b-2) and b-3) can be made in any combination of order.	EMBODIMENT
+According to a preferred embodiment, the step B) of the process of the present invention, can be comprising the step of simultaneous hydrolysis of the esteric group and cleavage of amine protecting group.	EMBODIMENT
+According to a preferred embodiment, the step B) of the process of the present invention, can be comprising the step of simultaneous conversion of R3 from a C1-C4 linear or branched alkyl group to hydrogen and conversion of R4 from amine protecting group to hydrogen;	REPHRASED CLAIM
+i.e. to obtain the compound of formula (IX):	EMBODIMENT
+According to a preferred embodiment, the step B) of the process of the present invention, is characterized in the simultaneous:	EMBODIMENT
+conversion of R1 and R2 from acetyl, methyl, benzyl, a C1-C4 alkyl groups joined to form a cycle to hydrogen;conversion of R3 from a C1-C4 linear or branched alkyl group to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (X):	EMBODIMENT
+According to a preferred embodiment, the step B) of the process of the present invention, is characterized in the simultaneous:	EMBODIMENT
+conversion of R1 and R2 from acetyl, methyl, benzyl, a C1-C4 alkyl groups joined to form a cycle to hydrogen;conversion of R4 from amine protecting group to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (XI):	EMBODIMENT
+According to a preferred embodiment, the step B) of the process of the present invention, is characterized in the simultaneous:	EMBODIMENT
+conversion of R1 and R2 from acetyl to hydrogen;conversion of R3 from a C1-C4 linear or branched alkyl group to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (X).	EMBODIMENT
+According to a preferred embodiment, the step B) of the process of the present invention, is characterized in the simultaneous:	EMBODIMENT
+conversion of R1 and R2 from acetyl to hydrogen;conversion of R4 from amine protecting group to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (XI).	EMBODIMENT
+According to a preferred embodiment, the step B) of the process of the present invention, is characterized in the simultaneous:	EMBODIMENT
+conversion of R1 and R2 from acetyl to hydrogen;conversion of R3 from a C1-C4 linear or branched alkyl group to hydrogen;conversion of R4 from amine protecting group to hydrogen;	EMBODIMENT
+i.e. to obtain the compound of formula (I):	EMBODIMENT
+The step B) of the process according to the invention can be comprising a step or steps of purification or resolution by crystallisation.	EMBODIMENT
+According to a preferred embodiment, the step B) can be comprising a step b-4) of purification or resolution of the compound of formula (III) or (IV) or (V) or (VI) or (VII) or (VIII) or (IX) or (X) or (XI);	EMBODIMENT
+its allows an efficient purging of the undesired isomer, to obtain an efficient enrichment in terms of enantiomeric excess.	INVENTION_ADVANTAGE
+The process of the present invention, at the end of the step B), thus provides Droxidopa having high optical purity, i.e. Droxidopa having typically an optical purity higher than 99.0% (e.e.), i.e. higher than 99.5% expressed as HPLC A/A%.	INVENTION_ADVANTAGE
+Preferably, the process of the present invention provides Droxidopa having high optical purity, i.e. Droxidopa having typically an optical purity higher than 99.4% (e.e.), i.e. higher than 99.7% HPLC A/A%.	INVENTION_ADVANTAGE
+The enantiomeric excess or "e.e." or "ee" for short is defined as the absolute difference between the mole fractions of two enantiomers and it is often presented as percent enantiomeric excess, % ee, which is obtained by the following calculation: % ee=|R-S|/|R+S|×100%, wherein the amount of the single enantiomers can be often measured by chiral chromatography.	DEFINITION
+Obviously and optionally, the process of the present invention can be reapplied on the already optically purified Droxidopa so that Droxidopa having optical purity of 100% can be prepared.	EMBODIMENT
+The ratio between the optical isomers threo and erythro from 50:50 to 99:1, is intended as ratio weight by weight which, however, corresponds to the amount determined by HPLC A/A%.	EMBODIMENT
+According to a preferred embodiment of the process of the present invention, compound of formula (I) has an diastereoisomeric ratio from threo and erythro (threo/erythro) comprise from 50/50 to 90/10, more preferred from 50/50 and 70/30.	EMBODIMENT
+According to a more preferred embodiment of the process of the present invention, compound of formula (I) has an diastereoisomeric ratio 70/30 from threo and erythro (threo/erythro).	EMBODIMENT
+According to a preferred embodiment of the present invention, in the step b-4), the ratio between the optical isomers of the compound (III) or (IV) or (V) or (VI) or (VII) or (VIII) or (IX) or (X) or (XI), is from 75:25 to 85:15 since this ratio of isomers is that typically achieved by an enzymatic reduction of the process of the present invention.	EMBODIMENT
+Examples illustrating the purification or resolution by crystallization processes, using the common general knowledge of the skilled person, evidence of the which can be found Japanese Patent Application 49,252/75, 36,233/79, 29,551/81 and 32,540/76; European Patent No. 084928; No. 128684; U.S. Patent No. 3920728.	REFERENCE
+According to a preferred embodiment of the process of the present invention, the reaction of compound of formula (II) to give compound of formula (I) occurs with a conversion comprised in the range from 20% to at least 95%.	EMBODIMENT
+In particular, when the reaction is carried out with an KRED KRED ®130, conversion is at least 95%.	EMBODIMENT
+In particular, compound of formula (I) has diastereoisomeric ratio 70/30 from threo and erythro (threo/erythro), when the reaction compound of formula (II) is carried out with an KRED KRED ®130.	EMBODIMENT
+According to a preferred embodiment of the process of the present invention, compound of formula (I) has diastereoisomeric ratio at least 75/30 and the employed KRED KRED ®130.	EMBODIMENT
+According to a preferred embodiment of the process of the present invention, the reaction of compound of formula (II) to give compound of formula (III) occurs with a conversion comprised in the range from 20% to at least 95%.	EMBODIMENT
+In particular, when the reaction is carried out with an KRED KRED ®130, conversion is at least 95%.	EMBODIMENT
+According to a preferred embodiment of the process of the present invention, compound of formula (III) has an diastereoisomeric ratio from threo and erythro (threo/erythro) comprise from 50/50 to 90/10, more preferred from 50/50 and 70/30.	EMBODIMENT
+According to a more preferred embodiment of the process of the present invention, compound of formula (III) has an diastereoisomeric ratio 70/30 from threo and erythro (threo/erythro).	EMBODIMENT
+In particular, compound of formula (III) has diastereoisomeric ratio 70/30 from threo and erythro (threo/erythro), when the reaction compound of formula (II) is carried out with an KRED KRED ®130.	EMBODIMENT
+According to a preferred embodiment of the process of the present invention, compound of formula (III) has diastereoisomeric ratio at least 75/30 and the employed KRED KRED ®130.	EMBODIMENT
+The diastereoisomeric ratio is defined as the absolute ratio between the mole fractions of threo isomer and the mole fraction of erythro isomer, which is obtained by the following calculation: ratio =|Threo|/|Erythro|, wherein the amount of the single enantiomers can be often measured by chiral chromatography.	DEFINITION
+The compound of formula (III):wherein R1, R2 are independently hydrogen or acetyl, R3 is hydrogen, a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group;	REPHRASED CLAIM
+can be thus prepared by a process comprising a step of enzymatic reduction of a compound of formula (II):wherein R1, R2, R3, R4 have the same meaning of above;by means of a ketoreducyase enzyme.	REPHRASED CLAIM
+The compound of formula (II):wherein R1, R2 are independently hydrogen or acetyl, R3 is hydrogen, a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group;	REPHRASED CLAIM
+can be used for the preparations of compound of formula (III):wherein R1, R2, R3, R4 have the same meaning of above;or for the preparation of Droxidopa of formula (I) or salt thereof:	REPHRASED CLAIM
+A ketoreductase can be thus used to carry out the enzymatic reduction of compound of formula (II):wherein R1, R2 are independently hydrogen or acetyl, R3 is hydrogen, a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group, to provide a compound of formula (III):wherein R1, R2, R3, R4 have the same meaning of above;or to provide Droxidopa of formula (I) or salt thereof:	REPHRASED CLAIM
+Thus, according to a preferred embodiment, the ketoreductase used for the carried out the enzymatic reduction of the compound of formula (II), is KRED ®130.	REPHRASED CLAIM
+The process of the present invention thus also provides new intermediates, i.e. the compound of formula (II):wherein R1, R2 are independently hydrogen or acetyl, R3 is hydrogen, a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group.	REPHRASED CLAIM
+The process of the present invention thus also provides new intermediates, i.e. the compound of formula (III):wherein R1, R2 are independently hydrogen or acetyl, R3 is hydrogen, a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group;with the exception of the compounds wherein:	REPHRASED CLAIM
+R1, R2 and R4 are hydrogen, R3 is methyl;	REPHRASED CLAIM
+R1, R2 and R4 are hydrogen, R3 is ethyl;	REPHRASED CLAIM
+R1 and R2 are hydrogen, acetyl, R3 is ethyl and R4 is acetyl;	REPHRASED CLAIM
+R1, R2 and R4 are acetyl, R3 is ethyl.	REPHRASED CLAIM
+Further, the enzymatic reduction process is environmentally advantageous as compared to the prior art process wherein organometallic chiral catalyst are used in the prior art.	INVENTION_ADVANTAGE
+The use of an enzyme as the reducing agent is cheaper compared to the use of a organometallic chiral catalyst.	INVENTION_ADVANTAGE
+In addition, resolution using chiral amine according to known methods leads to about 50% loss of undesired isomer and hence it is not industrially suitable.	REFERENCE_PROBLEM
+EXPERIMENTAL SECTION	SECTION SUBTITLE
+The ketoredctase enzyme are largely commercially available, for example, for supplied by Codexis (USA), for example the Codexis® KRED screening kit.	REFERENCE
+The starting material compound of formula (II) having the following formula or:wherein R1, R2 are independently hydrogen or acetyl, R3 is hydrogen or a C1-C4 linear or branched alkyl group and R4 is hydrogen or an amine protecting group; are prepared according to the know prior art method of synthesis.	REFERENCE
+A few methods for the preparation of compound of formula (II) have been described, for example, Kazuishi Makino at all in Journal of the American Chemical Society (2005), 127, (16), 5784-5785;	REFERENCE
+Brinton Seashore-Ludlow at all in Organic Letters (2010), 12, (22), 5274-5277;	REFERENCE
+Zheng Long-Sheng at all in Chemical Communications, 54(3), 283-286; 2018;	REFERENCE
+Guan, Yu-Qing at all in Chemical Communications, 53(58), 8136-8139; 2017;	REFERENCE
+Seashore-Ludlow, Brinton at all in Chemistry A European Journal, 18(23), 7219-7223, 2012.	REFERENCE
+Volumes means volume of solvent per unit of product, thus, for example, 1 volume is 1 Liter per 1 Kilo, or 1 mL for 1 gram, or 1 microliter per 1 milligram.	DEFINITION
+Thus, 10 volumes means for example 10 liters per 1 Kilogram of substance.	DEFINITION
+Example 1: Screening of Codexis® KRED screening kit in the enzymatic reduction of compound of formula (II) wherein R1 and R2 is acetyl, R3 is ethyl, R4 is Boc.	EMBODIMENT
+The reaction were performed in 1 ml in a vial and shaken overnight at room temperature for the isopropanol dependent enzymes, the condition of reaction were: 115.2 mM sodium phosphate buffer, 1.53 mM magnesium sulphate, 1 mM NADP+, 10%v/v isopropanol, 10 mg/ml of compound of formula (II) wherein R1 and R2 is acetyl, R3 is ethyl, R4 is Boc., 10 mg/ml of enzyme, pH 7.	EMBODIMENT
+For the glucose dependent enzymes the condition of reaction were: 128 mM sodium phosphate 1.7 mM magnesium sulphate, 1.1 mM NADP+1.1 mM NAD+, 80 mM D-glucose, 4.3 U/ml glucose dehydrogenase, 10 mg/ml of compound of formula (II) wherein R1 and R2 is acetyl, R3 is ethyl, R4 is Boc., pH 7.	EMBODIMENT
+The reaction was analysed in HPLC-MS to confirm desiderated product mass.	EMBODIMENT
+Also the chiral purity was evaluated by HPLC and was observed between the threo and erythro form.	EMBODIMENT
+Example 2: Synthesis of Droxidopa BOC of formula (I) by enzymatic reduction of the compound of formula (II) wherein R1 and R2 is acetyl, R3 is ethyl, R4 is Boc.	EMBODIMENT
+To 1 g of compound of formula (II) (wherein R1 and R2 is acetyl, R3 is ethyl, R4 is Boc) was added 20 mg of MgSO4, 50 mg of CDX-901 (cofactor regeneration enzyme, glucose dehydrogenase), 200 mg of KRED-130, 50 mg of NADP+, 1 g of Glucose in 50 ml of 100 mM phosphate buffer at pH 7.	EMBODIMENT
+The reaction was performed at 25°C and it was maintained at pH 7 by addition of NaOH 0.5 M by automatic titration.	EMBODIMENT
+After 64 h of reaction analysis give about 80 A% of Droxydopa BOC.	EMBODIMENT
+The reaction was quenched with 100 ml of EtOAc and 1 g of dicalite and filtered to removed enzyme and organic layer was separated.	EMBODIMENT
+Aqueous layer was washed twice with 100 ml of EtOAc.	EMBODIMENT
+Join organic layer was distilled to residue obtaining 0.7 g of crude of the Droxydopa BOC.	EMBODIMENT
+Product analysed by HPLC-MS analysis.	EMBODIMENT
+Example 3: Synthesis of Droxidopa BOC of formula (I) by enzymatic reduction of the compound of formula (II) wherein R1 and R2 is acetyl, R3 is ethyl, R4 is BOC.	EMBODIMENT
+To 3.0g of compound of formula (II) (wherein R1 and R2 is acetyl, R3 is ethyl, R4 is BOC) was added to a solution of 60 mg of MgSO4, 150 mg of CDX-901 (cofactor regeneration enzyme, glucose dehydrogenase), 600 mg of KRED-130, 150 mg of NADP+, 3 g of Glucose in 150 ml of 100 mM phosphate buffer at pH 7.	EMBODIMENT
+The reaction mixture was stirred at 25°C and it was maintained at pH 7 by addition of NaOH 0.5 M by automatic titration.	EMBODIMENT
+After 15 and 24 h of reaction 150 mg of NADP+ and 150 mg of CDX-901 were added.	EMBODIMENT
+The reaction conversion was monitored by HPLC, and after 120 h the reaction was quenched with 100ml of EtOAc and 1 g of dicalite, then the suspension was filtered to remove the enzyme and organic layer was separated.	EMBODIMENT
+Aqueous layer was washed twice with 50 ml of EtOAc.	EMBODIMENT
+The jointed organic layer was dried with Na2SO4 and distilled to residue obtaining 3.0 g of crude of Droxidopa BOC that spontaneously crystalized.	EMBODIMENT
+Analysis of isolate crystal Droxidopa BOC was about 60 A%.	EMBODIMENT
+Example 4: Synthesis of Droxidopa Ethyl Estere of formula (I) by by chemical cleavage of Boc N-protection group.	EMBODIMENT
+To 70 mg of Droxidopa BOC obtained in the example 3 was dissolved in 1 ml of dichloromethane.	EMBODIMENT
+At 25°C was added 1 ml of TFA and the conversion was monitored by HPLC.	EMBODIMENT
+After complete cleavage of BOC the product Droxidopa ethyl ester was isolated by concentration to residue with a flow of nitrogen.	EMBODIMENT
+Example 5: Synthesis of Droxidopa of formula (I) by chemical hydrolysis of R3, wherein R3 is ethyl.	EMBODIMENT
+To 25 mg of isolated Droxydopa ethyl ester obtained in the example 4 was added to 1 ml of NaOH 3M.	EMBODIMENT
+The reaction was mixed for 2h at room temperature and monitored by HPLC.	EMBODIMENT
+After complete hydrolysis the reaction was neutralized with HCI 10% solution and crude Droxidopa was isolated by concentration the solution to residue with a flow of nitrogen.	EMBODIMENT
+Isolated Droxidopa was analysed for diastereoisomeric purity by HPLC, where a ratio of 70:30 A% was observed between the threo Droxydopa and erythro Droxydopa form.	EMBODIMENT
+Example 6: Synthesis of Droxidopa Ethyl Estere of formula (I) by by chemical cleavage of Boc N-protection group.	EMBODIMENT
+To 1 g of crude Droxidopa BOC obtained in the example 3 was dissolved in 10ml of dichloromethane.	EMBODIMENT
+At 25°C was added 1,5 ml of TFA and conversion monitored by HPLC.	EMBODIMENT
+After complete cleavage of BOC, the pH was neutralized with addition of saturated solution of NaHCO3.	EMBODIMENT
+The product was isolated by concentration to residue obtaining about 1.3 g of crude Droxidopa ethyl ester.	EMBODIMENT
+Isolated product was analysed in HPLC-MS to confirm mass (Mw 241).	EMBODIMENT
+Also the diastereoisomeric purity was evaluated by HPLC, where a ratio of 72:28 A% was observed between the threo and erythro form.	EMBODIMENT
+Example 7: Synthesis of Droxidopa of formula (I) by chemical hydrolysis of R3, wherein R3 is ethyl.	EMBODIMENT
+To 100 mg of isolated Droxydopa ethyl ester from example 6 was added to 1 ml of water.	EMBODIMENT
+Then 100 µl of NaOH 10M was added and mix for 30 min.	EMBODIMENT
+The reaction was monitored by HPLC.	EMBODIMENT
+After complete hydrolysis, the reaction was neutralized with HCI 10% solution and crude Droxidopa isolated by concentration to residue with a flow of nitrogen.	EMBODIMENT
+The isolated product, about 100 mg, was analysed for evaluate diastereoisomeric purity by HPLC.	EMBODIMENT
+A ratio of 70:30 A% was observed between the threo Droxydopa and erythro Droxydopa form	EMBODIMENT
+Example 8: Synthesis of Droxidopa BOC of formula (I) by enzymatic reduction of the compound of formula (II) wherein R1 and R2 is acetyl, R3 is ethyl, R4 is BOC.	EMBODIMENT
+In 75 ml of 50 mM phosphate buffer at pH 7 was added 20 mg of MgSO4, 25 mg of CDX-901 (cofactor regeneration enzyme, glucose dehydrogenase), 200 mg of KRED-130, 75 mg of NADP+, 1.3 g of Glucose.	EMBODIMENT
+The suspension was mix at 30°C and pH correct to 7 with NaOH 0.5 M.	EMBODIMENT
+Subsequently a solution composed by 1.5 g of compound of formula (II) (wherein R1 and R2 is acetyl, R3 is ethyl, R4 is BOC) dissolved in 3.25 ml of DMSO was added in 10 min to the suspension.	EMBODIMENT
+The reaction was performed at 30°C and it was maintained at pH 7 by addition of NaOH 0.5 M by automatic titration.	EMBODIMENT
+After 9 h and 17 h of reaction were added 75 mg of NADP+ and 25 mg of CDX-901.	EMBODIMENT
+The reaction conversion was monitored by HPLC, and after 22 h the reaction was filtered to removed undissolved material.	EMBODIMENT
+To the mother liquor was added 50 ml of EtOAc and 1,5 g of dicalite, mixed for 30 min, then it was filtered and filtrated washed with 50 ml of EtOAc.	EMBODIMENT
+To the obtained solution was added 20 ml of NaCl and organic layer separated.	EMBODIMENT
+Aqueous layer was extracted again with 20 ml of EtAc and the joined organic layer wash with 30 ml of water.	EMBODIMENT
+The organic layer was distilled to residue and stripped twice with 30 ml of DCM.	EMBODIMENT
+Finally 0.9 g of Droxidopa BOC was obtained and analysed.	EMBODIMENT
+Example 9: Synthesis of Droxidopa Ethyl Estere of formula (I) by by chemical cleavage of Boc N-protection group.	EMBODIMENT
+To 0.9 g of Droxidopa BOC obtained in the example 8, was dissolved in 10 ml of dichloromethane.	EMBODIMENT
+Then to the obtained solution at 25°C was added 1,5 ml of TFA in 10 min.	EMBODIMENT
+The obtained reaction mixture was stirred at 25°C foe 1 h.	EMBODIMENT
+Conversion was monitored by HPLC.	EMBODIMENT
+After complete cleavage of BOC, the pH was neutralized with addition of saturated solution of NaHCO3.	EMBODIMENT
+The product was isolated by evaporation to residue obtaining about 0.9 g of crude Droxidopa ethyl ester.	EMBODIMENT
+Isolated product was analysed in HPLC-MS to confirm mass (Mw 241).	EMBODIMENT
+Also the diastereoisomeric purity was evaluated by HPLC, where a ratio of 72:28 A% was observed between the putative threo and erythro form.	EMBODIMENT
+Example 10: Synthesis of Droxidopa of formula (I) by chemical hydrolysis of R3, wherein R3 is ethyl.	EMBODIMENT
+To 0.5 mg of isolated Droxydopa ethyl ester obtained in the example 9 was added to 6 ml NaOH 3 M.	EMBODIMENT
+The reaction mixture was stirred for 1 h at 25 °C and conversion monitored by HPLC.	EMBODIMENT
+After complete hydrolysis, the reaction was neutralized with HCI 10% solution and crude Droxidopa was isolated by concentration the solution to residue with flow of nitrogen.	EMBODIMENT
+The isolated product, about 0.5 g was analysed for evaluate diastereisomeric purity by HPLC, where a ratio of 72:28 A% was observed between the threo Droxydopa and erythro Droxydopa form.	EMBODIMENT
+Example 11: Analytical method to analyse the reaction product.	EMBODIMENT
+Determination of purity, diastereoisomeric purity and assay by HPLC:	EMBODIMENT
+Chromatographic conditions:	EMBODIMENT
+Column:Luna C18(2) 100Å, 150 x 4.6 mm, 3.0 µmMobile phase A:Dissolve 1.0 g of sodium 1-heptanesulfonate and 1.36 g of potassium dihydrogen phosphate in 1000 mL of water and adjust the pH to 2.0 with phosphoric acid.	EMBODIMENT
+To 930 mL of this solution add 70 mL of acetonitrile.	EMBODIMENT
+Detector:UV at 220 nmFlow Rate:1.0 mL/min.	EMBODIMENT
+Column Temperature:25°CInjection volume:50 µLRun time:35 minutesDiluent:MilliQ water.	EMBODIMENT

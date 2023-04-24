@@ -1,0 +1,307 @@
+ABNORMALITY DETECTION METHOD, FIBER PROCESSING SYSTEM, SPINNING MACHINE, AND ABNORMALITY DETECTION PROGRAM	PATENT TITLE
+BACKGROUND OF THE INVENTION	SECTION TITLE
+1. Field of the Invention	SECTION TITLE
+The present invention relates to an abnormality detection method, a fiber processing system, a spinning machine, and an abnormality detection program.	TECHNICAL FIELD
+2. Description of the Related Art	SECTION TITLE
+Conventionally, a spinning machine including a spinning device adapted to spin a fiber bundle to produce a yarn, a winding device adapted to wind the produced yarn to form a package, and a yarn monitoring device adapted to monitor yarn to be wound into a package is known (see, e.g., Japanese Unexamined Patent Publication No. 2008-007214).	REFERENCE
+In such a spinning machine, yarn count abnormality that occurs in the yarn is detected based on the monitoring result of the yarn monitoring device.	REFERENCE
+BRIEF SUMMARY OF THE INVENTION	SECTION TITLE
+A textile machine such as the spinning machine and the like described above is required to improve detection accuracy of non-periodic abnormalities from the viewpoint of quality improvement.	REFERENCE_PROBLEM
+An object of the present invention is to provide an abnormality detection method, a fiber processing system, a spinning machine, and an abnormality detection program capable of improving detection accuracy of non-periodic abnormality.	INVENTION_ADVANTAGE
+An abnormality detection method of the present invention relates to an abnormality detection method executed in a fiber processing system in which a pre-process machine executes a pre-process to produce a first fiber bundle, and then a post-process machine processes the first fiber bundle to produce a second fiber bundle thinner than the first fiber bundle, the abnormality detection method including an acquiring step of acquiring pre-process information relating to the pre-process;	REPHRASED CLAIM
+a thickness detecting step of detecting thickness information relating to a thickness of the second fiber bundle;	REPHRASED CLAIM
+and an abnormality detecting step of detecting, based on the pre-process information and the thickness information, a non-periodic abnormality occurring in the second fiber bundle.	REPHRASED CLAIM
+In the abnormality detection method, the yarn count abnormality occurring in the second fiber bundle produced from the first fiber bundle is detected based not only on the thickness information of the second fiber bundle but also on pre-process information relating to the pre-process performed by the pre-process machine.	EMBODIMENT
+Thus, compared to a case in which the non-periodic abnormality is detected based only on the thickness information of the second fiber bundle, for example, the detection accuracy of the non-periodic abnormality can be improved.	INVENTION_ADVANTAGE
+According to the abnormality detection method, in the abnormality detecting step, a set value relating to determination of the non-periodic abnormality may be set based on the pre-process information, and the non-periodic abnormality may be detected using the set value.	REPHRASED CLAIM
+In this case, non-periodic abnormalities can be more suitably detected.	INVENTION_ADVANTAGE
+In the abnormality detection method, the pre-process information may include variations in thickness of the first fiber bundle;	REPHRASED CLAIM
+and in the abnormality detecting step, a threshold value relating to the determination of the non-periodic abnormality may be corrected according to the variation in the thickness of the first fiber bundle, and the non-periodic abnormality may be detected using the corrected threshold value.	REPHRASED CLAIM
+In this case, the non-periodic abnormality can be detected based also on the variation in the thickness of the first fiber bundle, and the detection accuracy of the non-periodic abnormality can be further improved.	INVENTION_ADVANTAGE
+According to the abnormality detection method of the present invention, in the acquiring step, the variation in the thickness of the first fiber bundle detected by the pre-process machine may be acquired as the pre-process information.	REPHRASED CLAIM
+In this case, the variation in the thickness of the first fiber bundle can be more suitably acquired.	INVENTION_ADVANTAGE
+In addition, since variations in the thickness of the first fiber bundle are actually detected, a non-periodic abnormality can be detected using more accurate pre-process information.	INVENTION_ADVANTAGE
+According to the abnormality detection method, in the acquiring step, the variation in the thickness of the first fiber bundle set in the pre-process machine may be acquired as the pre-process information.	REPHRASED CLAIM
+In this case, the variation in the thickness of the first fiber bundle can be more suitably acquired.	INVENTION_ADVANTAGE
+Moreover, since the variation in the thickness of the first fiber bundle can be acquired without using a detection device, the process can be simplified.	INVENTION_ADVANTAGE
+According to the abnormality detection method, the pre-process information may include mass per unit length of the first fiber bundle;	REPHRASED CLAIM
+and in the abnormality detecting step, a reference value relating to the determination of the non-periodic abnormality may be set based on the mass per unit length of the first fiber bundle, and the non-periodic abnormality may be detected using the set reference value.	REPHRASED CLAIM
+In this case, the non-periodic abnormality can be detected based also on the mass per unit length of the first fiber bundle, and the detection accuracy of the non-periodic abnormality can be further improved.	INVENTION_ADVANTAGE
+According to the abnormality detection method, in the acquiring step, the mass per unit length of the first fiber bundle detected by the pre-process machine may be acquired as the pre-process information.	REPHRASED CLAIM
+In this case, the detection accuracy of the non-periodic abnormality can be further improved.	INVENTION_ADVANTAGE
+Furthermore, since the mass per unit length of the first fiber bundle is actually detected, a non-periodic abnormality can be detected using more accurate pre-process information.	INVENTION_ADVANTAGE
+According to the abnormality detection method, in the acquiring step, a set value of mass per unit length of the first fiber bundle set in the pre-process machine may be acquired as the pre-process information.	REPHRASED CLAIM
+In this case, the detection accuracy of the non-periodic abnormality can be further improved.	INVENTION_ADVANTAGE
+Furthermore, since the mass per unit length can be acquired without using a detection device, the process can be simplified.	INVENTION_ADVANTAGE
+In the abnormality detecting step, at least one of a yarn count abnormality, a nep, a thin yarn, and a thick yarn may be detected as the non-periodic abnormality.	REPHRASED CLAIM
+These non-periodic abnormalities can be accurately detected by the pre-process information and the thickness information not conventionally used for the detection of these non-periodic abnormalities.	INVENTION_ADVANTAGE
+The abnormality detection method may further include an output step of outputting the pre-process information on a display screen.	REPHRASED CLAIM
+In this case, the operator can learn the pre-process information.	INVENTION_ADVANTAGE
+According to the abnormality detection method, in the acquiring step, the pre-process information may be acquired by operation input and/or communication.	REPHRASED CLAIM
+Alternatively, in the acquiring step, the pre-process information may be acquired by reading, with a reading device, information of an information tag provided in a can in which the first fiber bundle is accommodated.	REPHRASED CLAIM
+According to the abnormality detection method, in the thickness detecting step, the thickness information may be detected using a yarn monitoring device including an optical sensor.	REPHRASED CLAIM
+Even if yarn count abnormality has occurred in the second fiber bundle, the change in apparent thickness of the second fiber bundle may be small.	INVENTION_ADVANTAGE
+Even in a case where the thickness information is detected using the yarn monitoring device including an optical sensor, a non-periodic abnormality can be appropriately detected by detecting a non-periodic abnormality occurring in the second fiber bundle based on not only the thickness information but also on the pre-process information.	INVENTION_ADVANTAGE
+In the abnormality detection method, the post-process machine includes a spinning device adapted to spin the first fiber bundle to produce a yarn as the second fiber bundle, and a winding device adapted to wind the yarn to form a package. 	REPHRASED CLAIM
+In this case, a non-periodic abnormality can be more suitably detected.	INVENTION_ADVANTAGE
+The abnormality detection method may further include a prohibiting step of prohibiting spinning of the first fiber bundle when a detection is made in the abnormality detecting step that an abnormality has occurred in the second fiber bundle over a continuous set length.	REPHRASED CLAIM
+The possibility that a normal second fiber bundle is produced is low even if spinning is continued using the first fiber bundle.	INVENTION_ADVANTAGE
+Thus, by prohibiting the spinning of the first fiber bundle, the second fiber bundle of low quality can be avoided from being continuously produced and the efficiency of the post-process machine can be avoided from lowering.	INVENTION_ADVANTAGE
+According to the abnormality detection method, in the prohibiting step, the set length for a tip region of one first fiber bundle is set to be longer than the set length for a main body region other than the tip region of the one first fiber bundle.	REPHRASED CLAIM
+When a new type of first fiber bundle is processed by the post-process machine, for example, when the lot in the post-process machine is changed, the quality of the first fiber bundle is assumed to be unstable at first.	INVENTION_ADVANTAGE
+Thus, by not immediately prohibiting the spinning of the first fiber bundle in the region where the quality of the first fiber bundle is unstable, the first fiber bundle can be appropriately processed.	INVENTION_ADVANTAGE
+According to the abnormality detection method, in the acquiring step, information relating to a number of neps may be acquired as the pre-process information;	REPHRASED CLAIM
+in the detecting step, information relating to the number of neps may be detected as the thickness information;	REPHRASED CLAIM
+and in the abnormality detecting step, when a detection is made that the number of neps included in the second fiber bundle is greater than or equal to a predetermined value, the spinning of the first fiber bundle may be prohibited, and when a detection is made that the number of neps included in the second fiber bundle is less than the predetermined value, formation of the package by the winding device may be continued.	REPHRASED CLAIM
+In this case, the prohibition of the spinning and the continuation of the formation of the package can be accurately determined by making the determination in the detecting step while referring to the pre-process information.	INVENTION_ADVANTAGE
+A spinning machine of the present invention relates to a spinning machine adapted to execute the abnormality detection method described above as the post-process machine;	REPHRASED CLAIM
+the spinning machine including a spinning device adapted to spin the first fiber bundle to produce a yarn as the second fiber bundle;	REPHRASED CLAIM
+a winding device adapted to wind the yarn to form a package;	REPHRASED CLAIM
+an acquiring section adapted to acquire the pre-process information;	REPHRASED CLAIM
+a thickness detection section adapted to detect the thickness information;	REPHRASED CLAIM
+and an abnormality detection section adapted to detect the non-periodic abnormality based on the pre-process information and the thickness information.	REPHRASED CLAIM
+According to such a spinning machine, the detection accuracy of the non-periodic abnormality can be improved for the reason described above.	INVENTION_ADVANTAGE
+A fiber processing system of the present invention relates to a fiber processing system including a pre-process machine adapted to produce a first fiber bundle;	REPHRASED CLAIM
+a post-process machine adapted to produce a second fiber bundle thinner than the first fiber bundle by processing the first fiber bundle;	REPHRASED CLAIM
+an acquiring section adapted to acquire pre-process information relating to a pre-process executed by the pre-process machine;	REPHRASED CLAIM
+a thickness detection section adapted to detect thickness information relating to the thickness of the second fiber bundle;	REPHRASED CLAIM
+and an abnormality detection section adapted to detect, based on the pre-process information and the thickness information, a non-periodic abnormality occurring in the second fiber bundle. 	REPHRASED CLAIM
+According to such a fiber processing system, the detection accuracy of the non-periodic abnormality can be improved for the reason described above.	INVENTION_ADVANTAGE
+An abnormality detection program of the present invention relates to an abnormality detection program for causing a computer to execute, in a fiber processing system in which a pre-process machine produces a first fiber bundle, and then a post-process machine processes the first fiber bundle to produce a second fiber bundle thinner than the first fiber bundle, processes of acquiring pre-process information relating to a pre-process executed by the pre-process machine;	REPHRASED CLAIM
+detecting thickness information relating to a thickness of the second fiber bundle;	REPHRASED CLAIM
+and detecting, based on the pre-process information and the thickness information, a non-periodic abnormality occurring in the second fiber bundle.	REPHRASED CLAIM
+According to such an abnormality detection program, the detection accuracy of the non-periodic abnormality can be improved for the reason described above.	INVENTION_ADVANTAGE
+BRIEF DESCRIPTION OF THE DRAWINGS	SECTION TITLE
+FIG. 1 is a block diagram illustrating a configuration of a fiber processing system according to one embodiment;	FIGURE DESCRIPTION
+FIG. 2 is a front view of a pneumatic spinning machine;	FIGURE DESCRIPTION
+FIG. 3 is a view illustrating a count abnormality detection program according to one embodiment;	FIGURE DESCRIPTION
+andFIG. 4 is a schematic view for explaining an alternative embodiment.	FIGURE DESCRIPTION
+DETAILED DESCRIPTION OF PREFERRED EMBODIMENTS	SECTION TITLE
+One embodiment of the present invention will be hereinafter described in detail with reference to the accompanying drawings.	JURIDICAL TEMPLATE
+The same or corresponding components are denoted with the same reference numerals in the following description, and redundant description will be omitted.	JURIDICAL TEMPLATE
+As illustrated in FIG. 1, a fiber processing system 100 according to one embodiment includes a plurality of carding machines 110, a plurality of drawing machines 130, and a plurality of pneumatic spinning machines 150.	FIGURE DESCRIPTION
+The carding machine 110 is adapted to card (carding) a wrap produced by an opening and blowing machine in a pre-process (upstream process) of a carding process to produce a fiber bundle.	EMBODIMENT
+For example, the carding machine 110 combs the sheet-like wrap with a comb to separate the fibers, and removes dust, short fibers and the like contained in the wrap.	EMBODIMENT
+Thereafter, the carding machine 110 aligns in parallel and collects fibers remaining after the removal of dust and short fibers to produce a rope-like fiber bundle (card sliver).	EMBODIMENT
+The carding machine 110 accommodates the produced fiber bundle in a can (e.g., cylindrical container).	EMBODIMENT
+The fiber bundle produced by the carding machine 110 is transferred to the next process while being accommodated in the can.	EMBODIMENT
+The drawing machine 130 is adapted to draw the fiber bundle produced by the carding machine 110.	EMBODIMENT
+The drawing machine 130 includes a draft device 131.	FIGURE DESCRIPTION
+The draft device 131 includes a plurality of (e.g., three) roller pairs arranged along a traveling direction of the fiber bundle.	FIGURE DESCRIPTION
+Each roller pair includes a drive roller and a driven roller.	FIGURE DESCRIPTION
+The drawing machine 130 drafts (stretches) the fiber bundle by the roller pairs.	EMBODIMENT
+For example, the drawing machine 130 bundles six or eight fiber bundles and drafts the fiber bundles to six times or eight times to straighten the fibers and remove unevenness in the thickness of the fiber bundle.	EMBODIMENT
+The drawing machine 130 accommodates the drawn fiber bundle (first fiber bundle) in a can.	EMBODIMENT
+The fiber bundle drawn by the drawing machine 130 is transferred to the next process while being accommodated in the can.	EMBODIMENT
+The pneumatic spinning machine 150 is adapted to spin the fiber bundle drawn by the drawing machine 130 to produce a yarn (second fiber bundle).	EMBODIMENT
+The pneumatic spinning machine 150 drafts and twists the fiber bundle drawn by the drawing machine 130 to produce a yarn, and winds the yarn to form a package.	EMBODIMENT
+The pneumatic spinning machine 150 is, for example, an air jet spinning machine or an open-end spinning machine.	EMBODIMENT
+The air jet spinning machine spins the fiber bundle by whirling air flow to produce a yarn.	EMBODIMENT
+The open-end spinning machine separates the fibers of the fiber bundle by a combing roller or an air flow, and then applies twists to the fiber while re-bundling the fibers to produce a yarn.	EMBODIMENT
+In such a fiber processing system 100, a fiber processing method is executed.	EMBODIMENT
+The fiber processing method includes a carding process of producing a fiber bundle using the carding machine 110, a drawing process of drawing the fiber bundle produced in the carding process using the drawing machine 130, and a pneumatic spinning process of spinning the fiber bundle drawn in the drawing process using the pneumatic spinning machine 150 to produce a yarn.	EMBODIMENT
+In the fiber processing system 100, the fiber bundle produced by the carding machine 110 and supplied to the pneumatic spinning machine 150 passes through the drawing machine 130 a predetermined number of times (one or more times (e.g., three times)).	EMBODIMENT
+In the fiber processing system 100, the fiber bundles produced by the two carding machines 110 are supplied to one drawing machine 130, and the fiber bundles drawn by one drawing machine 130 are supplied to two pneumatic spinning machines 150.	EMBODIMENT
+The two carding machines 110, the one drawing machine 130, and the two pneumatic spinning machines 150 construct a unit in which a fiber processing route is the same in the fiber processing system 100.	EMBODIMENT
+The fiber processing system 100 may include a sliver wrap device that performs a sliver wrapping process, and a comber machine that performs a combing process.	EMBODIMENT
+In this case, the fiber processing method includes the sliver wrapping process and the combing process.	EMBODIMENT
+In the sliver wrapping process, 18 to 24 rope-like fiber bundles produced by the carding machine 110 are wound into a single sheet to produce a sliver wrap.	EMBODIMENT
+In the combing process, the sliver wrap produced by the sliver wrap device is combed with a comb to remove dust and short fibers, and the long fibers remaining after the removal are aligned in parallel to produce a uniform fiber bundle.	EMBODIMENT
+In this case, the fiber bundle produced in the combing process is supplied to the drawing machine 130.	EMBODIMENT
+The fiber processing system 100 may include a roving machine that performs a roving process, a ring fine spinning machine that performs a fine spinning process, and an automatic winder that performs a rewinding process, instead of the pneumatic spinning machine 150.	EMBODIMENT
+In this case, the fiber processing method includes a roving process, a fine spinning process and a rewinding process instead of the pneumatic spinning process.	EMBODIMENT
+In the roving process, the fiber bundle drawn by the drawing machine 130 is drafted and twisted to produce a roved yarn, and in the fine spinning process, the roved yarn formed by the roving machine is drafted and twisted to form a yarn.	EMBODIMENT
+In the rewinding process, the yarn produced by the ring fine spinning machine is wound to form a package.	EMBODIMENT
+The fiber processing system 100 may be a one-pass configuration in which the fiber bundle passes through the drawing machine 130 only once.	EMBODIMENT
+In the fiber processing system 100, the fiber bundle produced by one carding machine 110 may be supplied to one drawing machine 130, and the fiber bundle produced by one drawing machine 130 may be supplied to one pneumatic spinning machine 150.	EMBODIMENT
+The fiber processing route constituted by the carding machine 110, the drawing machine 130 and the pneumatic spinning machine 150 is not limited, and the drawing machine 130 that has lastly drawn the fiber bundle supplied to the pneumatic spinning machine 150 merely needs to be specified.	EMBODIMENT
+The carding machine 110 may include a draft device.	EMBODIMENT
+The draft device is provided, for example, on the downstream side of the carding machine 110 and drafts the produced fiber bundle.	EMBODIMENT
+The draft device separates the fibers of the fiber bundle to increase the parallelism of the fiber bundle.	EMBODIMENT
+In this case, the carding machine 110 accommodates, into the can, the fiber bundle drafted by the draft device.	EMBODIMENT
+The configuration of the pneumatic spinning machine 150 will be further described with reference to FIG. 2.	FIGURE DESCRIPTION
+As illustrated in FIG. 2, the pneumatic spinning machine 150 includes a plurality of spinning units 2, a yarn joining cart 3, a doffing cart (not illustrated), a first end frame 4, a second end frame 5, and a plurality of unit controllers (abnormality detection sections) 10.	FIGURE DESCRIPTION
+The plurality of the spinning units 2 are arranged in a row.	FIGURE DESCRIPTION
+Each of the spinning units 2 is adapted to produce a yarn Y and to wind the yarn Y into a package P.	EMBODIMENT
+The yarn joining cart 3 is adapted to perform a yarn joining operation in a spinning unit 2 when the yarn Y is cut, or is broken for some reason in such a spinning unit 2.	EMBODIMENT
+The doffing cart is adapted to doff a package P and to supply a new bobbin B to a spinning unit 2 when the package P is fully-wound in such a spinning unit 2.	EMBODIMENT
+The first end frame 4 accommodates, for example, a collecting device adapted to collect a fiber waste, a yarn waste, and the like generated in the spinning units 2.	EMBODIMENT
+The second end frame 5 accommodates an air supplying section adapted to adjust air pressure of compressed air to be supplied to the pneumatic spinning machine 150 and supply the air to each section of the pneumatic spinning machine 150, a drive motor adapted to supply power to each section of the spinning unit 2, and the like.	EMBODIMENT
+The second end frame 5 includes a machine control device (acquiring section) 5a and a touch panel screen 5b.	FIGURE DESCRIPTION
+The machine control device 5a is adapted to intensively manage and control each section of the pneumatic spinning machine 150.	EMBODIMENT
+The touch panel screen 5b can display information relating to set contents and/or a status, or the like of the spinning units 2.	EMBODIMENT
+The operator can perform setting operation of the spinning unit 2 by performing appropriate operation input with buttons 5c displayed on the touch panel screen 5b.	EMBODIMENT
+The unit controller 10 is provided for every predetermined number of spinning units 2.	EMBODIMENT
+The unit controller 10 controls the operation of the spinning unit 2.	EMBODIMENT
+The unit controller 10 is, for example, a computer including a processor (e.g., Central Processing Unit (CPU)) that executes an operating system, application programs and the like, a storage section configured with a Read Only Memory (ROM), a Random Access Memory (RAM), a hard disk, and the like, and a communication control section configured by a network card or a wireless communication module.	EMBODIMENT
+The storage section of the unit controller 10 stores data or a database necessary for processing.	EMBODIMENT
+The unit controller 10 is communicably connected to the machine control device 5a, and controls the operation of each section of the spinning unit 2 based on the operating conditions input to the machine control device 5a.	FIGURE DESCRIPTION
+Each spinning unit 2 includes the draft device 6, a spinning device 7, a yarn monitoring device (thickness detection section) 8, a tension sensor 9, a yarn storage device 11, a waxing device 12, and a winding device 13 in such an order from the upstream in a travelling direction of the yarn Y.	FIGURE DESCRIPTION
+The draft device 6 drafts the fiber bundle (sliver, first fiber bundle) S produced by the drawing machine 130.	EMBODIMENT
+The draft device 6 drafts the fiber bundle S at a draft ratio higher than the draft ratio in the drawing machine 130.	EMBODIMENT
+The spinning device 7 is adapted to apply twists to the fiber bundle S drafted by the draft device 6 with whirling airflow to produce a yarn Y. 	EMBODIMENT
+The yarn Y is thinner than the fiber bundle S.	FIGURE DESCRIPTION
+The yarn storage device 11 pulls out the yarn Y from the spinning device 7.	EMBODIMENT
+The yarn storage device 11 is adapted to eliminate slack of the yarn Y between the spinning device 7 and the winding device 13.	EMBODIMENT
+In the present embodiment, the yarn storage device 11 includes a yarn storage roller adapted to store the yarn Y by winding the yarn Y around an outer peripheral surface thereof.	EMBODIMENT
+The spinning unit 2 may pull out the yarn Y from the spinning device 7 by a delivery roller pair instead of the yarn storage device 11.	EMBODIMENT
+In this case, the yarn storage device 11 may be provided downstream of the delivery roller pair.	EMBODIMENT
+The yarn storage device 11 in this case may be a mechanical compensator and/or a suction slack tube in addition to the roller illustrated in FIG. 2 or in place of the roller.	EMBODIMENT
+The waxing device 12 is adapted to apply wax to the yarn Y between the yarn storage device 11 and the winding device 13.	EMBODIMENT
+When the yarn Y is wound without wax being applied to the yarn Y, the wax may be removed from the waxing device 12 or the waxing device 12 may be omitted.	EMBODIMENT
+The winding device 13 is adapted to wind the yarn Y around a bobbin B to form a package P.	EMBODIMENT
+The yarn monitoring device 8 is adapted to monitor the travelling yarn Y between the spinning device 7 and the yarn storage device 11.	EMBODIMENT
+The yarn monitoring device 8 detects thickness information relating to the thickness of the yarn Y.	EMBODIMENT
+The yarn monitoring device 8 may be configured to include any type of sensor.	EMBODIMENT
+For example, an optical sensor may be used which irradiates the yarn Y with light to detect a temporal change (change over time) in thickness of the yarn Y based on a change in light reception amount.	EMBODIMENT
+Alternatively, a capacitive sensor may be used in which the yarn Y is passed through an electric field to detect a temporal change in the thickness of the yarn Y based on a change in capacitance.	EMBODIMENT
+The yarn monitoring device 8 detects the presence or absence of a yarn defect based on the monitoring result.	EMBODIMENT
+The yarn monitoring device 8 detects a thickness abnormality of the yarn Y and/or a foreign substance included in the yarn Y, for example, as the yarn defect.	EMBODIMENT
+Furthermore, the yarn monitoring device 8 detects the presence or absence of the yarn Y in a yarn path of the yarn Y.	EMBODIMENT
+The yarn monitoring device 8 transmits a signal indicating the detection result to a unit controller 10.	EMBODIMENT
+The yarn monitoring device 8 may not have the function of detecting foreign substances included in the yarn Y.	EMBODIMENT
+The tension sensor 9 is adapted to measure tension of the travelling yarn Y between the spinning device 7 and the yarn storage device 11, and to transmit a tension measurement signal to the unit controller 10.	EMBODIMENT
+The spinning unit 2 may not include the tension sensor 9.	EMBODIMENT
+When the unit controller 10 determines a presence of an abnormality based on a detection result of the yarn monitoring device 8 and/or the tension sensor 9, the yarn Y is cut in the spinning unit 2.	EMBODIMENT
+Now, an abnormality detection method performed in the fiber processing system 100 will be described.	EMBODIMENT
+As described above, in the fiber processing system 100, the fiber bundle S (first fiber bundle) produced by the drawing machine 130 is processed by the pneumatic spinning machine 150 to produce a yarn Y (second fiber bundle) thinner than the fiber bundle S.	EMBODIMENT
+That is, the fiber processing system 100 includes the drawing machine 130 as a pre-process machine and the pneumatic spinning machine 150 as a post-process (downstream process) machine.	EMBODIMENT
+Generally, in the count abnormality detection method, pre-process information relating to a pre-process executed by the drawing machine 130 is acquired (acquiring step).	EMBODIMENT
+The pneumatic spinning machine 150 detects thickness information of the yarn Y (thickness detecting step).	EMBODIMENT
+A non-periodic abnormality occurring in the yarn Y is detected based on the pre-process information and the thickness information (abnormality detecting step).	EMBODIMENT
+In the present embodiment, an example in which a yarn count abnormality (mixed yarn) (hereinafter referred to as "count abnormality") is detected as a non-periodic abnormality will be described.	EMBODIMENT
+The count abnormality means that a portion where the mass per unit length differs from a target value appears over a long range of several meters or more.	DEFINITION
+That is, the count abnormality is different from a short defect lasting for about a few centimeters such as a slub or a nep.	DEFINITION
+Furthermore, the count abnormality is, for example, a change in thickness of a single digit such as 7% and 8%, which is different from a normal thickness abnormality in which the thickness changes by about 10% to 20% with respect to the standard value.	DEFINITION
+For example, the count abnormality may occur due to one fiber bundle falling off in the processing process of the drawing machine 130.	DEFINITION
+Alternatively, the count abnormality may also occur by erroneously supplying, to the pneumatic spinning machine 150, a can different from a can (fiber bundle S) intended to be supplied.	DEFINITION
+The abnormality detection method according to the present embodiment includes the acquiring step, the thickness detecting step, the abnormality detecting step, and the output step.	EMBODIMENT
+Hereinafter, the description will be made focusing on one spinning unit 2 of the pneumatic spinning machine 150, but the count abnormality detection method is similarly executed in the other spinning units 2 as well.	EMBODIMENT
+In the acquiring step, the machine control device 5a acquires first information relating to the drawing machine 130.	EMBODIMENT
+For example, the machine control device 5a acquires the pre-process information by receiving information that has been input by the operator operating the touch panel screen 5b.	EMBODIMENT
+The pre-process information is, for example, information relating to the thickness (weight) of the fiber bundle S produced by the drawing machine 130.	EMBODIMENT
+The pre-process information includes, for example, mass per unit length of the fiber bundle S, variation in the thickness of the fiber bundle S, and the like.	EMBODIMENT
+The mass per unit length of the fiber bundle S can be represented by grain number, denier, or the like.	TECHNICAL TEMPLATE
+The variation in the thickness of the fiber bundle S can be represented by CV% (evenness) or the like.	TECHNICAL TEMPLATE
+As a mass per unit length of the fiber bundle S, for example, a value measured by a measuring instrument provided in the drawing machine 130 can be used.	EMBODIMENT
+As a variation in the thickness of the fiber bundle S, for example, a value measured by a measuring instrument provided in the drawing machine 130 can be used.	EMBODIMENT
+In these cases, the machine control device 5a acquires the pre-process information by the measurement value being input by the operator through the touch panel screen 5b.	EMBODIMENT
+In the thickness detecting step, the yarn monitoring device 8 detects thickness information of the yarn Y.	EMBODIMENT
+In the abnormality detecting step, the unit controller 10 detects a non-periodic abnormality (count abnormality in the present embodiment) occurring in the yarn Y.	EMBODIMENT
+In the abnormality detecting step, a set value relating to the determination of the count abnormality is set based on the pre-process information, and the count abnormality is detected using the set value.	EMBODIMENT
+In the present embodiment, when the thickness of the yarn Y deviates from a range between a positive side threshold value and a negative side threshold value set with respect to a reference value (range of greater than or equal to the positive side threshold value and smaller than or equal to the negative side threshold value), determination is made that count abnormality has occurred.	EMBODIMENT
+That is, in the present embodiment, the reference value, the positive side threshold value, and the negative side threshold value are set values relating to the determination of the count abnormality.	EMBODIMENT
+The reference value is set to, for example, a value obtained by dividing the mass per unit length of the fiber bundle S by a total draft ratio of the spinning unit 2.	EMBODIMENT
+The total draft ratio is the difference between the peripheral speeds of the back roller and the yarn pull-out device (the yarn storage roller of the yarn storage device 11 or the delivery roller pair) or the difference between the peripheral speeds of the back roller and the front roller.	DEFINITION
+The reference value may be a value calculated for each spinning unit 2, may be a value calculated for every predetermined number of spinning units 2, or may be a value averaged among all the spinning units 2.	EMBODIMENT
+When the value calculated for each spinning unit 2 is used, a reference value suitable for the fiber bundle S to be actually supplied can be set.	EMBODIMENT
+As a result, since the yarn Y is not cut needlessly as the determination suitable for each spinning unit 2 is performed, the operation efficiency can be improved.	INVENTION_ADVANTAGE
+When the value calculated for every predetermined number of spinning units 2 or the value averaged among all the spinning units 2 is used, the quality of the yarn Y can be made uniform among the spinning units 2.	EMBODIMENT
+The value to be used may be changed depending on which of the operation efficiency and the quality is to be prioritized.	EMBODIMENT
+This is the same for the correction of the threshold value in accordance with the variation in the thickness of the fiber bundle S to be described later.	EMBODIMENT
+The detection accuracy of the count abnormality can be improved by setting the reference value relating to the determination of the count abnormality in accordance with the mass per unit length of the fiber bundle S.	INVENTION_ADVANTAGE
+That is, as a related art, for example, a method using an average value of the thickness of yarn Y detected in the past in each spinning unit 2 as a reference value, a method using a thickness of the yarn Y detected in the past in the spinning unit 2, in which a count abnormality is to be detected, as a reference value, and the like can be considered.	REFERENCE
+However, both methods are relative determinations, and an abnormal value may be set as the reference value itself.	REFERENCE_PROBLEM
+In this case, determination may be made that a count abnormality has occurred even though the thickness of the yarn Y is normal, or determination may be made as normal even though count abnormality has occurred.	REFERENCE_PROBLEM
+On the other hand, in the abnormality detection method of the present embodiment, since the reference value is set in accordance with the mass per unit length of the fiber bundle S, absolute determination can be made.	INVENTION_ADVANTAGE
+As a result, the detection accuracy of count abnormality can be improved.	INVENTION_ADVANTAGE
+The positive side threshold value and the negative side threshold value are calculated, for example, by the following equations (1) and (2).	EMBODIMENT
+Negative side threshold value=reference value×1+CV%×σ Negative side threshold value=reference value×1+CV%×σ As described above, CV% is a value representing the variation in the thickness of the fiber bundle S.	EMBODIMENT
+The coefficient σ is a set value for setting the degree of reflecting the variation in thickness.	DEFINITION
+The larger the coefficient σ, a count abnormality is less likely detected.	DEFINITION
+The smaller the coefficient σ, a count abnormality is more likely detected, and the quality of the yarn Y increases, but the number of times of cutting the yarn Y increases and the operation efficiency of the spinning unit 2 lowers.	DEFINITION
+The positive side threshold value and the negative side threshold value may be values calculated for each spinning unit 2, may be values calculated for every predetermined number of spinning units 2, or may be values averaged among all the spinning units 2.	EMBODIMENT
+The detection accuracy of the count abnormality can be improved by correcting the threshold value relating to the determination of the count abnormality in accordance with the variation in thickness of the fiber bundle S.	INVENTION_ADVANTAGE
+That is, the thickness of the fiber bundle S produced by the drawing machine 130 may vary due to various factors.	EMBODIMENT
+The factors include, for example, the harvest time of the raw material of the fiber bundle S, the method of producing the fiber bundle S, the state of the drawing machine 130 (e.g., temporal change in the state of the draft device 131) and the like.	EMBODIMENT
+When the detection of count abnormality is performed using the same set value with respect to the fiber bundle S whose thickness varies as described above, the detection accuracy of the count abnormality may lower.	REFERENCE_PROBLEM
+On the other hand, in the abnormality detection method of the present embodiment, since the positive side threshold value and the negative side threshold value are corrected in accordance with the variation in the thickness of the fiber bundle S, the count abnormality can be detected based also on the variation in the thickness of the fiber bundle S.	EMBODIMENT
+As a result, the detection accuracy of the count abnormality can be further improved.	INVENTION_ADVANTAGE
+In the output step, the pre-process information is output to the display screen.	EMBODIMENT
+For example, the machine control device 5a controls the touch panel screen 5b so as to display the pre-process information.	EMBODIMENT
+In this case, the output step is performed by the touch panel screen 5b serving as an output section.	EMBODIMENT
+In the output step, the current production efficiency of the yarn Y for each spinning unit 2 may be further displayed.	EMBODIMENT
+In this case, the operator can change the pre-process information input through the touch panel screen 5b in consideration of the current production efficiency.	EMBODIMENT
+For example, if the setting of the positive side threshold value and the negative side threshold value is too strict, by loosening the setting, detection of a count abnormality that does not need to be originally detected can be avoided, and the production efficiency of the yarn Y can be improved.	INVENTION_ADVANTAGE
+If the setting of the positive side threshold value and the negative side threshold value is too loose, by making the setting stricter, the setting can be changed so that the count abnormality that is to be originally detected is detected, and the quality of the yarn Y can also be improved.	INVENTION_ADVANTAGE
+As illustrated in FIG. 3, in the storage section 10a of the unit controller 10, a count abnormality detection program C is stored as an abnormality detection program in the present embodiment.	FIGURE DESCRIPTION
+The storage section 10a is a non-temporary computer-readable storage medium storing the count abnormality detection program C.	EMBODIMENT
+The unit controller 10 causes the processor to read the count abnormality detection program C and executes the count abnormality detection program C to realize the abnormality detection method.	EMBODIMENT
+The count abnormality detection program C includes an acquisition module C1, a thickness detection module C2, a count abnormality detection module C3, and an output module C4.	EMBODIMENT
+The processing realized by executing the acquisition module C1, the thickness detection module C2, the count abnormality detection module C3, and the output module C4 are similar to each of the processing of the acquiring step, the thickness detecting step, the abnormality detecting step, and the output step described above.	EMBODIMENT
+The count abnormality detection program C may be provided, for example, by being fixedly recorded on a tangible recording medium such as a CD-ROM, a DVD-ROM, or a semiconductor memory.	EMBODIMENT
+Alternatively, the count abnormality detection program C may be provided as a data signal via a communication network.	EMBODIMENT
+As described above, according to the abnormality detection method of the present embodiment, the count abnormality that occurs in the yarn Y produced from the fiber bundle S is detected based not only on the thickness information of the yarn Y but also on the pre-process information relating to the pre-process executed by the drawing machine 130.	EMBODIMENT
+Thus, for example, the detection accuracy of the count abnormality can be improved as compared with the case where the count abnormality is detected based only on the thickness information of the yarn Y.	INVENTION_ADVANTAGE
+In the abnormality detecting step, set values (reference value, positive side threshold value, and negative side threshold value) relating to the determination of the count abnormality are set based on the pre-process information, and the count abnormality is detected using the set value.	EMBODIMENT
+Thus, count abnormality can be more suitably detected.	INVENTION_ADVANTAGE
+In the abnormality detecting step, the positive side threshold value and the negative side threshold value relating to the determination of the count abnormality are corrected in accordance with the variation in the thickness of the fiber bundle S, and the count abnormality is detected using the corrected positive side threshold value and the negative side threshold value.	EMBODIMENT
+Thus, the count abnormality can be detected based also on the variation in the thickness of the fiber bundle S, and the detection accuracy of the count abnormality can be further improved.	INVENTION_ADVANTAGE
+In the acquiring step, the variation in the thickness of the fiber bundle S detected by the drawing machine 130 is acquired as the pre-process information.	EMBODIMENT
+The variation in the thickness of the fiber bundle S thus can be more suitably acquired.	INVENTION_ADVANTAGE
+In the abnormality detecting step, a reference value relating to the determination of the count abnormality is set based on the mass per unit length of the fiber bundle S, and the count abnormality is detected using the set reference value.	EMBODIMENT
+Thus, the count abnormality can be detected based also on the mass per unit length of the fiber bundle S, and the detection accuracy of the count abnormality can be further improved.	INVENTION_ADVANTAGE
+Furthermore, in the acquiring step, the mass per unit length of the fiber bundle S detected by the drawing machine 130 is acquired as the pre-process information.	EMBODIMENT
+The abnormality detection method according to the present embodiment includes an output step of outputting the pre-process information to the display screen.	EMBODIMENT
+Thus, the operator can learn the pre-process information.	EMBODIMENT
+In the acquiring step, the pre-process information is acquired by the operation input of the operator.	EMBODIMENT
+The pneumatic spinning machine 150 includes the spinning device 7 adapted to spin the fiber bundle S to produce the yarn Y, and the winding device 13 adapted to wind the yarn Y to form the package P.	EMBODIMENT
+In such a spinning unit 2, since the total length of the yarn Y wound into the package P is long, non-periodic abnormality such as count abnormality can be more suitably detected.	INVENTION_ADVANTAGE
+One embodiment of the present invention has been described above, but the present invention is not limited to the above embodiment.	JURIDICAL TEMPLATE
+For example, the material and shape of each component are not limited to the above-mentioned material and shape, and various materials and shapes can be adopted.	JURIDICAL TEMPLATE
+In the embodiment described above, the detection of count abnormality is described as an example of the non-periodic abnormality.	EMBODIMENT
+However, in the abnormality detection method, at least one of count abnormality, nep, thin yarn (so-called "thin") and thick yarn (so-called "thick") may be detected as a non-periodic abnormality.	TECHNICAL TEMPLATE
+These non-periodic abnormalities can be accurately detected by referring to the pre-process information and the thickness information not conventionally used for the detection of these non-periodic abnormalities.	EMBODIMENT
+The abnormality detection method may further include a prohibiting step of prohibiting the spinning of the fiber bundle S when a detection is made in the abnormality detecting step that an abnormality has occurred in the yarn Y over a continuous set length.	EMBODIMENT
+The possibility that a normal yarn Y is produced is low even if spinning is continued using the fiber bundle S.	EMBODIMENT
+Thus, by prohibiting the spinning of the fiber bundle S, the yarn Y of low quality can be avoided from being continuously produced and the efficiency of the post-process machine (e.g., pneumatic spinning machine 150) can be avoided from lowering.	INVENTION_ADVANTAGE
+In the abnormality detection method, in the prohibiting step, the set length for a tip region (portion in the fiber bundle S that is unwound first and processed by the pneumatic spinning machine 150) of one fiber bundle S (fiber bundle S stored in one can 31) may be set to be longer than the set length for a main body region (e.g., portion stored in the central region in the height direction of the can 31) other than the tip region of the one fiber bundle S.	EMBODIMENT
+When a new type of fiber bundle S is processed by the pneumatic spinning machine 150, for example, when the lot in the pneumatic spinning machine 150 is changed, the quality of the fiber bundle S is assumed to be unstable at first.	EMBODIMENT
+Thus, by not immediately prohibiting the spinning of the fiber bundle S in the region where the quality of the fiber bundle S is unstable, the fiber bundle S can be appropriately processed.	INVENTION_ADVANTAGE
+That is, even if the tip region of the fiber bundle S includes many abnormalities, the main body region of the fiber bundle S may not include many abnormalities.	INVENTION_ADVANTAGE
+In such a case, the fiber bundle S can be processed rather than discarding the fiber bundle S.	EMBODIMENT
+According to the abnormality detection method, in the acquiring step, information relating to the number of neps is acquired as the pre-process information, in the detecting step, information relating to the number of neps is detected as the thickness information, and in the abnormality detecting step, when a detection is made that the number of neps included in the yarn Y is greater than or equal to a predetermined value, spinning of the fiber bundle S is prohibited, and when a detection is made that the number of neps included in the yarn Y is less than the predetermined value, the formation of the package P by the winding device 13 may be continued.	EMBODIMENT
+In this case, the prohibition of the spinning and the continuation of the formation of the package P can be accurately determined by making the determination in the detecting step while referring to the pre-process information.	INVENTION_ADVANTAGE
+In the acquiring step of the embodiment described above, the machine control device 5a acquires the pre-process information by receiving the operation input, but instead of or in addition to the operation input, the machine control device 5a may acquire the pre-process information by wireless communication or wired communication.	EMBODIMENT
+For example, the pre-process information may be acquired from the drawing machine 130 by wireless communication.	EMBODIMENT
+In this case, a wireless communication section that performs wireless communication functions as an acquiring section that executes the acquiring step.	EMBODIMENT
+In place of the touch panel screen 5b, a keyboard or a push button, etc. may be used.	EMBODIMENT
+In the acquiring step of the embodiment described above, the mass per unit length of the fiber bundle S detected by the drawing machine 130 is acquired as the pre-process information, but a set value (target value) of the mass per unit length of the fiber bundle S set in the drawing machine 130 may be acquired as the pre-process information.	EMBODIMENT
+In this case, the reference value relating to the determination of the non-periodic abnormality is set to, for example, a value obtained by dividing the acquired set value by the total draft ratio of the spinning unit 2.	EMBODIMENT
+Alternatively, the variation in the mass per unit length of the fiber bundle S and/or the variation in the thickness of the fiber bundle S may be measured by a measuring instrument provided separately from the drawing machine 130, and such measurement value may be acquired as the pre-process information.	EMBODIMENT
+In the acquiring step of the embodiment described above, the variation in the thickness of the fiber bundle S detected by the drawing machine 130 is acquired as the pre-process information, but a set value (target value) of the variation in the thickness of the fiber bundle S set in the drawing machine 130 may be acquired as the pre-process information.	EMBODIMENT
+In the acquiring step of the embodiment described above, as illustrated in FIG. 4, the pre-process information may be acquired by reading, with a reading device 33, information of an information tag 32 provided in the can 31 in which the fiber bundle S is accommodated.	FIGURE DESCRIPTION
+The reading device 33 may be provided in each spinning unit 2 or one reading device may be provided in the pneumatic spinning machine 150.	EMBODIMENT
+Writing of information to the information tag 32 is performed by, for example, the drawing machine 130.	EMBODIMENT
+In the abnormality detecting step of the embodiment described above, both the setting of the reference value according to the mass per unit length of the fiber bundle S and the correction of the threshold value according to the unevenness of the thickness of the fiber bundle S are performed.	EMBODIMENT
+However, only one of the setting or the correction may be performed.	EMBODIMENT
+For example, similarly to the related art described above, as the reference value, the average value of the thickness of the yarn Y detected in the past in each spinning unit 2 may be used, or the thickness of the yarn Y detected in the past in the spinning unit 2 in which the detection of the non-periodic abnormality is to be performed may be used.	EMBODIMENT
+In a case where the yarn monitoring device 8 is configured by an optical sensor, when a test spinning process of experimentally spinning the fiber bundle S is performed by the pneumatic spinning machine 150, the reference value may be set using data at the time of the test spinning.	EMBODIMENT
+For example, the reference value set using the data at the time of the test spinning may be used immediately after the start of the operation, and thereafter, the reference value may be switched to a value averaged among all the spinning units 2 at the time point the data is acquired for all the spinning units 2.	EMBODIMENT
+The abnormality detecting step of the embodiment described above may be executed by the machine control device 5a.	EMBODIMENT
+Alternatively, the abnormality detecting step may be executed by a computer provided separately from the drawing machine 130 and the pneumatic spinning machine 150, and for example, may be executed by a central management computer of a textile factory.	EMBODIMENT
+In the output step of the embodiment described above, the pre-process information is displayed on the touch panel screen 5b, but the information may be displayed on the display device of the drawing machine 130 or a portable display device (including tablet, smartphone, etc.).	EMBODIMENT
+In the spinning unit 2 of the embodiment described above, each device is arranged such that the yarn Y supplied on the upper side is wound on the lower side in a machine height direction, but each device may be arranged such that the yarn Y supplied from the lower side is wound on the upper side.	EMBODIMENT
+In the embodiment described above, a case in which the pre-process machine is the drawing machine 130 and the post-process machine is the pneumatic spinning machine 150 has been described by way of example, but the combination of the pre-process machine and the post-process machine is not limited thereto.	EMBODIMENT
+For example, a combination may be a drawing machine 130 (pre-process machine) and a roving machine (post-process machine).	EMBODIMENT
+In this case, the first fiber bundle is a draw sliver and the second fiber bundle is a roved yarn.	EMBODIMENT
+Alternatively, a combination may be a roving machine (pre-process machine) and a ring fine spinning machine (post-process machine).	EMBODIMENT
+In this case, the first fiber bundle is a roved yarn and the second fiber bundle is a yarn.	EMBODIMENT
+That is, the post-process machine merely needs to be a textile machine that processes the first fiber bundle produced by a pre-process machine to produce a second fiber bundle thinner than the first fiber bundle, and does not necessarily need to be a textile machine that drafts the fiber bundle.	EMBODIMENT
+In the embodiment described above, it can be assumed that the pneumatic spinning machine 150 serving as a post-process machine executes the abnormality detection method.	EMBODIMENT
+The pneumatic spinning machine 150 includes: a spinning unit 2 having a spinning device 7 adapted to spin a fiber bundle S to produce a yarn Y and a winding device 13 adapted to wind the yarn Y to form a package P;	EMBODIMENT
+an acquiring section (machine control device 5a) adapted to acquire pre-process information relating to a pre-process executed by a pre-process machine (drawing machine 130);	EMBODIMENT
+a thickness detection section (yarn monitoring device 8) adapted to detect thickness information of the yarn Y;	EMBODIMENT
+and an abnormality detection section (unit controller 10) adapted to detect, based on the pre-process information and the thickness information, a non-periodic abnormality occurring in the yarn Y.	EMBODIMENT
+The pneumatic spinning machine 150 includes a plurality of spinning units 2, and the abnormality detection section detects the non-periodic abnormality occurring in the yarn Y for each of the plurality of spinning units 2.	EMBODIMENT
+In the above embodiment, the pre-process information is, for example, an average value for each can.	EMBODIMENT
+The pre-process information may be continuous information on the fiber bundle.	EMBODIMENT
+The continuous information may be information continuously acquired along the longitudinal direction of the fiber bundle, or may be information obtained by continuing an average value for each predetermined length acquired by dividing the fiber bundle for each predetermined length.	EMBODIMENT
+In a case of such alternative embodiments, the temporal order of the information acquired by the drawing machine (temporal order in which the fiber bundle is produced) and the temporal order in which the fiber bundle to be processed by the pneumatic spinning machine is produced are reverse.	EMBODIMENT
+This is because the pneumatic spinning machine 150 processes from a new portion (not the fiber bundle S at the bottom of the can 31 but the fiber bundle S at the upper part of the can 31) of the fiber bundle S produced by the drawing machine 130.	EMBODIMENT
+Therefore, in the alternative embodiments, when using the pre-process information, the temporal order of the information needs to be converted.	EMBODIMENT
+This conversion process may be performed before the drawing machine writes information to an ID tag (information tag 32) or may be performed when the pneumatic spinning machine 150 reads information.	EMBODIMENT
+Furthermore, in this case, it is desirable for the operator to use the fiber bundle S of the can 31 as it is.	EMBODIMENT
+This is to prevent the start point of the data from shifting.	EMBODIMENT
+However, in the case where the operator slightly discards the upper portion of the fiber bundle S of the can 31, it is desirable to input the discarded length to the input section of the pneumatic spinning machine 150.	EMBODIMENT
+The discarded length may not be input to the input section.	EMBODIMENT

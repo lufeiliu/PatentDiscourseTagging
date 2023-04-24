@@ -1,0 +1,106 @@
+IMPROVED LOOPING MACHINE AND RELATED METHOD	PATENT TITLE
+FIELD OF APPLICATION	SECTION TITLE
+The present invention relates to an improved looping machine and a related looping method.	TECHNICAL FIELD
+PRIOR ART	SECTION TITLE
+As is known, looping is a processing technique used in the textile field which consists in joining together two pieces of fabric.	DEFINITION
+For example, it is used to join collars, cuffs and sleeves to the rest of the garment, to thus be able to make the finished product.	DEFINITION
+The joining of the flaps is performed by picking stitch by stitch both ends of the fabrics.	REFERENCE
+The joining thread is "knitted" between the terminal rank of the two flaps, thus obtaining the continuity of the stitch.	REFERENCE
+The joining made in this way is very flat and actually imperceptible.	REFERENCE_ADVANTAGE
+The looping operation appears to be a process with major limitations:	REFERENCE_PROBLEM
+it is slow and expensive;	REFERENCE_PROBLEM
+in this regard, it is estimated that it takes more than 70% of a garment's production time;	REFERENCE_PROBLEM
+the current looping machine is not flexible, in fact when the fabric fineness changes it requires a different setup and therefore a setup time that limits its productivity;	REFERENCE_PROBLEM
+the looping operator needs great experience and skills to be able to reduce errors to a minimum and acquire a certain speed, skills he/she acquires after several months of practice,one of the main problems encountered by those working in this sector is excessive eyestrain due to the ways in which the looping is performed;	REFERENCE_PROBLEM
+such strain, if prolonged over time, can lead to a progressive reduction in the operator's vision.	REFERENCE_PROBLEM
+For these reasons, providing a looping machine capable of identifying autonomously where to make the stitches, besides being an advantage in terms of speed, costs and accuracy of execution, improves the working conditions of those who use the machine, making the task less heavy and preventing workplace accidents.	INVENTION_ADVANTAGE
+Figure 1 shows a traditional looping machine.	FIGURE DESCRIPTION
+It is a circular machine where the operator must insert the stitches at the ends of the two fabrics into the tips.	FIGURE DESCRIPTION
+Thereafter, the machine makes the looping points at the pre-positioned stitches.	FIGURE DESCRIPTION
+There are also examples in the art of looping machines of the automatic or semi-automatic type which aim to solve at least partially the aforementioned problems of the manual type machine.	REFERENCE
+However, these machines are not free from problems that prevent or limit the correct functioning thereof.	REFERENCE_PROBLEM
+For example, the algorithm of these known looping machines represents a major limitation in that it calculates an average between the distances of the holes where the needle must sew the seam, and then controls the motors/actuators to move the needle with a fixed pitch along the seam line.	REFERENCE_PROBLEM
+This solution is not very functional as the distance between the stitches is highly variable in a fabric.	REFERENCE_PROBLEM
+For example, one of the main causes of variation in the distance between the holes is the intensity with which the fabric is held during its progress.	REFERENCE_PROBLEM
+With this choice of control, the loss of the correct sewing pitch is obtained at any sewing speed, causing several errors.	REFERENCE_PROBLEM
+Moreover, the mechanics of the known machine has great limitations in the choice of the components which limit its maximum speed up to a maximum of 400 stitches per minute.	REFERENCE_PROBLEM
+These limits are due, for example, to the following factors:	REFERENCE_PROBLEM
+the use of motors that are not very versatile in terms of the number and type of parameters that can be modified to perform the movement.	REFERENCE_PROBLEM
+In particular, it is not possible to change the gains of the PID controllers.	REFERENCE_PROBLEM
+Furthermore, it is not possible to assign the position, speed and acceleration profiles adopted by the motors as desired.	REFERENCE_PROBLEM
+As far as diagnostics is concerned, it is not possible to monitor which the position references are and the actual positions that the motors assume during a movement: this limit is the cause of further inaccuracies in the stitching points;	REFERENCE_PROBLEM
+the only parameters that can be modified are the maximum acceleration and speed that are used for making the trajectories.	REFERENCE_PROBLEM
+The lack of versatility of these motors in trajectory planning is to be considered one of the most critical points for achieving a highly performing automation;	REFERENCE_PROBLEM
+there is also the problem of an excessive elasticity and backlash of the transmission system connected to the motor responsible for the advancement of the fabric.	REFERENCE_PROBLEM
+The movement of the fabric must take place in a very short time (about 20ms), the presence of elasticity (for example due to the belts used) causes a delay in the movement of the fabric with respect to the movement of the motor, avoidable by limiting the acceleration of the motor and therefore the movement time of the fabric.	REFERENCE_PROBLEM
+This limits the maximum speed of the entire looping operation;	REFERENCE_PROBLEM
+the high inertia of the mobile unit, in order to carry out the horizontal movement of the needle in a few milliseconds, forces the motor to work always delivering the maximum available torque limiting the minimum movement time to a minimum value, not reducible, and therefore limiting the full speed of the operation;	REFERENCE_PROBLEM
+a further critical element identified in the movement of the mobile part is the choice of the roller screw connected to the motor.	REFERENCE_PROBLEM
+In fact, it has a rather unfavorable transmission ratio since the entire travel stroke of the mobile unit is performed with less than one complete revolution by the motor.	REFERENCE_PROBLEM
+This entails the need to exert a high torque by the motor to carry out the movement quickly.	REFERENCE_PROBLEM
+DISCLOSURE OF THE INVENTION	SECTION TITLE
+The need of solving the drawbacks and limitations mentioned with reference to the prior art is therefore felt.	JURIDICAL TEMPLATE
+The following patent allows overcoming all the technical problems and the mechanical and software limitations, both of the manual and of the automatic looping machine used to date.	JURIDICAL TEMPLATE
+The need to overcome the drawbacks and limitations of the solutions of the prior art is met by a looping machine according to claim 1 and by a looping method according to claim 10.	JURIDICAL TEMPLATE
+DESCRIPTION OF THE DRAWINGS	SECTION TITLE
+Further features and advantages of the present invention will appear more clearly from the following description of preferred non-limiting embodiments thereof, in which:	JURIDICAL TEMPLATE
+figure 1 shows a view of a manual looping machine, of the traditional type;	FIGURE DESCRIPTION
+figure 2 shows a perspective view of a looping machine according to the present invention;	FIGURE DESCRIPTION
+figure 3 shows a perspective view of a detail of a looping machine according to the present invention;	FIGURE DESCRIPTION
+figures 4-5 are schematic views of the operation of a looping machine according to the present invention;	FIGURE DESCRIPTION
+figure 6 shows a perspective view of a particular plate of the looping machine;	FIGURE DESCRIPTION
+figure 7 shows a schematic view of the operation of a looping machine according to the present invention.	FIGURE DESCRIPTION
+Elements or parts of elements in common to the embodiments described below are referred to with the same reference numerals.	JURIDICAL TEMPLATE
+DETAILED DESCRIPTION	SECTION TITLE
+With reference to the above figures, reference numeral 4 globally indicates an overall schematic view of a looping machine according to the present invention.	JURIDICAL TEMPLATE
+The looping machine 4 comprises a fixed unit comprising a support frame 8 and a mobile unit 100, supported by said fixed unit, so as to be able to move and appropriately actuate a needle 10 for the looping operation on fabric 12.	FIGURE DESCRIPTION
+The mobile unit 100 comprises a feed device 16 of the fabric 12 along a longitudinal direction or axis Y-Y, a positioning device 20 of the needle 10 along a transverse direction or axis X-X, perpendicular to said longitudinal direction or axis Y-Y and coplanar with the fabric 12, and an actuation device 24 of said needle 10 along a vertical direction or axis Z-Z, perpendicular to said longitudinal Y-Y and transverse X-X directions, to perform the looping.	REPHRASED CLAIM
+The feed device 16 of the fabric 12 comprises blocking means 28 of the fabric 12, configured to keep the fabric 12 pressed on the feed device 16 of the fabric 12.	REPHRASED CLAIM
+According to a possible embodiment, said blocking means 28 of the fabric 12 comprise an articulated foot 36 with two rotations capable of uniformly pressing the fabric 12, even in the presence of non-uniform thicknesses of the fabric.	REPHRASED CLAIM
+Preferably, said blocking means 28 are adjustable so as to adjust the foot pressure 36 on said fabric 12.	EMBODIMENT
+The feed device 16 of the fabric or fabric 12 comprises an electric motor 30.	FIGURE DESCRIPTION
+The positioning device 20 of the needle 10 comprises an electric motor 30 connected to a roller screw or recirculating ball screw 101, in turn connected to a mobile unit 100 which performs the linear translation of the needle along the transverse direction X-X.	FIGURE DESCRIPTION
+The actuation device 24 of the needle 10 comprises an electric motor 30 connected to the needle 10 with a connecting rod-crank mechanism for performing the alternate stitching movement of the needle 10.	FIGURE DESCRIPTION
+Preferably, the needle 10 passes through a particular plate 38 with a hole 39 for the needle 10 which limits its deformation and ensures a better seam.	REPHRASED CLAIM
+The fabric 12 is preventively provided with a guide thread 40 inserted inside the fabric 12 so as to identify a plurality of segments 44 (blob).	REPHRASED CLAIM
+The guide thread 40 is preferably made of a phosphorescent material, so as to be easily identified by a suitable optical system or camera 103	INVENTION_ADVANTAGE
+For this purpose, the looping machine 4 is provided with an ultraviolet light lighting system with neon 52, to highlight said phosphorescent guide thread 40 48.	REPHRASED CLAIM
+According to an embodiment, said ultraviolet light, lighting system 52 is fitted at the blocking means 28 of the fabric 12.	REPHRASED CLAIM
+Preferably, said guide thread 40 is made of a watersoluble material, so that it can be dissolved in the subsequent washing of the fabric, without having to proceed with its manual removal.	INVENTION_ADVANTAGE
+Advantageously, the looping machine 4 comprises a camera 103 suitable for identifying the guide thread 40.	REPHRASED CLAIM
+The looping machine 4 is further provided with a processing and control unit 56, operatively connected to the camera 103 and to actuators/electric motor means of the feed device 16 of the fabric 12, of the positioning device 20 of the needle 10 and of the actuation device 24 of the needle 10.	REPHRASED CLAIM
+In this way, the processing and control unit 56 is able to determine in real-time the target position of the needle 10 depending on the guide thread 40 and to control in real-time the feed devices 16 of the fabric 12, positioning devices 20 of the needle 10 and actuation devices 24 of the needle 10 to reach said target stitching position of the needle 10.	REPHRASED CLAIM
+In particular, the feed device 16 of the fabric 12 and/or the positioning device 20 of the needle 10 and/or the actuation device 24 of the needle 10 comprise respective electric motors 30 with real-time feedback by means of said processing and control unit 56, depending on the target stitching position of the needle 10.	REPHRASED CLAIM
+The option and/or implies that at least one of the feed device 16 of the fabric 12, the positioning device 20 of the needle 10 and the actuation device 24 of the needle 10 comprises respective real-time feedback electric motors 30;	REPHRASED CLAIM
+preferably at least two of said devices 16, 20, 24 comprise respective real-time feedback electric motors 30 and, even more preferably, all the devices 16, 20, 24 comprise respective real-time feedback electric motors 30.	REPHRASED CLAIM
+According to a possible embodiment, the processing and control unit 56 is programmed so that said electric motors 30 are controlled at a variable pitch in real-time depending on the target stitching position of the needle 10.	REPHRASED CLAIM
+The operation of the looping machine according to the present invention will now be described.	JURIDICAL TEMPLATE
+As mentioned, the looping machine according to the present invention is able to perform the looping operation in a particularly efficient manner.	INVENTION_ADVANTAGE
+In particular, the looping method of a fabric 12 comprises the steps of:	REPHRASED CLAIM
+providing a fabric 12 on which to perform the looping, said fabric 12 being provided with a fluorescent guide thread 40 that enters and exits the fabric 12 forming segments (blob) 44,acquisition of a fabric frame 12 by means of a camera 103, so as to identify the position of said segments (blob) 44,calculating primary centroids 104 representing the midpoint of the areas of the segments (blob) 44 of the guide thread 40;	REPHRASED CLAIM
+said primary centroids 104 allow identifying the target stitching position of the loop or calculated stitches 60 by searching for the intermediate position between the primary centroids 104;	EMBODIMENT
+elimination of secondary centroids 68 which cause errors in the identification of the correct sewing point, adjacent to the segments (blob) 44;	EMBODIMENT
+performance of the looping stitching at the calculated points of the target stitches 64.	REPHRASED CLAIM
+The step of carrying out the stitching provides for the calculation, in real-time, of the target stitching position of the needle 10 depending on the guide thread 40, the real-time actuation of the feed devices 16 of the fabric 12, the positioning devices 20 of the needle 10 and actuation devices 24 of the needle 10 to reach said target stitching position of the needle 10.	REPHRASED CLAIM
+The exclusion step of the secondary centroids 68 comprises the step of eliminating secondary centroids 68 positioned on the left, with respect to the transverse direction X-X, and at a same height, along the vertical direction Z-Z, of the primary centroids 104 of the segments (blob) 44 of the guide thread 40.	REPHRASED CLAIM
+Preferably, the looping method also provides for the step of eliminating the segments (blob) 44 having a smaller area with respect to a predetermined threshold value.	EMBODIMENT
+After identifying the primary centroids 104 of the segments (blob) 44, we proceed to the interpolation thereof by means of an interpolation line.	REPHRASED CLAIM
+Moreover, to determine the next stitching or looping point, two consecutive segments (blobs) 44', 44'' are identified by means of the camera 103: the longitudinal coordinate of the stitching point corresponds to the mean of the longitudinal coordinates of the centroids 104 of the guide thread 40 and the transverse coordinate of the stitching point lies along said interpolation line.	REPHRASED CLAIM
+As can be appreciated from the description, the present invention allows overcoming the drawbacks of the prior art.	JURIDICAL TEMPLATE
+In fact, the looping machine of the present invention is an automatic machine completely innovative in the way it operates with respect to a known manual looping machine.	INVENTION_ADVANTAGE
+In particular, as described, this machine, due to a special vision system, is able to independently identify the stitches, to calculate in real-time the looping step to be made and then to position the needle at these points following the indications of a particular control algorithm.	INVENTION_ADVANTAGE
+In fact, the needle can move in all directions on the fabric going to center the stitch that the camera captures in real time.	INVENTION_ADVANTAGE
+The solution of the present invention allows the looping operation to be modernized, solving the limits of the current technology, increasing productivity, improving the quality of the processed fabrics, reducing the costs of processing and improving the working conditions of the workers involved in the looping.	INVENTION_ADVANTAGE
+In fact, the looping machine can be used by an untrained operator who simply has to position the fabric at the base of the needle and operate the looping machine with a command.	INVENTION_ADVANTAGE
+The ease of use therefore makes the training time of personnel almost non-existent.	INVENTION_ADVANTAGE
+Moreover, the looping machine of the present invention is flexible;	INVENTION_ADVANTAGE
+it does not require any changes to the setup to change the fineness of the fabric as it automatically calculates the pitch, between one stitch and the other, in real-time mode.	INVENTION_ADVANTAGE
+The processing speed is far higher than a manual looping machine;	INVENTION_ADVANTAGE
+you can easily exceed a speed of 700 points per minute.	INVENTION_ADVANTAGE
+The quality of the work no longer depends on a person, but is guaranteed by the reliability of a computer.	INVENTION_ADVANTAGE
+The looping operation is much less expensive and simpler to execute, at the same time increasing productivity and reducing processing times.	INVENTION_ADVANTAGE
+All the problems related to the health of the operator due to the manual looping are solved.	INVENTION_ADVANTAGE
+Summing up, the motors are no longer controlled with a fixed pitch, as in the known automatic solutions, but receive real-time instructions on which the next movement to be performed by a feedback control must be.	INVENTION_ADVANTAGE
+The mechanics is simplified so as to overcome all the speed limits caused by the technical choices of the known automatic solutions, so as to achieve and exceed even 700 PPM and beyond.	INVENTION_ADVANTAGE
+The needle can move in all directions on the fabric going to center the stitch that the camera captures in real time.	INVENTION_ADVANTAGE
+A man skilled in the art may make several changes and adjustments to the looping machine and to the looping methods described above in order to meet specific and incidental needs, all falling within the scope of protection defined in the following claims.	JURIDICAL TEMPLATE

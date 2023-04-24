@@ -1,0 +1,393 @@
+NANOSTRUCTURED FORMULATIONS FOR THE DELIVERY OF SILIBININ AND OTHER ACTIVE INGREDIENTS FOR TREATING OCULAR DISEASES	PATENT TITLE
+Field of the invention	SECTION TITLE
+The present invention relates to the field of products for the treatment of ocular diseases and to formulations containing the same.	TECHNICAL FIELD
+Prior art	SECTION TITLE
+Uncontrolled neoangiogenesis is implicated in the etiology of various diseases such as: solid tumors, rheumatoid arthritis, psoriasis and, at the ocular level, corneal neovascularization, age-related macular degeneration (ARMD or AMD), macular edema, retinopathy of prematurity (ROP), choroidal neovascularization (CNV), diabetic retinopathy (DR) and neovascular glaucoma.	REFERENCE
+AMD, like many other chronic diseases related to ageing, has a multifactorial origin and its onset is caused by an unfavorable combination of genetic and lifestyle-related factors.	REFERENCE
+Studies conducted on anti-VEGF (originally developed for cancer therapy) in the treatment of CNV led to use of pegaptanib (Macugen®, Pfizer) and ranibizumab (Lucentis®, Genentech) in the treatment of CNV.	REFERENCE
+Bevacizumab (Avastin®, Genentech) is also currently used "off label" in the treatment of AMD.	REFERENCE
+It should also be considered that the treatment of AMD is not only limited to the treatment of choroidal neovascularization (intravitreal injections of anti-VEGF and photodynamic therapy), but also includes the use of a number of substances with antioxidant, anti-inflammatory and neuroprotective action capable of acting at different levels of the process leading up to the full-blown disease and acting to prevent the onset of the disease, slow its progression to advanced forms, reduce the tissue damage and enhance the action of anti-VEGF drugs.	REFERENCE
+Diabetic retinopathy (DR) is one of the most serious and frequent microvascular complications of type 1 and type 2 diabetes mellitus, which significantly affects the patient's quality of life as it often leads to blindness, due to the onset of macular edema and secondary retinal vitreous neovascularization.	DEFINITION
+The therapies for DR currently available aim at contrasting the angiogenic and inflammatory processes of retinal diseases and as a result, in some cases, they slow the progression of the disease.	REFERENCE
+Glaucoma is an optic neuropathy leading to the progressive loss of optic nerve tissue, leaving the head thereof exposed resulting in the loss of vision.	DEFINITION
+Uveitis is an inflammation of part or all of the tunica media (vascular) of the eye consisting of iris, ciliary body and choroid.	DEFINITION
+The therapeutic tools currently available for treating posterior uveitis are intravitreal injections or implants (Taylor S.R. Et al, New developments in corticosteroid therapy for uveitis, Ophthalmologica. 2010;224 Suppl 1:46-53), not without very important secondary effects (endophthalmitis, retinal edema, etc.) at the expense of the visual organ.	REFERENCE_PROBLEM
+Over the last two decades, intravitreal injections have been considered very valuable because, compared to other administration routes, typically allow reaching higher concentrations in the retina and vitreous.	REFERENCE
+Nevertheless, the intravitreous route is associated to serious risks for the patient, such as retinal detachment, endophthalmitis and intravitreal hemorrhages.	REFERENCE_PROBLEM
+Moreover, this administration route requires repeated injections of the drug to ensure the therapeutic effect, which often is not well tolerated by the patient.	REFERENCE_PROBLEM
+Therefore, the treatments currently available are unsatisfactory because of the existing disproportion in the benefits/side effects ratio.	REFERENCE_PROBLEM
+For this reason, non-biodegradable controlled release systems implantable in the vitreous (Vitrasert®, Retisert®) have been developed, but even these have the same risks associated with intravitreal injections, as well as the need for surgery for the implant and the possibility of rejection.	REFERENCE_PROBLEM
+A compromise between risks and benefits was obtained using the periocular administration routes (peribulb, posterior juxtascleral, retrobulbar subtenon and subconjunctival), which are safer although less efficient than the intravitreal.	REFERENCE_ADVANTAGE
+These routes of administration exploit the use of traditional injectable formulations and allow the active ingredient to reach the target site (the vitreous and the retina) by diffusion through the scleral fibrous tissue, which forms a barrier less resistant to drugs.	REFERENCE
+The injected drug is in any case cleared through the front (outflow of the aqueous humor) or rear (retina and systemic circulation) path, requiring multiple administrations associated with poor patient compliance (pain, cataracts, retinal detachment, endophthalmitis and vitreous hemorrhages).	REFERENCE_PROBLEM
+Currently, therefore, the treatment of diseases of the posterior segment of the eye has only drug delivery systems associated with undesired effects.	REFERENCE_PROBLEM
+It is also known that the advanced drug delivery systems of the nanoparticle type today are the forefront of drug delivery.	REFERENCE
+Nanoparticle systems of a lipid nature such as solid lipid nanoparticles (SLN) and nanostructured lipid systems (NLC) are colloidal systems consisting of biocompatible lipids (pure triglycerides, complex mixtures of glycerides, waxes) and stabilized with non-toxic surfactants such as lecithins and poloxamers.	DEFINITION
+They are between 100 and 500 nm in size.	DEFINITION
+At room temperature, the particles are in the solid state.	DEFINITION
+It has already been shown that lipid nanoparticles increase the bioavailability of several drugs in the eye due to an increased pre-ocular retention time compared to the conventional pharmaceutical form, thus avoiding the repeated and frequent instillation (Int. J. Pharm., 238 241-245 (2002)).	REFERENCE
+Inulin is a natural polysaccharide extractable from various plants and fruits.	DEFINITION
+It is a carbohydrate consisting of linear chains of D-fructose units bound through β-(2-1) gluco-furanoside bonds which occasionally binds a glucose molecule at its reducing end.	DEFINITION
+Inulin, due to the fact that it has many advantageous properties (absence of toxicity, biocompatibility, solubility in water and probiotic effect on intestinal bacterial flora), is used in countless applications (Kolida S, Gibson GR. J Nutr2007;137:2503S-2506S; Gocheva et al., Colloids and Surfaces A: Physicochem. Eng. Aspects 2011;391:101-104), and among them many in the biomedical field.	REFERENCE
+Recently, in order to get new drug delivery systems (DDS), such as hydrogels, nanoparticles, macromolecular bioconjugates and polymeric micelles, numerous researchers have focused their attention on the chemical modification of inulin.	REFERENCE
+This was chemically modified in the side-chain with primary amines, which have been used to obtain the conjugation with hydrophilic chains, such as polyethylene glycol (PEG), and with hydrophobic molecules such as ceramide.	REFERENCE
+Calixarenes are cyclic polyphenols easy to synthesize, even at low cost, which are characterized by remarkable synthetic versatility, a predisposition toward their functionalization at different levels and finally, a low degree of cytotoxicity and immunogenicity.	DEFINITION
+In recent years, calix[4]arenes have been intensely investigated as new molecular platforms for biomedical applications, supported by low cytotoxicity (Int. J. Pharm. 2004, 273, 57) and immunogenicity (Bioconjugate Chem. 1999, 10, 613) shown by their derivatives both in vitro and in vivo.	REFERENCE
+The suitable functionalization of the calixarene backbone has provided derivatives with anti-inflammatory, antitumor, antimicrobial and vaccine-mimic activity (Curr. Drug Discov. Technol. 2009, 6, 306; Chem. Soc. Rev. 2013, 42, 366, US 2010/0056482; WO2005123660 A2).	REFERENCE
+Water-soluble calixarenes similar to cyclodextrins for the capacity of complexing a drug within their hydrophobic cavity have been proposed as excipients for the pharmaceutical industry, while amphiphilic calixarenes capable of assembling in nanostructured systems in an aqueous medium are promising drug delivery systems (J. Sci. Ind. Res. 2012, 71, 21; Chem. Soc. Rev. 2013, 42, 366, EP 1 293 248 A1; US 2010/0185022 A19).	REFERENCE
+Some of them have been properly engineered to release the drug according to external stimuli such as changes in the oxidation-reduction potential, temperature (ACSNANO, 2011, 5, 2880), pH (Phys. Rev. E, 2007, 73, 051904), enzymatic activity (RSC Advances, 2013, 3, 8058), etc.	REFERENCE
+The ability of calixarene derivatives to penetrate the cell membrane (Chem. Commun. 2012, 48,1129; J. Am. Chem. Soc. 2008, 130, 2892) and the ability to functionalize the calixarene backbone with homing groups that recognize and bind to complementary receptors present on the surface of the target cell, make calixarenes also promising systems for targeted drug delivery (Org. Biomol. Chem. 2015, 13, 3298).	REFERENCE
+Silibinin is a mixture of two diastereoisomers A and B in a proportion of about 1:1 contained in Silybum marianum.	DEFINITION
+Its main applications in the clinical field are: treatment of liver diseases caused byalcohol, hepatic cirrhosis, Amanitapoisoning, viral hepatitis, and drug-induced liver diseases.	DEFINITION
+On the other hand, it is known that the bioavailability and efficacy of silibinin is rather limited due to its low solubility in water (430 mg/L).	DEFINITION
+Silibinin seems to be an effective agent for the prevention and treatment of malignant gliomas in humans (Rana P. Singh, Oncogene, 2005).	REFERENCE_ADVANTAGE
+Moreover, the antiangiogenic activity of silibinin particularly on AMD has been shown in vitro and after oral administration of a silymarin-based preparation.	REFERENCE_ADVANTAGE
+In light of the above, the prospect of having new pharmacological formulations that may facilitate the physician in the therapeutic treatment of eye diseases, in particular neurodegenerative diseases, such as macular degeneration and diabetic retinopathy, increases the interest towards compounds such as silibinin functionalized to improve the in situ availability thereof.	REFERENCE_ADVANTAGE
+In addition to silibinin extensively studied with all the nanostructured systems described, other active ingredients of natural origin and not characterized by low water solubility, easy chemical and enzymatic degradation, low bioavailability were investigated with some of these nanostructured formulations, such as: sorafenib, curcumin, latanoprost.	REFERENCE
+Sorafenib (BAY43-9006, Bayer)	DEFINITION
+is a diaryl urea that acts on multiple targets (VEGF, PDGF, EGF; it is in fact defined as a multi-kinase inhibitor) with prevalent anti-VEGF action, provided with proven anti-angiogenic action in tumors (EP 1140840B1, Bayer), and it is the first antitumor agent approved in Europe for the treatment of hepatocellular carcinoma (Nexavar® tablets).	DEFINITION
+The therapeutic index of Sorafenib in the therapy of retinal diseases can be increased by using the local administration, at the ocular level: in this way, the pharmacological effect can be obtained while limiting the occurrence of systemic side effects.	REFERENCE_ADVANTAGE
+Moreover, the local administration allows the use of limited doses compared to those required for having the same effect via systemic administration and thus a reduction in the costs of the finished product.	REFERENCE_ADVANTAGE
+Curcumin	DEFINITION
+is a yellow polyphenol (diferuloylmethane) extracted from the rhizome of Curcuma Longa, an Asian plant used both in the culinary industry and in medicine for its curative properties in biliary diseases and in some inflammatory conditions.	DEFINITION
+Latanoprostis an active ingredient which like bimatoprost and travoprost is part of the prostaglandin analogs.	DEFINITION
+Prostaglandin analogs are a class of drugs for topical use that has recently been used in the treatment of open-angle glaucoma;	DEFINITION
+initially, they were not recommended as first-line treatment due to the lack of information about their long-term effects.	REFERENCE_PROBLEM
+Among the side effects associated with long-term treatment with prostaglandins, the major ones concern changes in the iris pigmentation, thickening and lengthening of eyelashes, onset of macular edema (Alexander CL et al., Prostaglandin analog treatment of glaucoma and ocular hypertension; Ann Pharmacother., 2002).	REFERENCE_PROBLEM
+Brief description of the figures	SECTION TITLE
+Figure 1 shows the percentage of silibinin released by SLN-A in PBS at pH 7.4 as a function of the incubation time, compared to the dissolution curve of free silibinin.	FIGURE DESCRIPTION
+Figure 2 shows the percentage of silibinin released by NLC-B systems coated with INU-DETA and chitosan in PBS at pH 7.4 as a function of the incubation time, and dissolution curve of free silibinin.	FIGURE DESCRIPTION
+Figure 3 shows the percentage of silibinin released by the polymeric micelles of INU-C8 and INU-C8-PEG in PBS at pH 7.4 as a function of the incubation time, compared to the diffusion curve of free silibinin.	FIGURE DESCRIPTION
+Figure 4 (a and b) shows the cytocompatibility profile of empty micelles of INU-C8 and INU-C8-PEG on the 16HBE cell line after 4 hours (4 a) and 24 hours (4 b) incubation at different concentrations.	FIGURE DESCRIPTION
+Figure 5 A shows the effect on ARPE-19 cells pretreated for 20 hours with the INUC8PEG-Sorafenib system, with the empty carrier INUC8PEG and with Sorafenib tosylate, thereafter, they were exposed to insult with H2O2;	FIGURE DESCRIPTION
+quantification of LDH release into the medium.	FIGURE DESCRIPTION
+Figure 5B shows the effect on ARPE-19 cellsinsulted with H2O2 for three hours and post-treated for 20 hours with the INUC8PEG-Sorafenib system (C8PEGSor), with the empty carrier INUC8PEG (C8PEG) and with Sorafenib tosylate (Sor);	FIGURE DESCRIPTION
+quantification of LDH release into the medium.	FIGURE DESCRIPTION
+Figure 6A shows the effect on ARPE-19 retinal cells pretreated for 20 hours with the INUC8PEG-Sorafenib system, with the empty carrier INUC8PEG and with silibinin, then exposed to insult with H2O2;	FIGURE DESCRIPTION
+quantification of LDH release into the medium.	FIGURE DESCRIPTION
+Figure 6B shows the effect on ARPE-19 retinal cells insulted with H2O2 for three hours and post-treated for 20 hours with the INUC8PEG-silibinin system (C8PEGSib), with the empty carrier INUC8PEG (C8PEG) and with silibinin (Sib);	FIGURE DESCRIPTION
+quantification of LDH release into the medium.	FIGURE DESCRIPTION
+Figure 7 shows the representative Western blotting performed on samples without (control, C) or with H2O2(H), and treated or not with INUC8PEG (1 µM and 10µM), with INUC8PEGSlb (1µM and 10µM) or with Slb (1µM and 10µM) Anti-PARP1 1:800 primary antibodies were used (Cell Signaling).	FIGURE DESCRIPTION
+The densitometric analysis of the bands (histograms) was normalized for β-actin.	FIGURE DESCRIPTION
+Figure 8 shows the percentage of silibinin released by the calixarene nanoparticles in PBS at pH 7.4 as a function of the incubation time.	FIGURE DESCRIPTION
+Figure 9A shows the effect on ARPE-19 retinal cells pretreated for 20 hours with the Calixarene-Silibilin system (CalixSlb), with the empty carrier (calix) and with silibinin alone, and thereafter exposed to 50µM FeSO4;	FIGURE DESCRIPTION
+quantification of LDH release into the medium.	FIGURE DESCRIPTION
+Figure 9B shows the effect on ARPE-19 retinal cells treated with FeSo4 50 µM for 5 hours and post-treated for 20 hours with the Calixarene-Silibinin system (CalixSlb), with the empty carrier (calix) and with silibinin (Sib) alone;	FIGURE DESCRIPTION
+quantification of LDH release into the medium.	FIGURE DESCRIPTION
+Figure 10A/B shows the representative Western blotting performed on samples without (CTR) or with FeSO4 (Fe) and treated or not with Calix(1µM), with CalixSlb(1µM) or with Slb (1µM).	FIGURE DESCRIPTION
+Anti-VEGF 1:100 primary antibodies were used (Santa Cruz) (10 A) and the representative Western blotting performed on samples without (CTR) or with FeSO4 (Fe) and treated or not with Calix(0.1µM and 1 µM), with CalixSlb (0.1 µM and 1µM) or with Slb (0.1 µM and 1µM).	FIGURE DESCRIPTION
+Anti-cathepsin D 1:200 primary antibodies were used (Santa Cruz).	FIGURE DESCRIPTION
+The densitometric analysis of the bands (histograms) was normalized for β-actin (10B).	FIGURE DESCRIPTION
+Figure 11 shows the protective effect of the calixarene system towards the active ingredient curcumin, for which a degradation of 90% in 30 min in 0.1 M PBS and in serum-free medium is shown for comparison.	FIGURE DESCRIPTION
+Figure 12 shows the results of the cytotoxicity tests on SIRC corneal cells following treatment with curcumin, calixarene system and calixarene-curcumin system.	FIGURE DESCRIPTION
+Figure 13 shows the results of the cytotoxicity tests MIT assay on J744 macrophages of curcumin, calixarene and calixarene-curcumin.	FIGURE DESCRIPTION
+Figure 14 shows the vitality of J744 macrophages stimulated with LPS and pre-exposed to treatment with curcumin, calixarene system and calixarene-curcumin system.	FIGURE DESCRIPTION
+Figure 15 shows the reduction in the degradation of the constituent protein lkBα in J744 macrophages subjected to stress from LPS in the presence of curcumin, with curcumin, calixarene system and calixarene-curcumin system.	FIGURE DESCRIPTION
+Figure 16 shows the reduction of NFkB in J744 macrophages subjected to stress from LPS in the presence of curcumin, calixarene 1 and calixarene-curcumin.	FIGURE DESCRIPTION
+Figure 17 shows the expression of iNOs and COX2 in J744 macrophages subjected to stress from LPS and their reduction in the presence of treatment with curcumin, calixarene 1 and calixarene-curcumin.	FIGURE DESCRIPTION
+Figure 18A/B shows the results of the histological score and of the protein assay in aqueous humor of animals treated with silibinin incorporated or not in the calixarene system, with curcumin incorporated or not in the calixarene system in a model of uveitis.	FIGURE DESCRIPTION
+Figure 19 A/B shows the trends of the reduction in the intraocular pressure in a model of hypertonia after single administration (A) and after chronic treatment of the calixarene-latanoprost system and of the commercial product IOPIZE containing latanoprost.	FIGURE DESCRIPTION
+Summary of the invention	SECTION TITLE
+Formulations for topical administration are described, containing silibinin incorporated in SLN and NLC lipid nanoparticle systems, and based on calixarenes, possibly mucoadhesive, or in micellar and nanoparticle systems based on amphiphilic inulin copolymers for use in the treatment of neurodegenerative ocular diseases.	EMBODIMENT
+Detailed description of the invention	SECTION TITLE
+The present invention overcomes the drawbacks described above with formulations for topical application containing silibinin incorporated in:(1) lipid nanoparticle systems of the SLN (Solid Lipid Nanoparticles) and NLC (Nanostructured Lipid Carriers) type;	EMBODIMENT
+(2) calixarene-based nanostructured systems;	EMBODIMENT
+(3) micellar and nanoparticle systems based on amphiphilic inulin copolymers, examples of incorporation and release of other active ingredients that have a use rationale for the ocular diseases of interest are provided for the latter.	EMBODIMENT
+Said formulations are capable of delivering the active ingredient up to the vitreous or to the retina in therapeutically effective doses for the treatment of neurodegenerative ocular diseases such as macular degeneration, diabetic retinopathy, glaucoma.	INVENTION_ADVANTAGE
+The present invention further relates to the processes of preparation of the nanoparticle systems incorporating silibinin as defined above.	EMBODIMENT
+In particular, a general procedure described hereinafter was followed for the preparation of SLN and NLC type systems.	EMBODIMENT
+The lipid phase (consisting of a solid lipid or a mixture of a liquid lipid with a solid one) is molten to about 5-10 °C above its melting point.	EMBODIMENT
+Silibinin is solubilized in an aliquot of ethanol and then added to the molten lipid mixture under magnetic stirring.	EMBODIMENT
+The hot lipid mixture containing silibinin is then precipitated in an aqueous solution containing water, a surfactant or a mixture of surfactants (precipitation method), or emulsified with an aqueous solution containing water, a surfactant or a mixture of surfactants, previously heated at the same temperature.	EMBODIMENT
+In the latter case, the resulting pre-emulsion is either: dispersed in water or an aqueous medium cooled at a temperature of between 2 and 5 °C (microemulsion method), or subjected to high pressure homogenization (high pressure hot homogenization method).	EMBODIMENT
+In all cases, the resulting nano-emulsion is allowed to cool to room temperature to then be purified through exhaustive dialysis (COMW 12000-14000) against distilled water.	EMBODIMENT
+Thereafter, the cryoprotectant is added to the nanoparticle dispersion, which can be subjected to centrifugation (4000 rpm for 10 min at 10 °C).	EMBODIMENT
+Finally, after freeze-drying, the solid lipid nanoparticles are retrieved and stored in freezer for later characterization and/or coated with the mucoadhesive polymers.	EMBODIMENT
+In the latter case, the INU-EDA and INU-DETA polymers and chitosan, in 0.1% aqueous solution, are added to the nanoparticle suspensions and incubated for 30 min at room temperature and under magnetic stirring.	EMBODIMENT
+The above lipid phase consists of lipids, for example selected from: triglycerides, such as tristearin, tripalmitin, caprylic/capric acid triglycerides (Mygliol);	EMBODIMENT
+diglycerides such as Precirol ATO 5 (glyceryl distearate);	EMBODIMENT
+monoglycerides such as glyceryl monosterate; aliphatic alcohols, such as cetyl alcohol;	EMBODIMENT
+fatty acids (C10-C22);	EMBODIMENT
+fatty acid esters with fatty alcohols, such as cetyl palmitate;	EMBODIMENT
+mixtures of mono-, di- and triglycerides of pegylated and non- behenic acid such as Compritol HD-5-ATO (PEG-8 behenate and tribehenin) and Compritol 888ATO (mixture of mono-, di- and tribehenate);	EMBODIMENT
+mono-, di- and triglycerides of pegylated caprylic and caproic acid such as Accocon CC-6.	EMBODIMENT
+The substances used as surfactants/co-surfactants in the process can be for example selected from: non-ionic surfactants including lecithins such as Epikuron 200;	EMBODIMENT
+polyethylene glycol and polypropylene glycol block copolymers such as Pluronic;	EMBODIMENT
+pegylated sorbitan derivatives, such as Tween;	EMBODIMENT
+fatty alcohol ethers with polyethylene glycol such as Brij;	EMBODIMENT
+ionic surfactants including bile salts such as sodium taurocholate;	EMBODIMENT
+quaternary amines including cetylpyridinium chloride and bromide dioctadecyl dimethyl ammonium.	EMBODIMENT
+The substances used as cryoprotectants in the process can for example be selected from: sugars such as lactose and trehalose;	EMBODIMENT
+polymers such as polyvinylpyrrolidone (PVP).	EMBODIMENT
+The substances used to impart mucoadhesion in the process are for example selected from: inulin polymers bearing amine groups (INU-EDA and INU-DETA), low molecular weight polymers (Chitosan) and cationic surfactants (CCP and DDAB).	EMBODIMENT
+According to a further embodiment, the invention relates to formulations for ophthalmic use containing inulin-based copolymers of the following formula (I) or (II),wherein R is -(CH2)p-CH3;	EMBODIMENT
+where p is in the range between 0 and 19;	EMBODIMENT
+wherein R is -(CH2)p-CH3;	EMBODIMENT
+where p is in the range between 0 and 19 and n is in the range between 9 and 450and to such copolymers.	EMBODIMENT
+The inulin-based copolymers of formula (I) and (II) as given above are obtained by functionalization of inulin with aliphatic chains C8 or with chains of C8 and PEG.	EMBODIMENT
+These copolymers, which have amphiphilic features, have proven to be able to aggregate to form micelles or nanoparticles, to incorporate flexible and different amounts of drug and release it into the active form for a prolonged and controlled time, moreover, they are highly biocompatible and allow easy making of the ophthalmic formulation.	INVENTION_ADVANTAGE
+The formulation is obtained by adding a certain amount of active ingredient such as sorafenib or silibinin to a polymer solution in DMF.	EMBODIMENT
+The resulting solution is then dried under vacuum and dispersed in PBS at pH 7.4 by ultrasonication and stirring cycles (3 cycles of 10 minutes).	EMBODIMENT
+Thereafter, the dispersion is placed in an orbital shaker for 18 hours at 25 °C and then dialyzed against water with a membrane having nominal cut-off (MWCO) of 1000 Da.	EMBODIMENT
+Finally, the resulting dispersion is freeze-dried.	EMBODIMENT
+According to a further embodiment of the present invention, it refers to formulations for ophthalmic use containing nanostructured systems based on amphiphilic calixarenes.	EMBODIMENT
+In such systems, the presence of multiple positively charged ligand units, in addition to imparting mucoadhesive properties, can facilitate the crossing of the corneal and retinal epithelium by the molecular recognition of complementary receptors present on the cell surface.	EMBODIMENT
+In particular, the present invention relates to formulations for topical ophthalmic use comprising cationic macromolecules consisting of calix[4]arene derivatives functionalized with alkoxyamines, including choline, to obtain new carriers of general formula (A)wherein: R = CH3, (CH2)XCH3, (CH2)XOHR1 = CH3, (CH2)XCH3, (CH2)XOH Wherein x= 1-3 n= 4, 6, 8 m= 2-15 and wherein when R = R1 = CH3m is different from 2 - 9 which, in addition to delivering known active ingredients, are also provided with their own bioactivity which may potentiate that of the active ingredient.	EMBODIMENT
+As can be seen, formula A represents calixarene derivatives that differ in the number of phenolic units forming the macrocycle (n = 4, 6, 8), in the length of the hydrophobic tails (m = 2-15, indicates the number of CH2 groups), in the structure of the polar group present at the upper rim of calixarene (R and R1 = CH3, (CH2)xCH3, (CH2)xOH, where x = 1-3 and combinations thereof).	EMBODIMENT
+The calixarene compounds as described above are new and they are also an object of the present invention;	EMBODIMENT
+these compounds have shown great versatility in charging and releasing active ingredients characterized by low water solubility, easy chemical and enzymatic degradation, low bioavailability, either of natural origin or not, to be used in the treatment of ocular diseases.	INVENTION_ADVANTAGE
+Choline as targeting molecule guides and promotes the crossing of the corneal epithelium, of the blood-retinal barrier and of the retinal epithelium (Adv. Drug Deliv. Rev. 2006, 58, 1136) where choline carriers are present.	REFERENCE
+Also in this case, as for the inulin-based copolymers described above, it was found that the calixarene systems have shown the ability to form nanoaggregates capable of incorporating and releasing silibinin or other active ingredients such as: curcumin/latanoprost.	EMBODIMENT
+Biocompatibility and ease of preparation characterize the formulation which is obtained by simple dissolution of the calixarene derivative in PBS (pH 7.4), addition of an excess of active ingredient (phase solubility method), sonication for 15 minutes, stirring at 25 °C for 2-3 days, centrifugation and filtration on GHP 0.2 µm filter.	INVENTION_ADVANTAGE
+The nanoparticle systems obtained in the present invention have an average diameter in the range between 50 and 200 nm with a polydispersity index below 0.5.	EMBODIMENT
+A pharmacologically effective amount of active ingredient is incorporated in the described nanoparticles.	EMBODIMENT
+In particular, the nanoparticle systems obtained in the present invention have a Drug Loading in the range between 1 and 15% w/w.	EMBODIMENT
+Further features and advantages of the present invention will appear more clearly from the following description of some embodiments thereof, made by way of non-limiting example.	JURIDICAL TEMPLATE
+The formulations according to the present invention containing an active ingredient selected from: silibinin or sorafenib or curcumin or latanoprost in lipid nanoparticle systems of the SLN (Solid Lipid Nanoparticles) and NLC (Nanostructured Lipid Carriers) type, or in nanostructured systems based on calixarenes, either mucoadhesive or not, or in micellar and nanoparticle systems based on amphiphilic inulin copolymers, allow the topical administration of the active ingredients for the treatment of neurodegenerative ocular diseases such as: CNV, AMD, macular edema, neovascular glaucoma, macular edema, retinopathy of prematurity (ROP), diabetic retinopathy (DR), uveitis, endophthalmitis, retinitis, choroiditis, chorioretinitis, retinal complications of systemic diseases.	EMBODIMENT
+The formulations are normally in the form of freeze-dried solid product and may contain, in addition to the active ingredient incorporated in the lipid, polymer or calixarene nanostructure as described above, also components such as surfactants and/or cryoprotectants and other excipients commonly used in ophthalmic preparations.	EMBODIMENT
+Example 1	EMBODIMENT
+Preparation of SLN containing silibinin (SLN-A)	EMBODIMENT
+The procedure and the experimental data obtained with the SLN object of the invention prepared with Compritol HD-5-ATO, loaded with silibinin, are described hereinafter.	EMBODIMENT
+Preparation of SLN-A	EMBODIMENT
+The SLN-A were prepared with the high pressure hot homogenization method.	EMBODIMENT
+Two hundred milligrams of Compritol HD5ATO were molten to about 5-10 °C above its melting point (65-70 °C).	EMBODIMENT
+The drug (68 mg) was solubilized in an aliquot of ethanol (0.5 mL) and then added to the molten lipid mixture under magnetic stirring.	EMBODIMENT
+The hot lipid mixture containing the drug was then emulsified in an aqueous solution of the Pluronic F68 surfactant (60 mg in 100 mL), previously heated at the same temperature.	EMBODIMENT
+The resulting pre-emulsion is subjected to high pressure homogenization (4 cycles at 7500 ± 2500 psi) using the Emulsiflex-C5 equipment (Avestin), placed in a hot water bath at a temperature of 65-70 °C.	EMBODIMENT
+The resulting nano-emulsion is allowed to cool to room temperature to then be purified by dialysis (COMW 12000-14000) against distilled water.	EMBODIMENT
+Thereafter, the cryoprotectant trehalose (lipids:cryoprotectant weight ratio = 1:1 w/w) is added to the nanoparticle dispersion, which was subjected to centrifugation (4000 rpm for 10 min at 10 °C).	EMBODIMENT
+Finally, after freeze-drying using a Modulyo freeze-dryer, the SLN are retrieved and stored in freezer for subsequent characterization.	EMBODIMENT
+Size determination and zeta potential measurement of SLN-A systems	EMBODIMENT
+The average diameter and the polydispersity index (PDI) of the SLN-A systems prepared were determined by photo-correlation spectroscopy (PCS) using a Zetasizer Nano ZSP (Malvern Instrument).	EMBODIMENT
+Each sample was suitably diluted for the analysis with an aqueous solution of NaCl 0.9% w/w, filtered through 0.2-µm filters and the reading was made at an angle of 173° relative to the incident ray and analyzed in triplicate.	EMBODIMENT
+The zeta potential was measured according to the principles of the laser doppler velocimetry and of the light scattering analysis (M3-PALS technique) using a Zetasizer Nano ZSP (Malvern) with a He-Ne laser, power = 4.0 mW, wavelength = 633 nm.	EMBODIMENT
+The results obtained for average diameter, PDI and zeta potential are given in Table 1.	EMBODIMENT
+Table 1Average hydrodynamic diameter, polydispersity index (PDI), zeta potential of SLN-A systems.	EMBODIMENT
+Table 1DLS (in NaCl 0.9% w/w)Z-average (nm)PDIPotential ζ (mV±SD)PRE-freeze drying189.00.22-9.4±1.2POST-freeze drying171.50.31-6.5±3.5	EMBODIMENT
+Determination of Drug Loading (% DL) of SLN-A	EMBODIMENT
+In order to determine the amount of silibinin loaded in the SLN-A sample, 10 mg of the composition previously subjected to freeze-drying were solubilized in tetrahydrofuran (THF).	EMBODIMENT
+The organic solution was then treated with methanol to precipitate lipids and extract the active ingredient.	EMBODIMENT
+The resulting suspension was then filtered through 0.45 µm filters and analyzed by HPLC.	EMBODIMENT
+The results obtained in terms of %DL (expressed as a percentage of the active ingredient loaded into the SLN, considering 100 mg of the material subjected to freeze-drying, consisting of lipids + active ingredient) was found to be 8.5% w/w.	EMBODIMENT
+Releases at pH 7.4 of silibinin from SLN-A	EMBODIMENT
+The system described in the present invention was subjected to release studies in vitro at 37 °C using a phosphate buffer at pH 7.4 with incubation times in the range between 0 and 12 hours.	EMBODIMENT
+The results obtained have shown that the system of the present invention slowly releases the drug up to a maximum of 7.8% w/w within 12 hours.	EMBODIMENT
+The release and dissolution profiles of the drug after incubation at pH 7.4 and at 37 °C are shown in Figure 1.	FIGURE DESCRIPTION
+The system described is stable, i.e. it releases the drug very slowly into the external medium at pH 7.4 and this can be advantageous in order to optimize the delivery of the active ingredient in the pathological site by the nanoparticle containing it.	INVENTION_ADVANTAGE
+Example 2	EMBODIMENT
+Preparation of NLC containing silibinin (NLC-B)	EMBODIMENT
+By way of non-limiting example, the procedure and the experimental data obtained with the NLC object of the invention prepared with Compritol HD-5-ATO, Gelucire 44/14 and Acconon CC-6, loaded with silibinin, are described hereinafter.	EMBODIMENT
+Preparation of NLC-B	EMBODIMENT
+The NLC-B were prepared with the solvent precipiation-evaporation method.	EMBODIMENT
+Compritol HD5ATO (250 mg) was molten to about 5-10 °C above its melting point (65-70 °C) and the drug (30 mg) was added to the molten lipid.	EMBODIMENT
+Gelucire 44/14 (100 mg) and Acconon CC-6 (100 mg) were solubilized in ethanol (2.0 mL) and then added to the molten lipid mixture under magnetic stirring.	EMBODIMENT
+The hot lipid mixture containing the drug and the surfactants was then precipitated in a hot aqueous solution containing surfactant sodium taurocholate (100 mg in 100 mL), previously heated at the same temperature and subjected to homogenization using Ultra-Turrax (13.500 rpm).	EMBODIMENT
+The hot nanoparticle suspension, still under stirring, is placed in an ice bath until its temperature reaches the value of 10 °C.	EMBODIMENT
+The resulting nanoparticles are then purified by dialysis (COMW 12000-14000) against distilled water for 3 days and then the cryoprotectant trehalose is added (lipid:cryoprotectant weight ratio = 1:2 w/w).	EMBODIMENT
+Finally, after freeze-drying using a Modulyo freeze-dryer, the NLC are retrieved and stored in freezer for subsequent coating with an inulin derivative (INU-DETA) and chitosan.	EMBODIMENT
+In the case of coating with INU-DETA, 9 mL of dyalized nanoparticle suspension (conc. of 4.3 mg/mL) were incubated with 1 mL of 0.1% INU-DETA for 1 h under magnetic stirring.	EMBODIMENT
+In the case of coating with low molecular weight (5000 Mw) chitosan, 9 mL of dyalized and freeze-dried nanoparticles (conc. of 0.165 mg/mL) with addition of trehalose were incubated with 1 mL of 0.1% Chitosan for 30 min under magnetic stirring.	EMBODIMENT
+The coated nanoparticles were then freeze-dried and stored as a powder for subsequent characterization.	EMBODIMENT
+Size determination and zeta potential measurement of NLC-B systems	EMBODIMENT
+The average diameter and the polydispersity index (PDI) of the NLC-B systems coated with INU-EDA and chitosan prepared were determined by photo-correlation spectroscopy (PCS) using a Zetasizer Nano ZSP (Malvern Instrument).	EMBODIMENT
+Each sample was suitably diluted for the analysis with an aqueous solution of NaCl 0.9% w/w, filtered through 0.2-µm filters and the reading was made at an angle of 173° relative to the incident ray and analyzed in triplicate.	EMBODIMENT
+The zeta potential was measured according to the principles of the laser doppler velocimetry and of the light scattering analysis (M3-PALS technique) using a Zetasizer Nano ZSP (Malvern) with a He-Ne laser, power = 4.0 mW, wavelength = 633 nm.	EMBODIMENT
+The results obtained for average diameter, PDI and zeta potential are given in Table 2.Table 2Average hydrodynamic diameter, polydispersity index (PDI), zeta potential of NLC-B coated with INU-DETA and chitosan.	EMBODIMENT
+DLS (in NaCl 0.9%)Z-average (nm)PDIPotential ζ (mV±SD)NLC-B INU-DETA236.80.45-1.1NLC-B chitosan69.10.45+18.2	EMBODIMENT
+Determination of the %DL of the NLC-B coated with INU-DETA and chitosan	EMBODIMENT
+In order to determine the amount of silibinin loaded in the NLC-B samples coated with INU-DETA and chitosan, 2 mg of the compositions previously subjected to freeze-drying were hot-solubilized in 8 mL of ethanol (EtOH) and sonicated for 3 min.	EMBODIMENT
+The resulting solutions were then filtered with 5.00 µm regenerated cellulose filters and analyzed with HPLC.	EMBODIMENT
+The results obtained in terms of %DL (expressed as a percentage of active ingredient loaded into the NLC, considering 100 mg of the material subjected to freeze-drying, consisting of lipids + active ingredient) were found to be 6.05% w/w for the NLC-B coated with INU-DETA and 3.07% w/w for the NLC-B coated with chitosan.	EMBODIMENT
+Releases at pH 7.4 of the active ingredients from NLC-B coated with INU-DETA and chitosan	EMBODIMENT
+The NLC-B systems coated with INU-DETA and chitosan described in the present invention were subjected to release studies in vitro at 37 °C using a phosphate buffer at pH 7.4 with incubation times in the range between 0 and 12 hours.	EMBODIMENT
+The results obtained have shown that both systems of the present invention slowly release the drug up to a maximum of 50% w/w within 12 hours for the NLC-B coated with INU-DETA and up to a maximum of 30% w/w within 12 hours for the NLC-B coated with chitosan.	EMBODIMENT
+The release and dissolution profiles of the drug silibinin from the 2 coated systems after incubation at pH 7.4 and at 37 °C are shown in Figure 2.	FIGURE DESCRIPTION
+Preparation of polymeric micelles based on INU-C8 and INU-C8-PEG2000	EMBODIMENT
+By way of non-limiting example, the procedure and the experimental data obtained with polymeric micelles object of the invention based on INU-C8 and INU-C8-PEG2000, loaded with silibinin or sorafenib, are described hereinafter.	TECHNICAL TEMPLATE
+Determination of the critical aggregation concentration (CAC) of INU-C8 and INU-C8-PEG2000 copolymers	EMBODIMENT
+The production of INU-C8 and INU-C8-PEG2000 copolymers was carried out, with a good yield, following procedures already existing in the literature.	EMBODIMENT
+The CAC of INU-C8 and INU-C8-PEG2000 copolymers was determined by spectrofluorimetric analysis, using pyrene as fluorescent probe.	EMBODIMENT
+20 µL of a solution of pyrene in acetone (6.0 × 10-5M) were placed into vials and evaporated at 37 °C on an orbital shaker until dryness.	EMBODIMENT
+Thereafter, 2 mL of an aqueous solution of copolymer at increasing concentration and in the range between 1 × 10-5 and 5 mg/mL were added into the vials containing the pyrene residue so as to obtain a final concentration of pyrene equal to 6.0 × 10-7M.	EMBODIMENT
+The dispersion thus obtained were maintained at 37 °C for 24 hours under constant stirring in order to balance the probe with the micelles.	EMBODIMENT
+The emission and excitation spectra of pyrene were recorded using the following wavelengths, respectively: 373 nm and 333 nm.	EMBODIMENT
+The results are shown in Table 3.Table 3CAC of some prepared copolymersCOPOLYMERCAC (mg/mL)INU-C80.3INU-C8-PEG1.2	EMBODIMENT
+Preparation of polymeric micelles of INU-C8 and INU-C8-PEG loaded with silibinin or sorafenib.	EMBODIMENT
+The polymeric micelles loaded with silibinin and sorafenib were prepared through the dry complexation method (kneading).	EMBODIMENT
+In detail, 200 mg of INU-C8 or INU-C8-PEG were dry mixed with the drug (50 mg) using a mortar and pestle and ground in the presence of ethanol (5 mL).	EMBODIMENT
+Thereafter, the dry matrix formed by the polymer wherein the drug was dispersed evenly, obtained after evaporation of ethanol, was hydrated slowly and under mechanical stirring in order to promote the self-aggregation of unimers and the incorporation of the drug within the hydrophobic core of the resulting micelles.	EMBODIMENT
+The resulting dispersion was subjected to sonication and stirring cycles (3 cycles of 10 minutes).	EMBODIMENT
+Thereafter, the dispersion was centrifuged at 2000 rpm for 5 minutes and filtered on syringe filters with 5 µm cut off to remove the drug not incorporated.	EMBODIMENT
+Finally, the resulting dispersion was frozen in liquid nitrogen and freeze-dried.	EMBODIMENT
+Determination of the %DL of the polymeric micelles of INU-C8 and INU-C8-PEG2000 3 mg of micelles loaded with silibinin or loaded with sorafenib were dispersed in methanol (5 mL);	EMBODIMENT
+the dispersion was sonicated for 10 minutes and then left to stir vigorously for 4 hours.	EMBODIMENT
+After this time, the dispersion was filtered using a syringe filter with 0.2 µm cut off, and finally the filters were washed with methanol (5 mL) to obtain a final volume of 10 mL.	EMBODIMENT
+For the determination of silibinin at 600 µL of the solution in methanol obtained from the extraction procedure, 400 µL of 1 % acetic acid (v/v) were added to comply with the composition of the eluent mixture used for the HPLC analysis.	EMBODIMENT
+Therefore, the amount of drug extracted from the micelles was determined through HPLC analysis, using a C6-phenyl, methanol: acetic acid column at 1% (v/v) (60:40) as eluent phase.	EMBODIMENT
+The flow rate was set to 0.65 mL/min and the eluate was monitored at 288 nm.	EMBODIMENT
+For the determination of sorafenib, 1 mL of the solution in methanol obtained from the extraction procedure was directly analyzed by HPLC in order to determine the amount of drug incorporated by the micelles.	EMBODIMENT
+The HPLC analysis was performed using a C6-phenylmethanol:water (v/v) (90:10) column as eluent phase.	EMBODIMENT
+The flow rate was set to 1 mL/min and the eluate was monitored at 266 nm.	EMBODIMENT
+The results are shown in Table 4.	EMBODIMENT
+Determination of the average size and of the zeta potential of polymeric micelles of INU-C8 and INU-C8-PEGThe size distribution of micelles was determined through dynamic light scattering measurements using the Malvern Zetasizer Nano ZS.	EMBODIMENT
+These measurements were conducted at a fixed angle of 173° and at a temperature of 25 °C.	EMBODIMENT
+The aqueous solutions of micelles (2 mg/mL) were analyzed after filtration through cellulose membrane filters with 5 µm cut off.	EMBODIMENT
+The average hydrodynamic diameter and the polydispersity index (PDI) were obtained using cumulative analyses of the correlation function.	EMBODIMENT
+The zeta potential (mV) was calculated by the electrophoretic mobility and using the Smoluchowsky relation, assuming that K•a >> 1 (where K and a are the Debye-Hückel parameter and the particle radius, respectively).	EMBODIMENT
+The results are shown in Table 4. As can be seen, all the copolymers are able to incorporate the hydrophobic drug sorafenib and silibinin.	EMBODIMENT
+Table 4Average hydrodynamic diameter, polydispersity index (PDI), zeta potential and drug loading of micelles.MicellesAverage diameter (nm)DIZeta potential (mV)Druga loading (%)INU-C8-Silibinin164.90.27+21.9±3.821.7±0.5INU-C8-PEG-Silibinin166.70.46+18.5±3.51.8±0.1INU-C8-Sorafenib150.40.16+19.9±418.45INU-C8-PEG-Sorafenib179.70.18+26.5±3.711.41a The drug loading refers to sorafenib and silibinin	EMBODIMENT
+Release studies	SECTION SUBTITLE
+In order to assess the ability of the systems obtained to release the incorporated drug, appropriate amounts of polymeric micelles of INU-C8 and INU-C8-PEG (15 mg) were dispersed in PBS, pH 7.4 (5 mL) and transferred in a floating dialysis membrane Spectra/Por with nominal cut off (MWCO) of 1 kDa.	EMBODIMENT
+The dialysis membranes containing the micelle dispersions loaded with drug and the drug alone were immersed in PBS at pH 7.4 (50 mL) and incubated at 37 °C for 24 hours under continuous stirring (100 rpm) in a Benchtop 808C Orbital Shaker incubator model 420.	EMBODIMENT
+At scheduled time intervals, aliquots of external medium (1 mL) were taken from outside the dialysis membrane and replaced with an equal amount of fresh medium.	EMBODIMENT
+The samples taken were freeze-dried, suspended in methanol:acetic acid 1% (v/v) and analyzed by HPLC in order to determine the amount of drug released.	EMBODIMENT
+By way of example, the release graph of the active ingredient silibinin incoporated in the systems is shown.	EMBODIMENT
+All the release all data obtained were compared with the diffusion profile of silibinin alone (0.25 mg), obtained using the same procedure (Figure 3).	EMBODIMENT
+The data were corrected taking into account the dilution process.	EMBODIMENT
+Each experiment was conducted in triplicate and the results were found to be in conformity with the standard error ± 5%.	TECHNICAL TEMPLATE
+As can be seen from the graph, the polymeric micelles of INU-C8 and INU-C8-PEG loaded with silibinin show a very slow release kinetics compared to the diffusion of free silibinin (less than 5% w/w of silibinin is released after 12 h incubation).	FIGURE DESCRIPTION
+Similar release profiles were also obtained for the active ingredient sorafenib.	EMBODIMENT
+Stability studies	SECTION SUBTITLE
+The stability of micelles of INU-C8 and INU-C8-PEG loaded with silibinin or sorafenib was assessed by incubating the freshly freeze-dried systems for 1, 2 and 3 months at 4 °C and 25 °C.	EMBODIMENT
+In particular, the samples freshly prepared and freeze-dried were stored at a controlled temperature for 1, 2 and 3 months.	EMBODIMENT
+After the incubation period, the samples were dispersed in bidistilled water (2 mg/mL) and analyzed by dynamic light scattering measurements in order to evaluate the average diameter, polydispersity index and zeta potential thereof.	EMBODIMENT
+Separately, 3 mg of sample were dispersed in methanol (5 mL);	EMBODIMENT
+the dispersion was first sonicated for 10 minutes and stirred for 2 h and finally, filtered through syringe filters with 5 µm cut off and diluted with additional 5 mL methanol.	EMBODIMENT
+The amount of active ingredient extracted was determined through HPLC analysis, using the same procedure described for the determination of drug loading.	EMBODIMENT
+The results obtained show that both the micelles prepared and the drug loaded have good physical stability for long periods of storage.	INVENTION_ADVANTAGE
+As an example, Table 5 shows the stability data related to INU-C8 micelles loaded with silibinin or sorafenib obtained through dynamic light scattering measurements in order to evaluate changes in the average diameter, in the PDI and in the zeta potential, and HPLC analysis to assess the drug loading and stability of the loaded drug.	EMBODIMENT
+Table 5Stability of INU-C8 micelles loaded with silibinin/sorafenib, 1 and 2 after 3 months of storage at 4 and 25 °C.	EMBODIMENT
+INU-C8 micellesIncubation timeAverage diameter (nm)PDIZeta potential (mV)Drug loading (%)Time 0164.90.27+21.9±3.821.7±0.51 month 4 °C153.30.37+10.9±4.31.9±0.91 month 25°C188.20.26+10.9±4.21.7±0.92 month 4 °C195.80.39+7.38±3.41.7±0.32 month 25°C185.60.44+6.37±3.91.7±0.73 month 4 °C137.80.32+8.76±4.51.7±0.33 month 25°C151.60.38+7.88±3.31.7±0.7INU-C8 Sorfenib micellesIncubation timeAverage diameter (nm)PDIZeta potential (mV)Drug loading (%)Time 0150.40.16+19.9±418.4±0.51 month 4 °C153.80.15+23.82±4.7219±0.91 month 25°C198.50,098+29.9±5.3917±0.92 month 4 °C160.80.15+31.6±5.4617.5±0.32 month 25 °C431.80.29-0,644±3.3318.3±0.73 month 4 °C250.30.22+15.7±5.518.1±0.33 month 25 °C3180,273+17.1±3.417.3±0.7	EMBODIMENT
+In vitro cytocompatibility studies	SECTION SUBTITLE
+The biocompatibility of empty micelles of INU-C8 and INU-C8-PEG was evaluated on the human bronchial epithelium (16HBE) cell line through MTS assay, using a commercial kit (Cell Titer 96 Aqueous One Solution Cell Proliferation assay, Promega).	EMBODIMENT
+The cells were plated on 96 well plates with a density of 2•104 cells per well, and suspended in Dulbecco's modified eagle's medium (DMEM), enriched with 10% vol/vol of fetal bovine serum (FBS), 1% vol/vol of antibiotics (10 mg/mL streptomycin 10000 U-1 mL penicillin), and incubated under standard conditions (95% RH and 5% CO2 at 37 °C).	EMBODIMENT
+After 24 hours of incubation, the medium was removed and replaced with 200 µL of fresh medium containing the empty micelles of INU-C8 and INU-C8-PEG at a concentration equal to 0.025, 0.05, 0.1, 0.25, 0.5 and 1 mg/mL.	EMBODIMENT
+After 4 and 24 hours of incubation, the dispersion of micelles in DMEM was removed, the cells were washed 1 time with Dulbecco's Phospate buffered saline (DPBS) and incubated for 2 hours at 37 °C with 100 µL of fresh medium and 20 µL of MTS solution.	EMBODIMENT
+The cells incubated with DMEM alone were used as negative controls.	EMBODIMENT
+The results were expressed as percentage reduction of the cell viability compared with control cells (Figure 4a and 4b).	FIGURE DESCRIPTION
+All experiments were conducted in triplicate.	JURIDICAL TEMPLATE
+The studies conducted show that the polymeric micelles tested have a good cytocompatibility and do not exhibit cytotoxic effects in vitro on the human bronchial epithelium cell line.	INVENTION_ADVANTAGE
+This result makes these systems potentially usable as efficient systems for in vivo drug delivery.	INVENTION_ADVANTAGE
+The biocompatibility of the empty systems and loaded with the active ingredients studied was also confirmed on ARPE-19 retinal cells and on SIRC corneal epithelial cells.	EMBODIMENT
+The micellar carriers INU-C8 and INU-C8-PEG conjugated with silibinin or with sorafenib tosylate were evaluated for the protective effect on retinal cells exposed to a pretreatment of 20 h and then insulted with H2O2 to induce an oxidative stress.	EMBODIMENT
+The empty and conjugate INUC8PEG carrier shows a protective action greater than the carrier without PEG, however only the carrier INUC8PEG conjugated with silibinin or with sorafenib is able to cause a decrease in the LDH release at higher concentrations due to the presence of PEG.	EMBODIMENT
+By way of example, Fig. 5A and Fig. 6 show the experimental test data of the system conjugated with the active ingredient sorafenib or silibinin, respectively.	FIGURE DESCRIPTION
+In a post-treatment protocol, the retinal cells insulted for three hours with H2O2 and subsequently exposed to treatment with the INU-C8 and INU-C8-PEG systems conjugated with silibinin or sorafenib show a good ability of both carriers to revert the insult-induced damage.	INVENTION_ADVANTAGE
+However, the INUC8PEG system conjugated with either active ingredient is more effective in inhibiting the H2O2-induced stress.	INVENTION_ADVANTAGE
+By way of example, Fig. 5B and Fig. 6B show the experimental test data of the system conjugated with the active ingredient sorafenib or silibinin, respectively.	FIGURE DESCRIPTION
+Lysates of retinal cells exposed to post-treatment with the INUC8PEG syste, empty or conjugated with silibinin, were analyzed by western blotting for the expression of the PARP-1 protein, a poly (ADP-ribose) polymerase of 116 kDa involved in DNA repair in response to environmental stress (Calcium Overload Is A Critical Step In Programmed Necrosis Of Arpe-19 Cells Induced By High-Concentration H2O2 Guang-Yu Li et al., (2010) Biomedical And Environmental Sciences).	REFERENCE
+In vivo and in vitro, PARP-1 is processed by Caspase 3 and Caspase 7 with the formation of a 24 kDa DNA-binding domain and an 89 kDa catalytic domain that participates in the apoptosis (Importanceof Poly (ADP-ribose) Polymerase and Its Cleavage in Apoptosis F.J Oliver et al., (1998) J. Biol. Chem.).	REFERENCE
+Fig. 7 shows a reduction in the PARP-1 protein following treatment with H2O2 which confirms the cell apoptotic status.	FIGURE DESCRIPTION
+Conversely, in the samples treated with the conjugated carrier, higher expression of PARP-1 is observed compared to the free carrier and Sib itself.	EMBODIMENT
+The ability of INUC8PEG conjugated with Slb to inhibit the apoptosis induced by the oxidative damage is confirmed in a dose-dependent manner in the samples treated with H2O2.	EMBODIMENT
+The post-treatment with free Slb reduces the apoptotic process, however with less efficiency than the conjugated carrier.	EMBODIMENT
+Example 4	EMBODIMENT
+Preparation of calixarene nanoparticles	EMBODIMENT
+As an example, the procedure and the experimental data obtained with the calix[4]arene derivative (compound 1) - loaded with silibinin, curcumin or latanoprost is described hereinafter.	TECHNICAL TEMPLATE
+Preparation	EMBODIMENT
+The amphiphilic calix[4]arene derivative bearing four dodecyl aliphatic chains at the lower edge of the macrocycle and four polar heads of choline at the upper edge (compound 1) was synthesized, with good yield, adapting a procedure described in literature for similar derivatives.	EMBODIMENT
+The compound was characterized by NMR spectroscopy and mass spectrometry.	EMBODIMENT
+The assembly of the calixarene derivative in nanoaggregates occurs spontaneously.	EMBODIMENT
+The simple dissolution in PBS (pH 7.4) provides a colloidal solution containing nanoaggregates with size, polydispersity index and zeta potential shown in table 6.	EMBODIMENT
+The drug loading was carried out by adding an excess of drug (molar ratio 1:5) to the colloidal solution as bottom body.	EMBODIMENT
+The mixture was exposed to ultrasounds for 15 minutes and stirred in a shaker at 25 °C, 200 rpm, for 2-3 days.	EMBODIMENT
+The subsequent centrifugation at 4000 rpm for 30 minutes and filtration on GHP Acrodisc 0.2 µm filter provides a colloidal solution of nanoparticles loaded with silibinin.	EMBODIMENT
+The freeze-drying of this solution, without the addition of cryoprotectants and using a standard freeze-dryer, provides a white powder that resuspended in water restores the colloidal solution of nanoparticles loaded with drug.	EMBODIMENT
+The re-filtration of the colloidal solution on GHP Acrodisc 0.2 µm filter and subsequent HPLC analysis to determine the %DL show that following freeze-drying, the system retain the incorporated drug load (table 6).	EMBODIMENT
+Size determination and zeta potential measurement	EMBODIMENT
+The average diameter, polydispersity index (PDI) and zeta potential of calixarene nanoparticles loaded and not with silibinin were measured using a Zetasizer Nano ZS-90 (Malvern Instrument), the reading was made at an angle of 90° with respect to the incident ray and analyzed in triplicate.	EMBODIMENT
+The results obtained for average diameter, PDI and zeta potential are given in Table 6.	EMBODIMENT
+Table 6Average hydrodynamic diameter, polydispersity index (PDI), zeta potential of the calixarene nanoaggregates.	EMBODIMENT
+DLS (in PBS, pH 7.4)Z-average (nm)PDIPotential ζ (mV±SD)Calixarene nanoparticle (NP)44.30.2924Calixarene-silibinin nanoparticle77.80.323.4NP-silibinin POST-freeze-drying81.50.3523	EMBODIMENT
+Determination of drug loading (%DL) of the calixarene nanoparticle	EMBODIMENT
+To determine the amount of silibinin loaded into a colloidal solution containing 1 mg/mL of calixarene nanoparticle, an aliquot of the solution was diluted with methanol and analyzed by HPLC.	EMBODIMENT
+The amount of drug was measured considering the absorption band of silibinin at 288 nm.	EMBODIMENT
+The amount of drug was also measured at the UV spectrometer considering the 327 nm band of silibinin in PBS.	EMBODIMENT
+The results obtained in terms of %DL (expressed as a percentage ratio between weight of the active ingredient loaded and weight of the active ingredient loaded + weight of the nanoparticle) was found to be equal to 10-11%.	EMBODIMENT
+Release in of silibinin from the calixarene NP in PBS at pH 7.4	EMBODIMENT
+The release of silibinin in phosphate buffer at pH 7.4 was investigated in vitro at 37 °C with incubation times in the range between 0 and 12 hours by dialysis.	EMBODIMENT
+The results obtained have shown that the system slowly releases the drug up to a maximum of 6.5% w/w within 12 hours (Figure 7).	FIGURE DESCRIPTION
+The slow release might be advantageous for the purpose of drug delivery in the pathological site.	INVENTION_ADVANTAGE
+Stability study of the calixarene nanoparticle loaded with silibinin in PBS at pH 7.4	EMBODIMENT
+The stability of calixarene nanoparticles loaded with silibinin was assessed by keeping the colloidal solutions in PBS at 25 °C.	EMBODIMENT
+Controls at 7 and 14 days from the preparation show size, PDI and %DL values virtually unchanged (table 10).	EMBODIMENT
+The stability of the formulation is an important pharmacological (e.g. achievement of the pathological sites at the back of the eye) and industrialization requirement.	EMBODIMENT
+Table 10Stability of the colloidal solution of calixarene nanoparticle-silibinin after 7 and 14 days at 25 °C.	EMBODIMENT
+Incubation timeAverage diameter (nm)PDITime 077.80.37 dd78.80.314 dd80.60.3	EMBODIMENT
+Following preliminary investigations of the calixarene-choline carrier conjugated with silibinin in ARPE-19 cells, it was determined that concentrations of the carrier, either free or conjugated with Slb included in range 0.01-1 µM and incubated for 20 hours caused no toxicity.	EMBODIMENT
+Then, the effects of the conjugated and empty system were tested using the compound FeSO4 as oxidative insult, with changes in the cellular redox status.	EMBODIMENT
+Over 24 hours of incubation, the cells are pre-treated for 20 h and then exposed to insult with 50 µM FeSO4 for three hours ["Pretreatment" 20 h drug + 3 h insult].	EMBODIMENT
+The viability test conducted to evaluate the toxicity and the ability of protection from damage of the carrier in question is to assess the release of LDH in the culture medium.	EMBODIMENT
+Fig. 8A shows a dose curve of the carrier conjugated with Slb (CalixSlb), of the empty carrier (Calix) and of silibinin alone (Slb) in ARPE cells subjected or not to insult with 50 µM FeSO4.	FIGURE DESCRIPTION
+It is noted that Sib reduces the release of LDH, while Calix Slb and the empty do Calix do not significantly change the release of LDH of ARPE-19 cells.	FIGURE DESCRIPTION
+Conversely, when the cells are exposed to FeSO4 (50 µM), Calix Slb shows good potential in reducing the release of LDH, an effect not observed in the samples treated with Calix and Slb individually.	FIGURE DESCRIPTION
+These results suggest that calix and Slb may together prepare the cells towards a protection against changes in the redox status.	INVENTION_ADVANTAGE
+In subsequent experiments, the effects of post-treatment with calixarene based compounds were tested.	EMBODIMENT
+Therefore, cells were treated with 50 µM FeSO4 for 5 hours and incubated for 20 hours with the various compounds.	EMBODIMENT
+As shown in Fig. 8B, CalixSlb protects against insult even in post-treatment conditions and the effect is confirmed as a synergic action of the two compounds that are individually able to protect from the redox status alteration.	FIGURE DESCRIPTION
+Fig. 9A shows the western blot analysis of VEGF which shows a reduction in the expression levels of soluble VEGF after insult with FeSO4, this reduction is annulled by the empty Calix, by Slb and by Calix Slb at the concentration 1 µM of Calix Slb.	FIGURE DESCRIPTION
+In fact, Calix Slb itself is able to increase the levels of VEGF.	EMBODIMENT
+These results are in agreement with the observations reported by Lin et al. (Silibinin inhibits VEGF secretion and age-related macular degeneration in a hypoxia-dependent manner through the PI-3 kinase/Akt/mTOR pathway CH Lin et al., (2013) British Journal of Pharmacology) on the inhibition of VEGF secretion under hypoxic conditions of ARPRE cells and pretreatment with the drug.	REFERENCE
+The lack of secretion leads to the lack of free VEGF that cannot act as a self-regulator of (autocrine signalling) with concomitant decrease of the angiogenic process.	REFERENCE
+Cathepsin D is an intracellular aspartyl protease, synthesized in the endoplasmic reticulum as pre-pro-enzyme that is processed up to generate active fragments.	DEFINITION
+According to the cellular environment in which it resides, it can induce or inhibit apoptosis through different mechanisms.	DEFINITION
+The 48 kDa fragment is an active intermediate form from which two additional active fragments are generated;	DEFINITION
+therefore, its reduction is associated with the activation of the proteolytic process, vice versa its increase is indicative of an inhibition of apoptosis.	DEFINITION
+In the presence of oxidative stress, the activation of cathepsin D may activate caspase 8 which in turn activates caspase 3, leading to cell death (Regulatory role of cathepsin D in apoptosis, A. Minarowska et al., (2007) Folia Histochemica et Cytobiologica) (Caspase-8-mediated apoptosis induced by oxidative stress is independent of the intrinsic pathway and dependent on cathepsins H.K. Baumgartner et al., (2007) Am J Physiol Gastrointest Liver Physiol.).	REFERENCE
+As shown in Fig. 9B, the exposure of cells to FeSO4 results in a reduction of the 48 kDa band of cathepsin D.	FIGURE DESCRIPTION
+The post-treatment with Calix or Slb increases the expression levels of cathepsin D, but the greater increase in the protein is observed in samples treated with Calix Slb, confirming the potentiating effect of the conjugate in terms of protective activity, which is detected as inhibition of the apoptotic process in which cathepsin D is involved.	FIGURE DESCRIPTION
+The calixarene carrier compound (1) lends itself to load a variety of hydrophobic molecules, in this invention as an example, it was loaded with curcumin and latanoprost in addition to silibinin.	EMBODIMENT
+The above active ingredients are characterized by low water solubility, easy chemical and enzymatic degradation, low bioavailability.	EMBODIMENT
+Curcumin and silibinin are natural substances that are used in a variety of conditions ranging from inflammation to cancer, latanoprost is a prostaglandin F2α analog used in the treatment of glaucoma, a condition that is still a leading cause of irreversible blindness in the world.	DEFINITION
+Also for these active ingredients, the loading of the active ingredient in the nanoaggregate compound (1) occurs through the phase solubility method with drug loading ≥ 10%.	EMBODIMENT
+The dosage of the active ingredient was performed by HPLC analysis and UV spectroscopy.	EMBODIMENT
+The nanoaggregate (compound 1) loaded with active ingredient was characterized by DLS and zeta potential measurements that showed that nano-dimensions, polydispersity index and surface loading are still suitable for drug delivery systems (table 11)Table 11Chemical and physico-chemical features of aggregate 1 loaded with active ingredient curcumin or latanoprostChemical-physical requirementsCarrier-CurcuminCarrier-LatanoprostDimensions ≤ 100 nmZ average 82 nm, DH 113 nmZ= 65.7 nmPolydispersity ≤ 0.50.2pdi= 0.26Zeta potential ≠023 mVStability in PBS at room temperatureDLS stable, [drug], LC over 15 daysDLS stable, [drug], LC after 4 monthsSterilizabilityFiltration 0.2 µmFiltration 0.2 µmDrug loading %10%45%Drug release %20-30% EtOH/PBS 1-27% 24h	EMBODIMENT
+Calixarene 1 increases the solubility of curcumin as well as of silibinin in aqueous medium by at least ten times.	INVENTION_ADVANTAGE
+Calixarene 1 protects curcumin in PBS as a solvent, which shows a degradation of 80-90% in 30 min with 0.1 M PBS and in serum-free medium. (Fig. 10)	FIGURE DESCRIPTION
+Calixarene 1 protects latanoprost from degradation (table 12) in PBS as a solvent at room temperature for over 6 months.	EMBODIMENT
+This is an interesting result because it allows the production of an innovative formulation which unlike those currently on the market, is released from the cold chain and is free from preservatives.	INVENTION_ADVANTAGE
+Table 12Stability of the colloidal calixarene-latanoprost solution up to 4 months from preparation in PBS at room temperature: size, pdi, latanoprost concentrationZ averagepdi[drug]giornit.a.4°Ct.a.4°Ct.a.4°C069,269,20,260,265254672,072,30,300,2954561469,068,20,300,3254573472,669,60,340,3355564866,966,30,350,3152549276,878,00,390,37535813065,368,90,310,295053	EMBODIMENT
+The colloidal solutions of calixarene 1, calixarene loaded with active ingredient and active ingredient alone were tested for cytotoxicity: SIRC corneal cells (Fig. 11), J774 macrophages (Fig. 12) and ARPE retinal cells.	FIGURE DESCRIPTION
+The results showed good biocompatibility of calixarene and of the calixarene-active ingredient combination on all cell types tested.	INVENTION_ADVANTAGE
+The anti-inflammatory activity of the colloidal solutions of calixarene 1, calixarene-curcumin and curcumin alone was tested in vitro on J774 cells subjected to inflammatory stress by insult with LPS.	EMBODIMENT
+In particular, J774 cells were stimulated with lipopolysaccharide (LPS) at a concentration of 10 µg/mL for 24 hours, stimulation with LPS induces the activation of inflammatory processes such as NFκB nuclear translocation and cytokine production, if not also release of nitrites and nitrosative stress.	EMBODIMENT
+The cell viability was then evaluated following stimulation with LPS (10 µg/mL for 24 hours) and 2-hour pretreatment of the delivery systems being studied at the different concentrations.	EMBODIMENT
+The cell viability following stimulation with LPS was reduced by 50%, treatment with the substances being examined such as curcumin, carrier and carrier associated with curcumin were able to restore the cell viability, almost returning it to the control levels, except for the higher concentrations that already appeared to be toxic to insulted cells (Fig. 13).	FIGURE DESCRIPTION
+The anti-inflammatory activity of the delivery systems was then evaluated through the Western Blot analysis.	EMBODIMENT
+First, the degradation of IκBα (Fig. 14) and the consequent NFKB translocation to the nucleus (Fig. 15) were observed, which leads to the production and activation of pro-inflammatory genes such as those encoding cytokines.	FIGURE DESCRIPTION
+The results show that the stimulation with LPS (10 µg/mL for 30 min) significantly increases the degradation of IκBα and the subsequent translocation of NFκB to the nucleus (whose levels are significantly increased, as can be seen in Figure 15).	FIGURE DESCRIPTION
+On the contrary, the pre-treatment with the delivery systems is able to significantly reduce the degradation of IκBα and NFκB translocation (Figure 15).	FIGURE DESCRIPTION
+The NFκB activation involves the production of proteins and inflammatory mediators such as cyclooxygenase 2 (COX-2) and inducible nitric oxide synthase (iNOS) and consequent increase in the production of nitrites.	FIGURE DESCRIPTION
+Through the Western blot analysis, it was observed that the stimulation with LPS (10 µg/mL for 24 hours) significantly increases both the level of iNOS and of COX-2.	FIGURE DESCRIPTION
+Pre-treatment with curcumin, carrier and carrier associated with curcumin reduces significantly and in a dose-dependent manner the levels of iNOS and COX-2 (Fig. 16)	FIGURE DESCRIPTION
+The calixarene derivative not only carries out its activity as a carrier but also has anti-inflammatory activity on the macrophages subjected to inflammatory stress with LPS.	INVENTION_ADVANTAGE
+The tests conducted showed an anti-inflammatory activity of calixarene loaded with curcumin >> calixarene >> curcumin alone.	EMBODIMENT
+With the aim of verifying the effectiveness of the calixarene system loaded with the active ingredient to the eye site of interest, an experiment was conducted in vivo with an Uveitis model.	EMBODIMENT
+Uveitis was induced in 160-180 g Lewis rats by single subcutaneous injection in the hind paw of 200 ìg of the LPS endotoxin from Salmonella Minnesota diluted in 0.2 mL PBS, pH 7.4.	EMBODIMENT
+The control group received only 0.2 mL of PBS in the hind paw.	EMBODIMENT
+The rats were divided into treatment groups (calixarene system, calixarene-silibinin, silibinin alone, calixarene-curcumin and curcumin alone);	EMBODIMENT
+pre-treated by topical administration for three days before the induction of uveitis, and later to the point of sacrifice, which occurred for some animals at 16 and others at 72 hours after the injection of the endotoxin.	EMBODIMENT
+The eyes were enucleated for histological and immunohistochemical analysis.	EMBODIMENT
+The aqueous humor was also taken for protein dosing.	EMBODIMENT
+The histological analysis of the eye tissues from animals injected with LPS showed signs of severe uveitis with a strong infiltration of neutrophils.	EMBODIMENT
+In animals treated with carrier alone, the degree of inflammation was not reduced.	EMBODIMENT
+Treatment with silibinin showed a decreased but not significant ocular inflammation while the association of the calixarene+silibinin system reduced the damage.	INVENTION_ADVANTAGE
+However, treatment with curcumin and in particular with the calixarene+curcumin combination significantly decreased the histologic damage.	INVENTION_ADVANTAGE
+No ocular inflammation was observed in the sham group.	INVENTION_ADVANTAGE
+Moreover, no significant difference was observed between the groups at 16 h and 72 h.	INVENTION_ADVANTAGE
+By way of example, the graph that summarizes the histological score recorded for the various groups at time 72 h is shown (Fig. 17A).	FIGURE DESCRIPTION
+At 16 and 72 hours after injection of LPS, increased levels of protein were observed in the aqueous humor of animals injected with LPS.	FIGURE DESCRIPTION
+Treatment with the carrier alone did not result in a reduction in the protein levels in the eye tissue.	FIGURE DESCRIPTION
+Silibinin-treated animals showed a trend but not significant, while the calixarene+silibinin system combination significantly reduced the level of proteins in the aqueous humor.	FIGURE DESCRIPTION
+However, curcumin and the calixarene+silibinin system combination most effectively determined the reduction of proteins in the ocular tissue.	FIGURE DESCRIPTION
+The samples taken at 16h and at 72 h showed a similar trend in all experimental groups, by way of example, the graph with the protein dosage found at time 72 h for the various treatment groups is shown (Figure 17B).	FIGURE DESCRIPTION
+In order to verify the effectiveness of the calixarene system loaded with latanoprost, an in vivo experiment was set up with an ocular hypertension model induced in Brown Norway rats by episcleral vein cauterization (EVC).	EMBODIMENT
+The treatments were carried out once a day by instilling 12 µL/eye (left eye);	EMBODIMENT
+the executive protocol involved a single administration treatment for the time course of the carrier system with the active ingredient, during which measurements of the intra ocular pressure (IOP) were taken after 1h, 3h, 5h, 7h, 24h, 30h and 48h;	EMBODIMENT
+and a chronic administration for seven consecutive days during which the measurement of IOP was evaluated every 24 h before the next instillation.	EMBODIMENT
+For each treatment group were made, each of which consisting of ten animals;	EMBODIMENT
+the average IOP measurements recorded at the different time points were compared with the average value of the baseline, previously calculated.	EMBODIMENT
+The graphs (Figure 18 A/B) show the trend of lowering intraocular pressure (IOP) upon treatment with Calix+latanoprost compared to the commercial product (IOPIZE) both after single administration following the time course at different time points (Figure 18 A), and following chronic treatment for seven days (Figure 18 B).	FIGURE DESCRIPTION
+The trend of pressure variation for the two treatments is quite similar, both in the case of the calixarene-latanoprost system and in the case of the product IOPIZE, a paradox effect of latanoprost is observed during the first hours immediately following the administration and consisting of a marked increase in the IOP, this effect known in literature is typical in rats (Latanoprost-induced changes in rat intraocular pressure: direct or indirect? Husain S et al. J Ocul Pharmacol Ther. (2008); Effects of latanoprost on rodent intraocular pressure. Husain S et al. Exp Eye Res. (2006)), then a gradual lowering of pressure occurs which reaches its peak only after 24 h to then tend to increase.	REFERENCE
+Chronic treatment with the administration every 24 h allowed a lowering of IOP which reaches its highest point of bending around the fourth day with the calixarene-latanoprost system.	INVENTION_ADVANTAGE
+The calixarene system compared to commercial products offers the advantage of releasing the product from the cold chain, of formulating the product without preservatives while maintaining the effectiveness of the active ingredient.	INVENTION_ADVANTAGE
