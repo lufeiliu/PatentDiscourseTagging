@@ -2,6 +2,8 @@ from typing import Dict, List
 import pandas as pd
 import glob
 from transformers import BertTokenizer
+import numpy as np
+from sklearn.model_selection import KFold
 
 
 def check_empty_label(labels_dict: Dict[str, List[str]]):
@@ -58,8 +60,26 @@ def check_sentence_length(Path_data,tokenizer,encoded_label):
             if len(tokenizedSentence) > 512 :
                 sentence_long.append((path_document,idx))
             sentence_length.append(len(tokenizedSentence))
-        sentence_nb_length[path_document.split("/")[-1].split(".")[0]] = (len(df),round(statistics.mean(sentence_length),0))
+        sentence_nb_length[path_document.split("/")[-1].split(".")[0]] = (len(df),
+                                                                          round(statistics.mean(sentence_length),0),
+                                                                          max(sentence_length))
     return sentence_nb_length,sentence_long
+
+
+def split_for_cross_validation(Path_data,nb_fold):
+    """
+    split data into train and validation for k fold validation
+    """
+    folds = {}
+    files = glob.glob(Path_data)
+    kf = KFold(n_splits=nb_fold, shuffle=True, random_state=42)
+    fold_id = 1
+    for train_index, val_index in kf.split(files):
+        train_docs = [files[i] for i in train_index]
+        val_docs = [files[i] for i in val_index]
+        folds[fold_id] = (train_docs,val_docs)
+        fold_id += 1
+    return folds
 
 
 if __name__ == "__main__":
