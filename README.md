@@ -3,7 +3,7 @@
 TEST RESULTS
 
 8 patents, 2599 sentences
-
+Fine tune BerforPatent
 1. cls + linear 
 
 | folds | precision | recall | f-score |
